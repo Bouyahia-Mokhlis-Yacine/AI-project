@@ -2,28 +2,28 @@
         "Warm-up & Mobility": {  
         "Dynamic stretching": {  
           "low" : {
-            "jump_height": 0.1,  
-            "lower_body_strength": 0.1,  
-            "acute_workload": 0.05
+            "jump_height": 0.05,  
+            "lower_body_strength": 0.05,  
+            "acute_workload": 0.5
         }},  
         "Light jogging": {  
           "low" : {
             "total_distance_covered": 0.05,  
-            "acute_workload": 0.05,  
-            "resting_heart_rate": -0.1
+            "acute_workload": 0.5,  
+            "resting_heart_rate": -0.05
         }},  
         "Mobility drills": {  
           "low" : {
-            "reaction_time": 0.1,  
-            "cognitive_score": 0.1,  
-            "aerial_ball_handling_success": 0.1
+            "reaction_time": 0.01,  
+            "cognitive_score": 0.01,  
+            "aerial_ball_handling_success": 0.05
         }},  
         "Mini-games (ball toss, partner tag)": {  
             "low" : {
-            "reaction_time": 0.3,  
-            "cognitive_score": 0.2,  
-            "video_analysis_engagement": 0.1,  
-            "mental_fatigue_score": -0.1
+            "reaction_time": 0.1,  
+            "cognitive_score": 0.1,  
+            "video_analysis_engagement": 0.05,  
+            "mental_fatigue_score": -0.05
         }}
     },
 
