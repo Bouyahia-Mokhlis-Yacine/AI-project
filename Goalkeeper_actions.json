@@ -1,532 +1,238 @@
 {
-        "Warm-up & Mobility": {  
-        "Dynamic stretching": {  
-          "low" : {
-            "jump_height": 0.05,  
-            "lower_body_strength": 0.05,  
-            "acute_workload": 0.5
-        }},  
-        "Light jogging": {  
-          "low" : {
-            "total_distance_covered": 0.05,  
-            "acute_workload": 0.5,  
-            "resting_heart_rate": -0.05
-        }},  
-        "Mobility drills": {  
-          "low" : {
-            "reaction_time": 0.01,  
-            "cognitive_score": 0.01,  
-            "aerial_ball_handling_success": 0.05
-        }},  
-        "Mini-games (ball toss, partner tag)": {  
-            "low" : {
-            "reaction_time": 0.1,  
-            "cognitive_score": 0.1,  
-            "video_analysis_engagement": 0.05,  
-            "mental_fatigue_score": -0.05
-        }}
-    },
+  "Shot-Stopping Intensive": {
+      "1v1 Reflex Training": {
+          "save_percentage": 0.3,
+          "1v1_training_score": 0.25,
+          "reaction_time": 0.15
+      },
+      "Low Dive Technique": {
+          "defensive_contributions": 0.2,
+          "errors_leading_to_shots": -0.15,
+          "injury_history_count": -0.1
+      },
+      "Angle Reduction Drills": {
+          "positioning_awareness_score": 0.35,
+          "goals_conceded": -0.2
+      },
+      "Parry Control Practice": {
+          "clearances": 0.4,
+          "defensive_set_piece_handling": 0.15
+      },
+      "Breakaway Scenarios": {
+          "cognitive_score": 0.2,
+          "mental_fatigue_score": 0.25
+      }
+  },
 
-    "🛡️ Defensive Integration": {
-        "1v1 defending with defenders": {
-            "Low Intensity": {
-                "1v1_training_score": 0.1,
-                "positioning_awareness_score": 0.1,
-                "acute_workload": 0.05
-            },
-            "High Intensity": {
-                "1v1_training_score": 0.4,
-                "clearances": 0.3,
-                "positioning_awareness_score": 0.2,
-                "mental_fatigue_score": 0.2,
-                "acute_workload": 0.15
-            }
-        },
-        "Defensive shape coordination": {
-            "Low Intensity": {
-                "defensive_shape_training_score": 0.1,
-                "video_analysis_engagement": 0.1
-            },
-            "High Intensity": {
-                "defensive_shape_training_score": 0.5,
-                "cognitive_score": 0.3,
-                "errors_leading_to_shots": -0.3,
-                "mental_fatigue_score": 0.3
-            }
-        },
-        "Crosses and high balls under pressure": {
-            "Low Intensity": {
-                "cross_claims": 0.2,
-                "aerial_ball_handling_success": 0.1
-            },
-            "High Intensity": {
-                "cross_claims": 0.6,
-                "aerial_ball_handling_success": 0.4,
-                "jump_height": 0.2,
-                "acute_workload": 0.2,
-                "errors_leading_to_goals": -0.3
-            }
-        },
-        "Communication in transitions": {
-            "Low Intensity": {
-                "cognitive_score": 0.1,
-                "positioning_awareness_score": 0.1
-            },
-            "High Intensity": {
-                "cognitive_score": 0.4,
-                "positioning_awareness_score": 0.3,
-                "errors_leading_to_goals": -0.4,
-                "mental_fatigue_score": 0.2
-            }
-        }
-},
-"🏃 Fitness & Conditioning": {
-        "Explosive sprints (short distance)": {
-            "Low Intensity": {
-                "SprintSpeed": 0.1,
-                "acute_workload": 0.1,
-                "mental_fatigue_score": 0.05
-            },
-            "High Intensity": {
-                "SprintSpeed": 0.4,
-                "SprintDistance": 0.2,
-                "acute_workload": 0.3,
-                "mental_fatigue_score": 0.2
-            }
-        },
-        "Agility ladder drills": {
-            "Low/High Intensity": { 
-                "reaction_time": 0.2,
-                "cognitive_score": 0.1,
-                "ground_duels_won": 0.1
-            }
-        },
-        "Plyometric jumps (box jumps, lateral bounds)": {
-            "Low Intensity": {
-                "jump_height": 0.2,
-                "lower_body_strength": 0.1
-            },
-            "High Intensity": {
-                "jump_height": 0.5,
-                "lower_body_strength": 0.3,
-                "acute_workload": 0.25,
-                "injury_history_count": 0.1 
-            }
-        },
-        "Core & shoulder stability": {
-            "Low Intensity": {  
-                "defensive_contributions": 0.2,
-                "distribution_under_pressure": 0.1
-            }
-        }
-    }, 
-    "🧠 Cognitive & Decision-Making": {  
-        "Reaction drills (ball drop, light signals)": {  
-            "Low Intensity": {  
-                "reaction_time": 0.2,  
-                "cognitive_score": 0.1  
-            },  
-            "High Intensity": {  
-                "reaction_time": 0.5,  
-                "cognitive_score": 0.3,  
-                "mental_fatigue_score": 0.3,  
-                "errors_leading_to_goals": -0.2  
-            }  
-        },  
-        "Multi-tasking (call + catch, scan + dive)": {  
-            "Low Intensity": {  
-                "positioning_awareness_score": 0.2,  
-                "cognitive_score": 0.1  
-            },  
-            "High Intensity": {  
-                "positioning_awareness_score": 0.4,  
-                "cognitive_score": 0.4,  
-                "mental_fatigue_score": 0.4,  
-                "errors_leading_to_shots": -0.3  
-            }  
-        },  
-        "Constraint games (limited time to distribute)": {  
-            "Low Intensity": {  
-                "distribution_under_pressure": 0.2,  
-                "distribution_accuracy_score": 0.1  
-            },  
-            "High Intensity": {  
-                "distribution_under_pressure": 0.5,  
-                "distribution_accuracy_score": -0.2,  
-                "acute_workload": 0.2  
-            }  
-        },  
-        "Decision-making under pressure": {  
-            "Low Intensity": {  
-                "cognitive_score": 0.2,  
-                "video_analysis_engagement": 0.1  
-            },  
-            "High Intensity": {  
-                "cognitive_score": 0.6,  
-                "errors_leading_to_goals": -0.4,  
-                "mental_fatigue_score": 0.5  
-            }  
-        }  
-    },
-    "🧊 Recovery & Regeneration": {  
-        "Stretching & yoga": {  
-            "Low Intensity": {  
-                "sleep_quality": 0.3,  
-                "lower_body_strength": 0.1,  
-                "mental_fatigue_score": -0.3  
-            }  
-        },  
-        "Hydrotherapy / ice baths": {  
-            "Low Intensity": {  
-                "acute_workload": -0.4,  
-                "hrv": 0.2,  
-                "resting_heart_rate": -0.2  
-            }  
-        },  
-        "Foam rolling (hips, back, shoulders)": {  
-            "Low Intensity": {  
-                "chronic_workload": -0.1  
-            },  
-            "High Intensity": {  
-                "lower_body_strength": 0.3,  
-                "acute_workload": 0.1  
-            }  
-        },  
-        "Light ball-handling work": {  
-            "Low Intensity": {  
-                "cognitive_score": 0.1  
-            },  
-            "Moderate Intensity": {  
-                "distribution_accuracy_score": 0.2,  
-                "mental_fatigue_score": 0.1  
-            }  
-        }  
-    },
+  "Aerial Dominance": {
+      "Cross Claim Mastery": {
+          "aerial_ball_handling_success": 0.45,
+          "cross_claims": 0.35
+      },
+      "High Ball Catching": {
+          "jump_height": 0.25,
+          "aerial_duels_won": 0.3
+      },
+      "Crowded Box Drills": {
+          "defensive_shape_training_score": 0.4,
+          "errors_leading_to_goals": -0.25
+      },
+      "Punching Technique": {
+          "clearances": 0.3,
+          "SprintSpeed": 0.15
+      },
+      "Set-Piece Command": {
+          "video_analysis_engagement": 0.2,
+          "set_piece_handling_score": 0.3
+      }
+  },
 
-    "🧱 Functional Training (GK-Focused)": {
-        "Sweeper-keeper drills (high line clearances)": {
-            "Low Intensity": {
-                "distribution_accuracy_score": 0.2,
-                "clearances": 0.1
-            },
-            "High Intensity": {
-                "distribution_accuracy_score": 0.4,
-                "clearances": 0.3,
-                "cognitive_score": 0.3,
-                "acute_workload": 0.2
-            }
-        },
-        "Punching vs catching decisions": {
-            "Low Intensity": {
-                "aerial_ball_handling_success": 0.2,
-                "cognitive_score": 0.1
-            },
-            "High Intensity": {
-                "aerial_ball_handling_success": 0.5,
-                "errors_leading_to_goals": -0.3,
-                "mental_fatigue_score": 0.2
-            }
-        },
-        "Back-pass handling under pressure": {
-            "Low Intensity": {
-                "distribution_under_pressure": 0.3,
-                "errors_leading_to_shots": -0.1
-            },
-            "High Intensity": {
-                "distribution_under_pressure": 0.6,
-                "errors_leading_to_shots": -0.4,
-                "acute_workload": 0.25,
-                "mental_fatigue_score": 0.3
-            }
-        },
-        "Aerial challenges with contact": {
-            "Low Intensity": {
-                "aerial_ball_handling_success": 0.3,
-                "defensive_contributions": 0.2
-            },
-            "High Intensity": {
-                "aerial_ball_handling_success": 0.7,
-                "defensive_contributions": 0.4,
-                "jump_height": 0.2,
-                "injury_history_count": 0.1  
-            }
-        }
+  "Distribution Mastery": {
+      "Long Throw Accuracy": {
+          "long_pass_success": 0.4,
+          "passing_accuracy": 0.3
+      },
+      "Goal Kick Strategy": {
+          "distribution_accuracy_score": 0.35,
+          "video_analysis_score": 0.25
+      },
+      "Sweeper-Keeper Drills": {
+          "distribution_under_pressure": 0.45,
+          "SprintDistance": 0.3
+      },
+      "Short Build-Up Play": {
+          "pass_completion": 0.5,
+          "cognitive_score": 0.2
+      },
+      "Pressure Clearances": {
+          "defending_drill_score": 0.4,
+          "mental_fatigue_score": 0.3
+      }
+  },
+
+  "Athletic Development": {
+      "Plyometric Power Jumps": {
+          "jump_height": 0.6,
+          "lower_body_strength": 0.4
+      },
+      "Acceleration Sprints": {
+          "SprintSpeed": 0.55,
+          "total_distance_covered": 0.3
+      },
+      "Endurance Circuits": {
+          "vo2_max": 0.35,
+          "chronic_workload": 0.4
+      },
+      "Core Stability Training": {
+          "defensive_set_piece_handling": 0.25,
+          "BMI_Factor": 0.15
+      },
+      "Resistance Band Work": {
+          "Strength": 0.3,
+          "ground_duels_won": 0.2
+      }
+  },
+
+  "Cognitive Fortitude": {
+      "Pressure Simulation": {
+          "cognitive_score": 0.45,
+          "errors_leading_to_shots": -0.3
+      },
+      "Error Recovery Scenarios": {
+          "mental_fatigue_score": -0.4,
+          "confidence": 0.35
+      },
+      "Visualization Drills": {
+          "video_analysis_engagement": 0.3,
+          "save_percentage": 0.25
+      },
+      "Focus Maintenance": {
+          "reaction_time": 0.2,
+          "positioning_awareness_score": 0.3
+      },
+      "Decision Fatigue Training": {
+          "acute_workload": 0.25,
+          "MaxErrors": -0.4
+      }
+  },
+
+  "Defensive Structure": {
+      "Shape Coordination": {
+          "defensive_shape_training_score": 0.5,
+          "marking_and_tackling": 0.3
+      },
+      "Transition Communication": {
+          "duels_won": 0.35,
+          "tackles_won": 0.25
+      },
+      "Pressing Triggers": {
+          "defensive_contributions": 0.4,
+          "resting_heart_rate": -0.15
+      },
+      "Cover Shadow Drills": {
+          "positioning_awareness_score": 0.45,
+          "errors_leading_to_goals": -0.3
+      },
+      "Recovery Sprinting": {
+          "SprintSpeed": 0.3,
+          "acute_workload": 0.35
+      }
+  },
+
+  "Regeneration Protocol": {
+      "Hydrotherapy Session": {
+          "sleep_quality": 0.4,
+          "hrv": 0.25
+      },
+      "Mobility Yoga": {
+          "lower_body_strength": 0.15,
+          "days_since_last_injury": 0.3
+      },
+      "Foam Rolling": {
+          "chronic_workload": -0.3,
+          "fatigue": -0.25
+      },
+      "Breathing Control": {
+          "mental_fatigue_score": -0.35,
+          "resting_heart_rate": -0.2
+      },
+      "Prehab Circuit": {
+          "injury_history_count": -0.4,
+          "defensive_set_piece_handling": 0.15
+      }
+  },
+
+  "Tactical Study": {
+    "Defensive Video Analysis": {
+        "video_analysis_score": 0.3,
+        "defensive_shape_training_score": 0.25,
+        "mental_fatigue_score": 0.15 
     },
-    "⚡ Explosiveness & Reaction Training": {  
-        "Resistance band sprints": {  
-            "Low Intensity": {  
-                "SprintSpeed": 0.2,  
-                "lower_body_strength": 0.1  
-            },  
-            "High Intensity": {  
-                "SprintSpeed": 0.6,  
-                "lower_body_strength": 0.4,  
-                "acute_workload": 0.3  
-            }  
-        },  
-        "Quick feet ladders + reaction cones": {  
-            "Low Intensity": {  
-                "ground_duels_won": 0.1,  
-                "reaction_time": 0.2  
-            },  
-            "High Intensity": {  
-                "ground_duels_won": 0.3,  
-                "reaction_time": 0.5,  
-                "cognitive_score": 0.3,  
-                "mental_fatigue_score": 0.2  
-            }  
-        },  
-        "Mirror drills with coach/partner": {  
-            "Low Intensity": {  
-                "positioning_awareness_score": 0.3  
-            },  
-            "High Intensity": {  
-                "positioning_awareness_score": 0.6,  
-                "reaction_time": 0.4,  
-                "mental_fatigue_score": 0.3  
-            }  
-        },  
-        "Ball reaction off rebound wall": {  
-            "Low Intensity": {  
-                "distribution_under_pressure": 0.2  
-            },  
-            "High Intensity": {  
-                "distribution_under_pressure": 0.5,  
-                "reaction_time": 0.4,  
-                "errors_leading_to_shots": -0.3  
-            }  
-        }  
+    "Distribution Pattern Review": {
+        "distribution_accuracy_score": 0.2, 
+        "long_pass_success": 0.15,
+        "video_analysis_engagement": 0.25
     },
-     "🩺 Injury Prevention / Prehab": {
-        "Shoulder and elbow stability exercises": {
-            "Low Intensity": {
-                "defensive_contributions": 0.2,
-                "injury_history_count": -0.3
-            },
-            "High Intensity": {
-                "defensive_contributions": 0.4,
-                "acute_workload": 0.1
-            }
-        },
-        "Hamstring (Nordic curls) and glute activation": {
-            "Low Intensity": {
-                "lower_body_strength": 0.2,
-                "injury_history_count": -0.2
-            },
-            "High Intensity": {
-                "lower_body_strength": 0.5,
-                "acute_workload": 0.25,
-                "injury_history_count": 0.1 
-            }
-        },
-        "Ankle mobility & proprioception drills": {
-            "Low Intensity": {
-                "positioning_awareness_score": 0.3,
-                "injury_history_count": -0.2
-            },
-            "High Intensity": {
-                "positioning_awareness_score": 0.5,
-                "mental_fatigue_score": 0.2
-            }
-        },
-        "Landing mechanics": {
-            "Low Intensity": {
-                "jump_height": 0.1,
-                "injury_history_count": -0.4
-            }
-        }
+    "Error Breakdown Session": {
+        "errors_leading_to_goals": -0.25,  
+        "cognitive_score": 0.15,
+        "acute_workload": 0.1  
     },
-     "🎮 Video Analysis": {
-        "Review personal training/match footage": {
-            "Low Intensity": {
-                "positioning_awareness_score": 0.2,
-                "video_analysis_engagement": 0.1
-            },
-            "High Intensity": {
-                "positioning_awareness_score": 0.5,
-                "cognitive_score": 0.4,
-                "errors_leading_to_goals": -0.3
-            }
-        },
-        "Analyze opponent finishing patterns": {
-            "Low Intensity": {
-                "cognitive_score": 0.1
-            },
-            "High Intensity": {
-                "cognitive_score": 0.6,
-                "errors_leading_to_shots": -0.4
-            }
-        },
-        "Positioning and footwork breakdown": {
-            "Low Intensity": {
-                "defensive_shape_training_score": 0.3
-            },
-            "High Intensity": {
-                "defensive_shape_training_score": 0.7,
-                "reaction_time": 0.2
-            }
-        },
-        "Distribution decision evaluation": {
-            "Low Intensity": {
-                "distribution_accuracy_score": 0.2
-            },
-            "High Intensity": {
-                "distribution_under_pressure": 0.5,
-                "distribution_accuracy_score": 0.3,
-                "mental_fatigue_score": 0.3
-            }
-        }
+    "Set-Piece Film Study": {
+        "aerial_ball_handling_success": 0.2,
+        "set_piece_handling_score": 0.15,
+        "positioning_awareness_score": 0.1
     },
-     "🌍 Game Model Implementation": {
-        "Build-up from the back with defenders": {
-            "Low Intensity": {
-                "distribution_accuracy_score": 0.3,
-                "passing_accuracy": 0.2
-            },
-            "High Intensity": {
-                "distribution_under_pressure": 0.6,
-                "cognitive_score": 0.4,
-                "errors_leading_to_shots": -0.3,
-                "mental_fatigue_score": 0.3
-            }
-        },
-        "High-line keeper role": {
-            "Low Intensity": {
-                "positioning_awareness_score": 0.4
-            },
-            "High Intensity": {
-                "defensive_shape_training_score": 0.7,
-                "defensive_contributions": 0.5,
-                "acute_workload": 0.25
-            }
-        },
-        "Sweeper-keeper positioning": {
-            "Low Intensity": {
-                "clearances": 0.3
-            },
-            "High Intensity": {
-                "SprintSpeed": 0.4,
-                "clearances": 0.6,
-                "acute_workload": 0.3
-            }
-        },
-        "Communication during pressing phases": {
-            "Low Intensity": {
-                "cognitive_score": 0.3
-            },
-            "High Intensity": {
-                "defensive_shape_training_score": 0.5,
-                "errors_leading_to_goals": -0.4,
-                "mental_fatigue_score": 0.4
-            }
-        }
-    },
-    "🧩 Situational Training": {
-        "Penalty shootout simulations": {
-            "Low Intensity": {
-                "save_percentage": 0.2,
-                "reaction_time": 0.1
-            },
-            "High Intensity": {
-                "save_percentage": 0.5,
-                "cognitive_score": 0.4,
-                "mental_fatigue_score": 0.3,
-                "errors_leading_to_goals": -0.3
-            }
-        },
-        "Playing with 10 men (keeper under more pressure)": {
-            "Low Intensity": {
-                "defensive_shape_training_score": 0.3,
-                "clearances": 0.2
-            },
-            "High Intensity": {
-                "defensive_contributions": 0.7,
-                "acute_workload": 0.35,
-                "errors_leading_to_shots": -0.4
-            }
-        },
-        "Protecting a narrow lead": {
-            "Low Intensity": {
-                "positioning_awareness_score": 0.4,
-                "distribution_accuracy_score": 0.2
-            },
-            "High Intensity": {
-                "save_percentage": 0.6,
-                "mental_fatigue_score": 0.5,
-                "errors_leading_to_goals": -0.5
-            }
-        },
-        "Sudden transitions (after turnover)": {
-            "Low Intensity": {
-                "distribution_under_pressure": 0.3
-            },
-            "High Intensity": {
-                "reaction_time": 0.6,
-                "distribution_under_pressure": 0.8,
-                "cognitive_score": 0.5,
-                "acute_workload": 0.4
-            }
-        }
-    },
-    "💬 Leadership & Communication": {  
-        "Organizing the defense in set pieces": {  
-            "High Intensity": { 
-                "defensive_shape_training_score": 0.6,  
-                "errors_leading_to_goals": -0.4,  
-                "mental_fatigue_score": 0.3  
-            }  
-        },  
-        "Silent drills (hand signals only)": {  
-            "Low Intensity": {
-                "positioning_awareness_score": 0.4,  
-                "cognitive_score": 0.3
-            }  
-        },  
-        "Verbal clarity and volume training": {  
-            "High Intensity": {  
-                "defensive_shape_training_score": 0.5,  
-                "cognitive_score": 0.4,  
-                "mental_fatigue_score": 0.2
-            }  
-        },  
-        "Post-game debrief and peer feedback": {  
-            "Low Intensity": {  
-                "video_analysis_engagement": 0.4,  
-                "cognitive_score": 0.3
-            }  
-        }  
-    },
-    "🧘 Mental Recovery & Visualization": {
-        "Breathing control for pre-match nerves": {
-            "Low Intensity": {
-                "mental_fatigue_score": -0.4,
-                "cognitive_score": 0.2,
-                "errors_leading_to_goals": -0.1
-            }
-        },
-        "Guided visualization of saves": {
-            "Low Intensity": {
-                "save_percentage": 0.3,
-                "video_analysis_engagement": 0.2
-            },
-            "High Intensity": {
-                "save_percentage": 0.6,
-                "cognitive_score": 0.5,
-                "mental_fatigue_score": 0.2
-            }
-        },
-        "Meditation for focus": {
-            "Low Intensity": {
-                "mental_fatigue_score": -0.5,
-                "positioning_awareness_score": 0.1
-            }
-        },
-        "Positive self-talk routines": {
-            "Low Intensity": {
-                "cognitive_score": 0.4,
-                "errors_leading_to_shots": -0.3
-            }
-        }
+    "Opponent Tendency Workshop": {
+        "save_percentage": 0.15,  
+        "video_analysis_score": 0.2,
+        "chronic_workload": 0.08  
     }
-}
+},
 
+  "Game Simulation": {
+      "Penalty Shootout": {
+          "save_percentage": 0.4,
+          "max_goals_conceded": -0.3
+      },
+      "Weather Adaptation": {
+          "distribution_under_pressure": 0.3,
+          "aerial_duels_won": 0.25
+      },
+      "Counter-Attack Defense": {
+          "SprintDistance": 0.4,
+          "clearances": 0.35
+      },
+      "Narrow Lead Protection": {
+          "defensive_contributions": 0.5,
+          "mental_fatigue_score": 0.4
+      },
+      "Red Card Scenario": {
+          "tackles_won": 0.3,
+          "ground_duels_won": 0.45
+      }
+  },
+
+  "Holistic Development": {
+      "Cross-Training Circuit": {
+          "vo2_max": 0.25,
+          "dribble_success_percent": 0.15
+      },
+      "Finishing Technique": {
+          "FinishingTest": 0.2,
+          "shots_on_target_per_match": 0.1
+      },
+      "Leadership Drills": {
+          "assists_per_match": 0.15,
+          "goals_per_match": 0.05
+      },
+      "Reaction Chain": {
+          "reaction_time": 0.3,
+          "cognitive_score": 0.25
+      },
+      "Full Match Simulation": {
+          "total_distance_covered": 0.4,
+          "acute_workload": 0.5
+      }
+  }
+}
