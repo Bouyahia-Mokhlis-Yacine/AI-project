@@ -1,4 +1,4 @@
-actions = {
+
         "Warm-up & Mobility": {  
         "Dynamic stretching": {  
           "low" : {
@@ -534,5 +534,5 @@ actions = {
                 "errors_leading_to_shots": -0.3,
             }
         }
-    }
+
 
