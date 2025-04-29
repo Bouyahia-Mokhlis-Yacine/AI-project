@@ -1,5 +1,4 @@
 actions = {
-    "Goalkeeper": {
         "Warm-up & Mobility": {  
         "Dynamic stretching": {  
           "low" : {
@@ -537,8 +536,3 @@ actions = {
         }
     }
 
-
-
-
-
-}
