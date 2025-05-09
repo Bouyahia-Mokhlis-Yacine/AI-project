@@ -1,0 +1,102 @@
+{
+  "Attacking Mastery": {
+    "Finishing Under Pressure": {
+      "shot_accuracy": 0.4,
+      "sprint_speed": 0.2,
+      "acute_workload": 0.3
+    },
+    "Combination Play": {
+      "passing_accuracy": 0.35,
+      "decision_making": 0.25,
+      "acute_workload": 0.25
+    },
+    "Counter-Attack Execution": {
+      "sprint_speed": 0.3,
+      "positioning": 0.2,
+      "acute_workload": 0.3
+    },
+    "1v1 Dribbling": {
+      "dribbling_success": 0.5,
+      "creativity": 0.3,
+      "acute_workload": 0.35
+    },
+    "Shooting Technique Refinement": {
+      "shot_power": 0.4,
+      "technique_precision": 0.3,
+      "chronic_workload": 0.2
+    }
+  },
+  "Offensive Positioning": {
+    "Off-the-Ball Movement": {
+      "positioning": 0.4,
+      "spatial_awareness": 0.3,
+      "acute_workload": 0.25
+    },
+    "Pressing Triggers": {
+      "defensive_workrate": 0.2,
+      "reaction_time": 0.3,
+      "acute_workload": 0.2
+    },
+    "Breakthrough Runs": {
+      "acceleration": 0.35,
+      "timing": 0.25,
+      "chronic_workload": 0.15
+    },
+    "Attacking Set Pieces": {
+      "heading_accuracy": 0.3,
+      "anticipation": 0.25,
+      "acute_workload": 0.2
+    }
+  },
+  "Finishing Variations": {
+    "Back-to-Goal Play": {
+      "ball_control": 0.3,
+      "turning_agility": 0.25,
+      "chronic_workload": 0.2
+    },
+    "One-Touch Finishing": {
+      "reaction_time": 0.35,
+      "shot_accuracy": 0.3,
+      "acute_workload": 0.3
+    },
+    "Aerial Finishing": {
+      "jump_reach": 0.4,
+      "heading_accuracy": 0.3,
+      "chronic_workload": 0.2
+    }
+  },
+  "Recovery & Regeneration": {
+    "Post-Match Stretching": {
+      "flexibility": 0.3,
+      "muscle_soreness": -0.2,
+      "chronic_workload": -0.3
+    },
+    "Hydrotherapy": {
+      "recovery_index": 0.25,
+      "fatigue": -0.3,
+      "chronic_workload": -0.2
+    },
+    "Foam Rolling": {
+      "mobility": 0.2,
+      "muscle_tension": -0.25,
+      "acute_workload": -0.2
+    }
+  },
+  "Mental Conditioning": {
+    "Guided Visualization": {
+      "confidence": 0.3,
+      "focus": 0.2,
+      "chronic_workload": -0.1
+    },
+    "Positive Self-Talk": {
+      "confidence": 0.25,
+      "mental_fatigue": -0.2,
+      "stress_level": -0.15
+    },
+    "Match Footage Review": {
+      "decision_making": 0.3,
+      "spatial_awareness": 0.2,
+      "chronic_workload": 0.1
+    }
+  }
+}
