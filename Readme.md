@@ -79,11 +79,3 @@ Compare effectiveness of:
 
 ---
 
-## 🧩 Project Structure
-```plaintext
-project-root/
-├── data/                   # Processed datasets and feature engineering scripts
-├── src/                    # Code for search algorithms, CSP, and GA
-├── docs/                   # Technical documentation and comparative analysis
-├── visualizations/         # Dashboards, heatmaps, and comparison charts
-└── README.md               # Project overview (this file)
