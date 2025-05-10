@@ -1,0 +1,2939 @@
+
+{
+    "Defender": {
+        "WarmUp&Mobility": {
+            "Dynamic_Stretching": {
+                2: {
+                    "tackles_won": 1.0,
+                    "clearances": 1.04,
+                    "passing_accuracy": 0.8,
+                    "duels_won_percent": 0.72,
+                    "errors_leading_to_shots_goals": -0.8,
+                    "total_distance_covered": 1.09,
+                    "sprint_distance": 1.38,
+                    "mental_fatigue": -1.8,
+                    "training_load.session_intensity": 1.02
+                },
+                3: {
+                    "tackles_won": 1.48,
+                    "clearances": 1.64,
+                    "passing_accuracy": 1.05,
+                    "duels_won_percent": 1.08,
+                    "errors_leading_to_shots_goals": -0.96,
+                    "total_distance_covered": 1.83,
+                    "sprint_distance": 2.26,
+                    "mental_fatigue": -3.13,
+                    "training_load.session_intensity": 1.39
+                },
+                4: {
+                    "tackles_won": 1.95,
+                    "clearances": 1.91,
+                    "passing_accuracy": 1.0,
+                    "duels_won_percent": 1.65,
+                    "errors_leading_to_shots_goals": -1.14,
+                    "total_distance_covered": 2.44,
+                    "sprint_distance": 2.91,
+                    "mental_fatigue": -3.9,
+                    "training_load.session_intensity": 2.08
+                },
+                5: {
+                    "tackles_won": 2.65,
+                    "clearances": 2.55,
+                    "passing_accuracy": 1.5,
+                    "duels_won_percent": 2.14,
+                    "errors_leading_to_shots_goals": -1.49,
+                    "total_distance_covered": 2.92,
+                    "sprint_distance": 3.31,
+                    "mental_fatigue": -5.18,
+                    "training_load.session_intensity": 2.47
+                },
+            },
+            "Light_Jogging": {
+                2: {
+                    "tackles_won": 0.95,
+                    "clearances": 0.94,
+                    "passing_accuracy": 0.76,
+                    "duels_won_percent": 0.6,
+                    "errors_leading_to_shots_goals": -0.52,
+                    "total_distance_covered": 1.01,
+                    "sprint_distance": 1.44,
+                    "mental_fatigue": 1.18,
+                    "training_load.session_intensity": 1.05
+                },
+                3: {
+                    "tackles_won": 1.5,
+                    "clearances": 1.61,
+                    "passing_accuracy": 0.94,
+                    "duels_won_percent": 1.07,
+                    "errors_leading_to_shots_goals": -0.74,
+                    "total_distance_covered": 1.95,
+                    "sprint_distance": 2.14,
+                    "mental_fatigue": 1.7,
+                    "training_load.session_intensity": 1.36
+                },
+                4: {
+                    "tackles_won": 2.19,
+                    "clearances": 1.87,
+                    "passing_accuracy": 1.24,
+                    "duels_won_percent": 1.69,
+                    "errors_leading_to_shots_goals": -1.31,
+                    "total_distance_covered": 2.24,
+                    "sprint_distance": 2.89,
+                    "mental_fatigue": 2.09,
+                    "training_load.session_intensity": 1.95
+                },
+                5: {
+                    "tackles_won": 2.49,
+                    "clearances": 2.35,
+                    "passing_accuracy": 1.42,
+                    "duels_won_percent": 2.11,
+                    "errors_leading_to_shots_goals": -1.59,
+                    "total_distance_covered": 3.15,
+                    "sprint_distance": 3.69,
+                    "mental_fatigue": 2.46,
+                    "training_load.session_intensity": 2.69
+                },
+            },
+            "Mobility_Drills": {
+                2: {
+                    "tackles_won": 1.01,
+                    "clearances": 0.85,
+                    "passing_accuracy": 0.44,
+                    "duels_won_percent": 0.94,
+                    "errors_leading_to_shots_goals": -0.68,
+                    "total_distance_covered": 1.1,
+                    "sprint_distance": 1.26,
+                    "mental_fatigue": 0.98,
+                    "training_load.session_intensity": 1.06
+                },
+                3: {
+                    "tackles_won": 1.58,
+                    "clearances": 1.56,
+                    "passing_accuracy": 0.75,
+                    "duels_won_percent": 1.37,
+                    "errors_leading_to_shots_goals": -0.96,
+                    "total_distance_covered": 1.76,
+                    "sprint_distance": 2.09,
+                    "mental_fatigue": 1.58,
+                    "training_load.session_intensity": 1.32
+                },
+                4: {
+                    "tackles_won": 2.17,
+                    "clearances": 1.84,
+                    "passing_accuracy": 1.16,
+                    "duels_won_percent": 1.45,
+                    "errors_leading_to_shots_goals": -1.35,
+                    "total_distance_covered": 2.33,
+                    "sprint_distance": 2.61,
+                    "mental_fatigue": 1.83,
+                    "training_load.session_intensity": 1.98
+                },
+                5: {
+                    "tackles_won": 2.39,
+                    "clearances": 2.35,
+                    "passing_accuracy": 1.36,
+                    "duels_won_percent": 1.98,
+                    "errors_leading_to_shots_goals": -1.68,
+                    "total_distance_covered": 3.02,
+                    "sprint_distance": 3.45,
+                    "mental_fatigue": 2.37,
+                    "training_load.session_intensity": 2.58
+                },
+            },
+            "Mini_Games": {
+                2: {
+                    "tackles_won": 0.95,
+                    "clearances": 1.1,
+                    "passing_accuracy": 0.65,
+                    "duels_won_percent": 0.84,
+                    "errors_leading_to_shots_goals": -0.52,
+                    "total_distance_covered": 1.14,
+                    "sprint_distance": 1.2,
+                    "mental_fatigue": 0.96,
+                    "training_load.session_intensity": 0.92
+                },
+                3: {
+                    "tackles_won": 1.44,
+                    "clearances": 1.63,
+                    "passing_accuracy": 0.75,
+                    "duels_won_percent": 1.37,
+                    "errors_leading_to_shots_goals": -1.1,
+                    "total_distance_covered": 1.84,
+                    "sprint_distance": 2.27,
+                    "mental_fatigue": 1.48,
+                    "training_load.session_intensity": 1.65
+                },
+                4: {
+                    "tackles_won": 2.01,
+                    "clearances": 2.02,
+                    "passing_accuracy": 1.13,
+                    "duels_won_percent": 1.77,
+                    "errors_leading_to_shots_goals": -1.2,
+                    "total_distance_covered": 2.22,
+                    "sprint_distance": 2.73,
+                    "mental_fatigue": 1.98,
+                    "training_load.session_intensity": 2.04
+                },
+                5: {
+                    "tackles_won": 2.57,
+                    "clearances": 2.53,
+                    "passing_accuracy": 1.62,
+                    "duels_won_percent": 2.13,
+                    "errors_leading_to_shots_goals": -1.34,
+                    "total_distance_covered": 3.07,
+                    "sprint_distance": 3.44,
+                    "mental_fatigue": 2.69,
+                    "training_load.session_intensity": 2.57
+                },
+            },
+        },
+        "Technical_Training": {
+            "Passing_Receiving_Drills": {
+                2: {
+                    "tackles_won": 0.83,
+                    "clearances": 1.1,
+                    "passing_accuracy": 1.84,
+                    "duels_won_percent": 0.64,
+                    "errors_leading_to_shots_goals": -0.69,
+                    "total_distance_covered": 1.19,
+                    "sprint_distance": 1.27,
+                    "mental_fatigue": 0.9,
+                    "training_load.session_intensity": 1.15
+                },
+                3: {
+                    "tackles_won": 1.43,
+                    "clearances": 1.31,
+                    "passing_accuracy": 2.64,
+                    "duels_won_percent": 1.13,
+                    "errors_leading_to_shots_goals": -1.08,
+                    "total_distance_covered": 1.96,
+                    "sprint_distance": 2.17,
+                    "mental_fatigue": 1.59,
+                    "training_load.session_intensity": 1.38
+                },
+                4: {
+                    "tackles_won": 2.02,
+                    "clearances": 1.82,
+                    "passing_accuracy": 3.44,
+                    "duels_won_percent": 1.44,
+                    "errors_leading_to_shots_goals": -1.06,
+                    "total_distance_covered": 2.55,
+                    "sprint_distance": 2.83,
+                    "mental_fatigue": 1.91,
+                    "training_load.session_intensity": 1.94
+                },
+                5: {
+                    "tackles_won": 2.64,
+                    "clearances": 2.51,
+                    "passing_accuracy": 4.17,
+                    "duels_won_percent": 2.18,
+                    "errors_leading_to_shots_goals": -1.39,
+                    "total_distance_covered": 2.82,
+                    "sprint_distance": 3.48,
+                    "mental_fatigue": 2.33,
+                    "training_load.session_intensity": 2.38
+                },
+            },
+            "Dribbling_Through_Cones": {
+                2: {
+                    "tackles_won": 0.96,
+                    "clearances": 0.81,
+                    "passing_accuracy": 0.44,
+                    "duels_won_percent": 0.78,
+                    "errors_leading_to_shots_goals": -0.62,
+                    "total_distance_covered": 1.16,
+                    "sprint_distance": 1.48,
+                    "mental_fatigue": 1.01,
+                    "training_load.session_intensity": 1.05
+                },
+                3: {
+                    "tackles_won": 1.4,
+                    "clearances": 1.33,
+                    "passing_accuracy": 0.7,
+                    "duels_won_percent": 1.24,
+                    "errors_leading_to_shots_goals": -0.73,
+                    "total_distance_covered": 1.8,
+                    "sprint_distance": 2.16,
+                    "mental_fatigue": 1.45,
+                    "training_load.session_intensity": 1.49
+                },
+                4: {
+                    "tackles_won": 2.03,
+                    "clearances": 2.15,
+                    "passing_accuracy": 1.31,
+                    "duels_won_percent": 1.69,
+                    "errors_leading_to_shots_goals": -1.2,
+                    "total_distance_covered": 2.36,
+                    "sprint_distance": 2.62,
+                    "mental_fatigue": 2.18,
+                    "training_load.session_intensity": 2.1
+                },
+                5: {
+                    "tackles_won": 2.65,
+                    "clearances": 2.42,
+                    "passing_accuracy": 1.39,
+                    "duels_won_percent": 2.01,
+                    "errors_leading_to_shots_goals": -1.54,
+                    "total_distance_covered": 2.83,
+                    "sprint_distance": 3.57,
+                    "mental_fatigue": 2.5,
+                    "training_load.session_intensity": 2.48
+                },
+            },
+            "First_Touch_Control": {
+                2: {
+                    "tackles_won": 0.91,
+                    "clearances": 0.8,
+                    "passing_accuracy": 1.7,
+                    "duels_won_percent": 0.91,
+                    "errors_leading_to_shots_goals": -0.77,
+                    "total_distance_covered": 1.34,
+                    "sprint_distance": 1.49,
+                    "mental_fatigue": 0.94,
+                    "training_load.session_intensity": 0.96
+                },
+                3: {
+                    "tackles_won": 1.44,
+                    "clearances": 1.51,
+                    "passing_accuracy": 2.69,
+                    "duels_won_percent": 1.14,
+                    "errors_leading_to_shots_goals": -1.09,
+                    "total_distance_covered": 1.94,
+                    "sprint_distance": 2.22,
+                    "mental_fatigue": 1.66,
+                    "training_load.session_intensity": 1.33
+                },
+                4: {
+                    "tackles_won": 2.15,
+                    "clearances": 1.86,
+                    "passing_accuracy": 3.4,
+                    "duels_won_percent": 1.57,
+                    "errors_leading_to_shots_goals": -1.03,
+                    "total_distance_covered": 2.49,
+                    "sprint_distance": 2.77,
+                    "mental_fatigue": 2.03,
+                    "training_load.session_intensity": 1.93
+                },
+                5: {
+                    "tackles_won": 2.59,
+                    "clearances": 2.31,
+                    "passing_accuracy": 4.06,
+                    "duels_won_percent": 1.99,
+                    "errors_leading_to_shots_goals": -1.49,
+                    "total_distance_covered": 2.91,
+                    "sprint_distance": 3.54,
+                    "mental_fatigue": 2.43,
+                    "training_load.session_intensity": 2.64
+                },
+            },
+            "Shooting_Techniques": {
+                2: {
+                    "tackles_won": 1.19,
+                    "clearances": 1.13,
+                    "passing_accuracy": 0.8,
+                    "duels_won_percent": 0.95,
+                    "errors_leading_to_shots_goals": -0.79,
+                    "total_distance_covered": 1.31,
+                    "sprint_distance": 1.2,
+                    "mental_fatigue": 0.9,
+                    "training_load.session_intensity": 0.91
+                },
+                3: {
+                    "tackles_won": 1.34,
+                    "clearances": 1.38,
+                    "passing_accuracy": 0.9,
+                    "duels_won_percent": 1.18,
+                    "errors_leading_to_shots_goals": -0.79,
+                    "total_distance_covered": 1.86,
+                    "sprint_distance": 1.96,
+                    "mental_fatigue": 1.5,
+                    "training_load.session_intensity": 1.55
+                },
+                4: {
+                    "tackles_won": 2.06,
+                    "clearances": 2.08,
+                    "passing_accuracy": 1.23,
+                    "duels_won_percent": 1.66,
+                    "errors_leading_to_shots_goals": -1.3,
+                    "total_distance_covered": 2.36,
+                    "sprint_distance": 2.91,
+                    "mental_fatigue": 2.15,
+                    "training_load.session_intensity": 2.08
+                },
+                5: {
+                    "tackles_won": 2.52,
+                    "clearances": 2.43,
+                    "passing_accuracy": 1.5,
+                    "duels_won_percent": 2.13,
+                    "errors_leading_to_shots_goals": -1.6,
+                    "total_distance_covered": 2.82,
+                    "sprint_distance": 3.48,
+                    "mental_fatigue": 2.63,
+                    "training_load.session_intensity": 2.66
+                },
+            },
+            "Heading_Drills": {
+                2: {
+                    "tackles_won": 1.1,
+                    "clearances": 2.27,
+                    "passing_accuracy": 0.55,
+                    "duels_won_percent": 1.45,
+                    "errors_leading_to_shots_goals": -0.66,
+                    "total_distance_covered": 1.26,
+                    "sprint_distance": 1.22,
+                    "mental_fatigue": 1.1,
+                    "training_load.session_intensity": 1.06
+                },
+                3: {
+                    "tackles_won": 1.51,
+                    "clearances": 3.09,
+                    "passing_accuracy": 0.98,
+                    "duels_won_percent": 2.43,
+                    "errors_leading_to_shots_goals": -1.08,
+                    "total_distance_covered": 1.73,
+                    "sprint_distance": 2.21,
+                    "mental_fatigue": 1.47,
+                    "training_load.session_intensity": 1.54
+                },
+                4: {
+                    "tackles_won": 1.95,
+                    "clearances": 4.21,
+                    "passing_accuracy": 1.21,
+                    "duels_won_percent": 2.99,
+                    "errors_leading_to_shots_goals": -1.03,
+                    "total_distance_covered": 2.41,
+                    "sprint_distance": 2.76,
+                    "mental_fatigue": 1.82,
+                    "training_load.session_intensity": 2.06
+                },
+                5: {
+                    "tackles_won": 2.65,
+                    "clearances": 5.04,
+                    "passing_accuracy": 1.4,
+                    "duels_won_percent": 3.7,
+                    "errors_leading_to_shots_goals": -1.5,
+                    "total_distance_covered": 2.85,
+                    "sprint_distance": 3.57,
+                    "mental_fatigue": 2.36,
+                    "training_load.session_intensity": 2.7
+                },
+            },
+        },
+        "Tactical_Training": {
+            "Formation_Practice": {
+                2: {
+                    "tackles_won": 0.81,
+                    "clearances": 0.98,
+                    "passing_accuracy": 0.66,
+                    "duels_won_percent": 0.89,
+                    "errors_leading_to_shots_goals": -0.73,
+                    "total_distance_covered": 1.38,
+                    "sprint_distance": 1.38,
+                    "mental_fatigue": 1.19,
+                    "training_load.session_intensity": 0.92
+                },
+                3: {
+                    "tackles_won": 1.59,
+                    "clearances": 1.53,
+                    "passing_accuracy": 0.99,
+                    "duels_won_percent": 1.01,
+                    "errors_leading_to_shots_goals": -1.01,
+                    "total_distance_covered": 1.88,
+                    "sprint_distance": 2.28,
+                    "mental_fatigue": 1.57,
+                    "training_load.session_intensity": 1.38
+                },
+                4: {
+                    "tackles_won": 1.85,
+                    "clearances": 2.16,
+                    "passing_accuracy": 1.36,
+                    "duels_won_percent": 1.67,
+                    "errors_leading_to_shots_goals": -1.1,
+                    "total_distance_covered": 2.34,
+                    "sprint_distance": 2.69,
+                    "mental_fatigue": 2.1,
+                    "training_load.session_intensity": 1.9
+                },
+                5: {
+                    "tackles_won": 2.61,
+                    "clearances": 2.42,
+                    "passing_accuracy": 1.47,
+                    "duels_won_percent": 1.82,
+                    "errors_leading_to_shots_goals": -1.69,
+                    "total_distance_covered": 2.84,
+                    "sprint_distance": 3.32,
+                    "mental_fatigue": 2.48,
+                    "training_load.session_intensity": 2.66
+                },
+            },
+            "Positioning_Spacing": {
+                2: {
+                    "tackles_won": 1.09,
+                    "clearances": 1.15,
+                    "passing_accuracy": 0.77,
+                    "duels_won_percent": 0.68,
+                    "errors_leading_to_shots_goals": -0.44,
+                    "total_distance_covered": 1.22,
+                    "sprint_distance": 1.42,
+                    "mental_fatigue": 0.89,
+                    "training_load.session_intensity": 0.82
+                },
+                3: {
+                    "tackles_won": 1.54,
+                    "clearances": 1.41,
+                    "passing_accuracy": 0.83,
+                    "duels_won_percent": 1.22,
+                    "errors_leading_to_shots_goals": -0.8,
+                    "total_distance_covered": 1.62,
+                    "sprint_distance": 2.24,
+                    "mental_fatigue": 1.55,
+                    "training_load.session_intensity": 1.46
+                },
+                4: {
+                    "tackles_won": 2.16,
+                    "clearances": 1.84,
+                    "passing_accuracy": 1.06,
+                    "duels_won_percent": 1.8,
+                    "errors_leading_to_shots_goals": -1.02,
+                    "total_distance_covered": 2.48,
+                    "sprint_distance": 2.73,
+                    "mental_fatigue": 1.89,
+                    "training_load.session_intensity": 2.15
+                },
+                5: {
+                    "tackles_won": 2.55,
+                    "clearances": 2.6,
+                    "passing_accuracy": 1.39,
+                    "duels_won_percent": 2.0,
+                    "errors_leading_to_shots_goals": -1.57,
+                    "total_distance_covered": 3.2,
+                    "sprint_distance": 3.42,
+                    "mental_fatigue": 2.39,
+                    "training_load.session_intensity": 2.55
+                },
+            },
+            "Pressing_CounterPressing": {
+                2: {
+                    "tackles_won": 1.16,
+                    "clearances": 1.1,
+                    "passing_accuracy": 0.49,
+                    "duels_won_percent": 0.93,
+                    "errors_leading_to_shots_goals": -0.77,
+                    "total_distance_covered": 1.31,
+                    "sprint_distance": 1.51,
+                    "mental_fatigue": 1.13,
+                    "training_load.session_intensity": 1.06
+                },
+                3: {
+                    "tackles_won": 1.31,
+                    "clearances": 1.36,
+                    "passing_accuracy": 0.88,
+                    "duels_won_percent": 1.24,
+                    "errors_leading_to_shots_goals": -0.81,
+                    "total_distance_covered": 1.95,
+                    "sprint_distance": 1.99,
+                    "mental_fatigue": 1.63,
+                    "training_load.session_intensity": 1.59
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 2.01,
+                    "passing_accuracy": 1.04,
+                    "duels_won_percent": 1.6,
+                    "errors_leading_to_shots_goals": -1.26,
+                    "total_distance_covered": 2.38,
+                    "sprint_distance": 2.95,
+                    "mental_fatigue": 1.97,
+                    "training_load.session_intensity": 2.16
+                },
+                5: {
+                    "tackles_won": 2.62,
+                    "clearances": 2.45,
+                    "passing_accuracy": 1.59,
+                    "duels_won_percent": 1.98,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 2.83,
+                    "sprint_distance": 3.51,
+                    "mental_fatigue": 2.41,
+                    "training_load.session_intensity": 2.61
+                },
+            },
+            "Off_The_Ball_Movement": {
+                2: {
+                    "tackles_won": 0.82,
+                    "clearances": 0.91,
+                    "passing_accuracy": 0.59,
+                    "duels_won_percent": 0.74,
+                    "errors_leading_to_shots_goals": -0.41,
+                    "total_distance_covered": 1.01,
+                    "sprint_distance": 1.26,
+                    "mental_fatigue": 1.16,
+                    "training_load.session_intensity": 1.18
+                },
+                3: {
+                    "tackles_won": 1.38,
+                    "clearances": 1.37,
+                    "passing_accuracy": 0.74,
+                    "duels_won_percent": 1.12,
+                    "errors_leading_to_shots_goals": -0.9,
+                    "total_distance_covered": 1.75,
+                    "sprint_distance": 2.09,
+                    "mental_fatigue": 1.36,
+                    "training_load.session_intensity": 1.67
+                },
+                4: {
+                    "tackles_won": 2.08,
+                    "clearances": 2.19,
+                    "passing_accuracy": 1.1,
+                    "duels_won_percent": 1.42,
+                    "errors_leading_to_shots_goals": -1.05,
+                    "total_distance_covered": 2.49,
+                    "sprint_distance": 2.71,
+                    "mental_fatigue": 2.04,
+                    "training_load.session_intensity": 2.03
+                },
+                5: {
+                    "tackles_won": 2.31,
+                    "clearances": 2.68,
+                    "passing_accuracy": 1.65,
+                    "duels_won_percent": 2.02,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 2.91,
+                    "sprint_distance": 3.47,
+                    "mental_fatigue": 2.57,
+                    "training_load.session_intensity": 2.53
+                },
+            },
+            "Set_Piece_Routines": {
+                2: {
+                    "tackles_won": 0.97,
+                    "clearances": 0.84,
+                    "passing_accuracy": 0.74,
+                    "duels_won_percent": 0.81,
+                    "errors_leading_to_shots_goals": -0.58,
+                    "total_distance_covered": 1.18,
+                    "sprint_distance": 1.2,
+                    "mental_fatigue": 1.02,
+                    "training_load.session_intensity": 0.85
+                },
+                3: {
+                    "tackles_won": 1.63,
+                    "clearances": 1.62,
+                    "passing_accuracy": 1.06,
+                    "duels_won_percent": 1.16,
+                    "errors_leading_to_shots_goals": -0.87,
+                    "total_distance_covered": 1.76,
+                    "sprint_distance": 2.14,
+                    "mental_fatigue": 1.32,
+                    "training_load.session_intensity": 1.53
+                },
+                4: {
+                    "tackles_won": 2.03,
+                    "clearances": 1.84,
+                    "passing_accuracy": 1.01,
+                    "duels_won_percent": 1.45,
+                    "errors_leading_to_shots_goals": -1.08,
+                    "total_distance_covered": 2.3,
+                    "sprint_distance": 2.84,
+                    "mental_fatigue": 1.87,
+                    "training_load.session_intensity": 2.06
+                },
+                5: {
+                    "tackles_won": 2.57,
+                    "clearances": 2.34,
+                    "passing_accuracy": 1.62,
+                    "duels_won_percent": 2.02,
+                    "errors_leading_to_shots_goals": -1.66,
+                    "total_distance_covered": 3.11,
+                    "sprint_distance": 3.65,
+                    "mental_fatigue": 2.32,
+                    "training_load.session_intensity": 2.68
+                },
+            },
+        },
+        "Fitness_Conditioning": {
+            "Sprint_Intervals": {
+                2: {
+                    "tackles_won": 0.81,
+                    "clearances": 0.91,
+                    "passing_accuracy": 0.71,
+                    "duels_won_percent": 0.93,
+                    "errors_leading_to_shots_goals": -0.56,
+                    "total_distance_covered": 2.27,
+                    "sprint_distance": 2.74,
+                    "mental_fatigue": 1.52,
+                    "training_load.session_intensity": 0.98
+                },
+                3: {
+                    "tackles_won": 1.6,
+                    "clearances": 1.32,
+                    "passing_accuracy": 1.05,
+                    "duels_won_percent": 1.23,
+                    "errors_leading_to_shots_goals": -1.03,
+                    "total_distance_covered": 3.27,
+                    "sprint_distance": 3.73,
+                    "mental_fatigue": 2.21,
+                    "training_load.session_intensity": 1.33
+                },
+                4: {
+                    "tackles_won": 1.86,
+                    "clearances": 2.15,
+                    "passing_accuracy": 1.16,
+                    "duels_won_percent": 1.59,
+                    "errors_leading_to_shots_goals": -1.32,
+                    "total_distance_covered": 4.45,
+                    "sprint_distance": 4.87,
+                    "mental_fatigue": 2.94,
+                    "training_load.session_intensity": 1.94
+                },
+                5: {
+                    "tackles_won": 2.56,
+                    "clearances": 2.61,
+                    "passing_accuracy": 1.69,
+                    "duels_won_percent": 1.92,
+                    "errors_leading_to_shots_goals": -1.42,
+                    "total_distance_covered": 5.05,
+                    "sprint_distance": 6.37,
+                    "mental_fatigue": 3.61,
+                    "training_load.session_intensity": 2.68
+                },
+            },
+            "Endurance_Runs": {
+                2: {
+                    "tackles_won": 0.97,
+                    "clearances": 0.98,
+                    "passing_accuracy": 0.77,
+                    "duels_won_percent": 0.75,
+                    "errors_leading_to_shots_goals": -0.57,
+                    "total_distance_covered": 1.06,
+                    "sprint_distance": 1.48,
+                    "mental_fatigue": 1.17,
+                    "training_load.session_intensity": 1.17
+                },
+                3: {
+                    "tackles_won": 1.42,
+                    "clearances": 1.35,
+                    "passing_accuracy": 0.71,
+                    "duels_won_percent": 1.09,
+                    "errors_leading_to_shots_goals": -0.8,
+                    "total_distance_covered": 1.68,
+                    "sprint_distance": 1.98,
+                    "mental_fatigue": 1.41,
+                    "training_load.session_intensity": 1.49
+                },
+                4: {
+                    "tackles_won": 1.82,
+                    "clearances": 1.97,
+                    "passing_accuracy": 1.3,
+                    "duels_won_percent": 1.71,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 2.46,
+                    "sprint_distance": 2.92,
+                    "mental_fatigue": 1.95,
+                    "training_load.session_intensity": 1.99
+                },
+                5: {
+                    "tackles_won": 2.62,
+                    "clearances": 2.5,
+                    "passing_accuracy": 1.42,
+                    "duels_won_percent": 2.01,
+                    "errors_leading_to_shots_goals": -1.38,
+                    "total_distance_covered": 3.13,
+                    "sprint_distance": 3.54,
+                    "mental_fatigue": 2.56,
+                    "training_load.session_intensity": 2.63
+                },
+            },
+            "Agility_Ladder": {
+                2: {
+                    "tackles_won": 1.05,
+                    "clearances": 1.13,
+                    "passing_accuracy": 0.4,
+                    "duels_won_percent": 0.79,
+                    "errors_leading_to_shots_goals": -0.74,
+                    "total_distance_covered": 1.3,
+                    "sprint_distance": 1.41,
+                    "mental_fatigue": 1.2,
+                    "training_load.session_intensity": 0.91
+                },
+                3: {
+                    "tackles_won": 1.55,
+                    "clearances": 1.53,
+                    "passing_accuracy": 0.95,
+                    "duels_won_percent": 1.0,
+                    "errors_leading_to_shots_goals": -0.88,
+                    "total_distance_covered": 1.61,
+                    "sprint_distance": 2.07,
+                    "mental_fatigue": 1.38,
+                    "training_load.session_intensity": 1.57
+                },
+                4: {
+                    "tackles_won": 2.17,
+                    "clearances": 2.14,
+                    "passing_accuracy": 1.38,
+                    "duels_won_percent": 1.75,
+                    "errors_leading_to_shots_goals": -1.06,
+                    "total_distance_covered": 2.4,
+                    "sprint_distance": 2.68,
+                    "mental_fatigue": 1.93,
+                    "training_load.session_intensity": 2.18
+                },
+                5: {
+                    "tackles_won": 2.59,
+                    "clearances": 2.49,
+                    "passing_accuracy": 1.58,
+                    "duels_won_percent": 2.06,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 2.85,
+                    "sprint_distance": 3.67,
+                    "mental_fatigue": 2.54,
+                    "training_load.session_intensity": 2.64
+                },
+            },
+            "Plyometrics": {
+                2: {
+                    "tackles_won": 1.12,
+                    "clearances": 0.96,
+                    "passing_accuracy": 0.5,
+                    "duels_won_percent": 0.82,
+                    "errors_leading_to_shots_goals": -0.47,
+                    "total_distance_covered": 1.05,
+                    "sprint_distance": 1.53,
+                    "mental_fatigue": 1.14,
+                    "training_load.session_intensity": 1.2
+                },
+                3: {
+                    "tackles_won": 1.64,
+                    "clearances": 1.39,
+                    "passing_accuracy": 0.81,
+                    "duels_won_percent": 1.32,
+                    "errors_leading_to_shots_goals": -0.81,
+                    "total_distance_covered": 1.83,
+                    "sprint_distance": 2.08,
+                    "mental_fatigue": 1.48,
+                    "training_load.session_intensity": 1.4
+                },
+                4: {
+                    "tackles_won": 2.18,
+                    "clearances": 1.92,
+                    "passing_accuracy": 1.13,
+                    "duels_won_percent": 1.41,
+                    "errors_leading_to_shots_goals": -1.36,
+                    "total_distance_covered": 2.32,
+                    "sprint_distance": 2.9,
+                    "mental_fatigue": 1.97,
+                    "training_load.session_intensity": 1.85
+                },
+                5: {
+                    "tackles_won": 2.64,
+                    "clearances": 2.37,
+                    "passing_accuracy": 1.52,
+                    "duels_won_percent": 1.83,
+                    "errors_leading_to_shots_goals": -1.52,
+                    "total_distance_covered": 3.11,
+                    "sprint_distance": 3.51,
+                    "mental_fatigue": 2.34,
+                    "training_load.session_intensity": 2.35
+                },
+            },
+            "Speed_Training": {
+                2: {
+                    "tackles_won": 0.87,
+                    "clearances": 1.12,
+                    "passing_accuracy": 0.65,
+                    "duels_won_percent": 0.76,
+                    "errors_leading_to_shots_goals": -0.69,
+                    "total_distance_covered": 2.25,
+                    "sprint_distance": 2.7,
+                    "mental_fatigue": 1.56,
+                    "training_load.session_intensity": 1.14
+                },
+                3: {
+                    "tackles_won": 1.61,
+                    "clearances": 1.37,
+                    "passing_accuracy": 0.86,
+                    "duels_won_percent": 1.32,
+                    "errors_leading_to_shots_goals": -0.76,
+                    "total_distance_covered": 3.37,
+                    "sprint_distance": 3.96,
+                    "mental_fatigue": 2.18,
+                    "training_load.session_intensity": 1.47
+                },
+                4: {
+                    "tackles_won": 1.96,
+                    "clearances": 1.85,
+                    "passing_accuracy": 1.18,
+                    "duels_won_percent": 1.48,
+                    "errors_leading_to_shots_goals": -1.39,
+                    "total_distance_covered": 4.45,
+                    "sprint_distance": 4.8,
+                    "mental_fatigue": 3.1,
+                    "training_load.session_intensity": 1.92
+                },
+                5: {
+                    "tackles_won": 2.41,
+                    "clearances": 2.63,
+                    "passing_accuracy": 1.42,
+                    "duels_won_percent": 1.89,
+                    "errors_leading_to_shots_goals": -1.36,
+                    "total_distance_covered": 5.43,
+                    "sprint_distance": 6.06,
+                    "mental_fatigue": 3.56,
+                    "training_load.session_intensity": 2.53
+                },
+            },
+        },
+        "Defensive_Drills": {
+            "1v1_Defending": {
+                2: {
+                    "tackles_won": 2.34,
+                    "clearances": 0.86,
+                    "passing_accuracy": 0.77,
+                    "duels_won_percent": 1.71,
+                    "errors_leading_to_shots_goals": -0.5,
+                    "total_distance_covered": 1.34,
+                    "sprint_distance": 1.35,
+                    "mental_fatigue": 1.24,
+                    "training_load.session_intensity": 0.92
+                },
+                3: {
+                    "tackles_won": 3.46,
+                    "clearances": 1.57,
+                    "passing_accuracy": 0.91,
+                    "duels_won_percent": 2.56,
+                    "errors_leading_to_shots_goals": -0.98,
+                    "total_distance_covered": 1.87,
+                    "sprint_distance": 1.98,
+                    "mental_fatigue": 1.89,
+                    "training_load.session_intensity": 1.67
+                },
+                4: {
+                    "tackles_won": 4.18,
+                    "clearances": 1.88,
+                    "passing_accuracy": 1.34,
+                    "duels_won_percent": 3.44,
+                    "errors_leading_to_shots_goals": -1.23,
+                    "total_distance_covered": 2.34,
+                    "sprint_distance": 2.71,
+                    "mental_fatigue": 2.41,
+                    "training_load.session_intensity": 2.0
+                },
+                5: {
+                    "tackles_won": 5.05,
+                    "clearances": 2.65,
+                    "passing_accuracy": 1.7,
+                    "duels_won_percent": 4.09,
+                    "errors_leading_to_shots_goals": -1.68,
+                    "total_distance_covered": 3.13,
+                    "sprint_distance": 3.7,
+                    "mental_fatigue": 3.19,
+                    "training_load.session_intensity": 2.58
+                },
+            },
+            "Marking_Tackling": {
+                2: {
+                    "tackles_won": 2.11,
+                    "clearances": 0.89,
+                    "passing_accuracy": 0.57,
+                    "duels_won_percent": 1.78,
+                    "errors_leading_to_shots_goals": -0.4,
+                    "total_distance_covered": 1.07,
+                    "sprint_distance": 1.31,
+                    "mental_fatigue": 1.22,
+                    "training_load.session_intensity": 1.05
+                },
+                3: {
+                    "tackles_won": 3.35,
+                    "clearances": 1.52,
+                    "passing_accuracy": 0.85,
+                    "duels_won_percent": 2.41,
+                    "errors_leading_to_shots_goals": -0.87,
+                    "total_distance_covered": 1.68,
+                    "sprint_distance": 2.21,
+                    "mental_fatigue": 1.9,
+                    "training_load.session_intensity": 1.67
+                },
+                4: {
+                    "tackles_won": 4.26,
+                    "clearances": 1.99,
+                    "passing_accuracy": 1.07,
+                    "duels_won_percent": 3.46,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 2.23,
+                    "sprint_distance": 2.92,
+                    "mental_fatigue": 2.51,
+                    "training_load.session_intensity": 1.99
+                },
+                5: {
+                    "tackles_won": 5.13,
+                    "clearances": 2.42,
+                    "passing_accuracy": 1.37,
+                    "duels_won_percent": 4.19,
+                    "errors_leading_to_shots_goals": -1.41,
+                    "total_distance_covered": 2.99,
+                    "sprint_distance": 3.66,
+                    "mental_fatigue": 3.14,
+                    "training_load.session_intensity": 2.52
+                },
+            },
+            "Defensive_Shape": {
+                2: {
+                    "tackles_won": 1.16,
+                    "clearances": 1.17,
+                    "passing_accuracy": 0.48,
+                    "duels_won_percent": 0.83,
+                    "errors_leading_to_shots_goals": -0.41,
+                    "total_distance_covered": 1.08,
+                    "sprint_distance": 1.28,
+                    "mental_fatigue": 0.85,
+                    "training_load.session_intensity": 1.06
+                },
+                3: {
+                    "tackles_won": 1.68,
+                    "clearances": 1.33,
+                    "passing_accuracy": 0.96,
+                    "duels_won_percent": 1.32,
+                    "errors_leading_to_shots_goals": -0.74,
+                    "total_distance_covered": 1.76,
+                    "sprint_distance": 2.25,
+                    "mental_fatigue": 1.59,
+                    "training_load.session_intensity": 1.38
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 2.1,
+                    "passing_accuracy": 1.06,
+                    "duels_won_percent": 1.48,
+                    "errors_leading_to_shots_goals": -1.34,
+                    "total_distance_covered": 2.24,
+                    "sprint_distance": 2.97,
+                    "mental_fatigue": 2.2,
+                    "training_load.session_intensity": 2.06
+                },
+                5: {
+                    "tackles_won": 2.59,
+                    "clearances": 2.31,
+                    "passing_accuracy": 1.64,
+                    "duels_won_percent": 2.17,
+                    "errors_leading_to_shots_goals": -1.65,
+                    "total_distance_covered": 2.8,
+                    "sprint_distance": 3.55,
+                    "mental_fatigue": 2.43,
+                    "training_load.session_intensity": 2.6
+                },
+            },
+            "Attack_to_Defense_Transition": {
+                2: {
+                    "tackles_won": 1.19,
+                    "clearances": 0.95,
+                    "passing_accuracy": 0.5,
+                    "duels_won_percent": 0.94,
+                    "errors_leading_to_shots_goals": -0.71,
+                    "total_distance_covered": 1.14,
+                    "sprint_distance": 1.51,
+                    "mental_fatigue": 1.14,
+                    "training_load.session_intensity": 1.03
+                },
+                3: {
+                    "tackles_won": 1.31,
+                    "clearances": 1.65,
+                    "passing_accuracy": 0.71,
+                    "duels_won_percent": 1.08,
+                    "errors_leading_to_shots_goals": -0.87,
+                    "total_distance_covered": 1.89,
+                    "sprint_distance": 2.26,
+                    "mental_fatigue": 1.4,
+                    "training_load.session_intensity": 1.58
+                },
+                4: {
+                    "tackles_won": 1.83,
+                    "clearances": 1.92,
+                    "passing_accuracy": 1.27,
+                    "duels_won_percent": 1.79,
+                    "errors_leading_to_shots_goals": -1.24,
+                    "total_distance_covered": 2.56,
+                    "sprint_distance": 2.75,
+                    "mental_fatigue": 1.86,
+                    "training_load.session_intensity": 2.18
+                },
+                5: {
+                    "tackles_won": 2.58,
+                    "clearances": 2.47,
+                    "passing_accuracy": 1.33,
+                    "duels_won_percent": 2.01,
+                    "errors_leading_to_shots_goals": -1.5,
+                    "total_distance_covered": 2.97,
+                    "sprint_distance": 3.61,
+                    "mental_fatigue": 2.59,
+                    "training_load.session_intensity": 2.43
+                },
+            },
+        },
+        "Cognitive_DecisionMaking": {
+            "Small_Sided_Games": {
+                2: {
+                    "tackles_won": 1.05,
+                    "clearances": 1.08,
+                    "passing_accuracy": 1.11,
+                    "duels_won_percent": 0.87,
+                    "errors_leading_to_shots_goals": -0.42,
+                    "total_distance_covered": 1.36,
+                    "sprint_distance": 1.42,
+                    "mental_fatigue": 0.97,
+                    "training_load.session_intensity": 0.99
+                },
+                3: {
+                    "tackles_won": 1.45,
+                    "clearances": 1.32,
+                    "passing_accuracy": 1.56,
+                    "duels_won_percent": 1.34,
+                    "errors_leading_to_shots_goals": -0.91,
+                    "total_distance_covered": 1.98,
+                    "sprint_distance": 1.99,
+                    "mental_fatigue": 1.57,
+                    "training_load.session_intensity": 1.3
+                },
+                4: {
+                    "tackles_won": 2.16,
+                    "clearances": 1.96,
+                    "passing_accuracy": 2.15,
+                    "duels_won_percent": 1.78,
+                    "errors_leading_to_shots_goals": -1.15,
+                    "total_distance_covered": 2.22,
+                    "sprint_distance": 2.64,
+                    "mental_fatigue": 1.95,
+                    "training_load.session_intensity": 1.96
+                },
+                5: {
+                    "tackles_won": 2.56,
+                    "clearances": 2.69,
+                    "passing_accuracy": 2.66,
+                    "duels_won_percent": 2.12,
+                    "errors_leading_to_shots_goals": -1.48,
+                    "total_distance_covered": 2.94,
+                    "sprint_distance": 3.54,
+                    "mental_fatigue": 2.59,
+                    "training_load.session_intensity": 2.59
+                },
+            },
+            "Reaction_Drills": {
+                2: {
+                    "tackles_won": 1.11,
+                    "clearances": 0.85,
+                    "passing_accuracy": 0.44,
+                    "duels_won_percent": 0.91,
+                    "errors_leading_to_shots_goals": -0.62,
+                    "total_distance_covered": 1.27,
+                    "sprint_distance": 1.56,
+                    "mental_fatigue": 1.18,
+                    "training_load.session_intensity": 1.15
+                },
+                3: {
+                    "tackles_won": 1.69,
+                    "clearances": 1.31,
+                    "passing_accuracy": 0.92,
+                    "duels_won_percent": 1.07,
+                    "errors_leading_to_shots_goals": -0.93,
+                    "total_distance_covered": 1.87,
+                    "sprint_distance": 1.97,
+                    "mental_fatigue": 1.65,
+                    "training_load.session_intensity": 1.46
+                },
+                4: {
+                    "tackles_won": 2.17,
+                    "clearances": 1.96,
+                    "passing_accuracy": 1.07,
+                    "duels_won_percent": 1.77,
+                    "errors_leading_to_shots_goals": -1.02,
+                    "total_distance_covered": 2.56,
+                    "sprint_distance": 2.78,
+                    "mental_fatigue": 1.89,
+                    "training_load.session_intensity": 1.85
+                },
+                5: {
+                    "tackles_won": 2.61,
+                    "clearances": 2.54,
+                    "passing_accuracy": 1.36,
+                    "duels_won_percent": 1.87,
+                    "errors_leading_to_shots_goals": -1.58,
+                    "total_distance_covered": 3.01,
+                    "sprint_distance": 3.46,
+                    "mental_fatigue": 2.62,
+                    "training_load.session_intensity": 2.61
+                },
+            },
+            "MultiTasking_Exercises": {
+                2: {
+                    "tackles_won": 1.01,
+                    "clearances": 1.1,
+                    "passing_accuracy": 0.42,
+                    "duels_won_percent": 0.65,
+                    "errors_leading_to_shots_goals": -0.49,
+                    "total_distance_covered": 1.05,
+                    "sprint_distance": 1.23,
+                    "mental_fatigue": 1.04,
+                    "training_load.session_intensity": 0.93
+                },
+                3: {
+                    "tackles_won": 1.36,
+                    "clearances": 1.43,
+                    "passing_accuracy": 0.86,
+                    "duels_won_percent": 1.28,
+                    "errors_leading_to_shots_goals": -1.01,
+                    "total_distance_covered": 1.9,
+                    "sprint_distance": 2.29,
+                    "mental_fatigue": 1.7,
+                    "training_load.session_intensity": 1.54
+                },
+                4: {
+                    "tackles_won": 2.17,
+                    "clearances": 1.84,
+                    "passing_accuracy": 1.18,
+                    "duels_won_percent": 1.77,
+                    "errors_leading_to_shots_goals": -1.09,
+                    "total_distance_covered": 2.4,
+                    "sprint_distance": 2.73,
+                    "mental_fatigue": 2.05,
+                    "training_load.session_intensity": 2.17
+                },
+                5: {
+                    "tackles_won": 2.65,
+                    "clearances": 2.58,
+                    "passing_accuracy": 1.31,
+                    "duels_won_percent": 2.17,
+                    "errors_leading_to_shots_goals": -1.61,
+                    "total_distance_covered": 3.07,
+                    "sprint_distance": 3.46,
+                    "mental_fatigue": 2.62,
+                    "training_load.session_intensity": 2.37
+                },
+            },
+            "Cognitive_Training": {
+                2: {
+                    "tackles_won": 1.17,
+                    "clearances": 0.88,
+                    "passing_accuracy": 0.65,
+                    "duels_won_percent": 0.87,
+                    "errors_leading_to_shots_goals": -0.53,
+                    "total_distance_covered": 1.29,
+                    "sprint_distance": 1.32,
+                    "mental_fatigue": 1.06,
+                    "training_load.session_intensity": 1.07
+                },
+                3: {
+                    "tackles_won": 1.51,
+                    "clearances": 1.57,
+                    "passing_accuracy": 0.76,
+                    "duels_won_percent": 1.31,
+                    "errors_leading_to_shots_goals": -0.82,
+                    "total_distance_covered": 1.79,
+                    "sprint_distance": 2.28,
+                    "mental_fatigue": 1.43,
+                    "training_load.session_intensity": 1.39
+                },
+                4: {
+                    "tackles_won": 2.01,
+                    "clearances": 2.18,
+                    "passing_accuracy": 1.32,
+                    "duels_won_percent": 1.61,
+                    "errors_leading_to_shots_goals": -1.15,
+                    "total_distance_covered": 2.5,
+                    "sprint_distance": 2.98,
+                    "mental_fatigue": 1.85,
+                    "training_load.session_intensity": 2.08
+                },
+                5: {
+                    "tackles_won": 2.55,
+                    "clearances": 2.45,
+                    "passing_accuracy": 1.48,
+                    "duels_won_percent": 1.82,
+                    "errors_leading_to_shots_goals": -1.49,
+                    "total_distance_covered": 2.83,
+                    "sprint_distance": 3.36,
+                    "mental_fatigue": 2.39,
+                    "training_load.session_intensity": 2.41
+                },
+            },
+        },
+        "Recovery_Regeneration": {
+            "Stretching_Yoga": {
+                2: {
+                    "tackles_won": 0.92,
+                    "clearances": 1.16,
+                    "passing_accuracy": 0.68,
+                    "duels_won_percent": 0.86,
+                    "errors_leading_to_shots_goals": -0.56,
+                    "total_distance_covered": 1.12,
+                    "sprint_distance": 1.43,
+                    "mental_fatigue": -2.11,
+                    "training_load.session_intensity": 1.12
+                },
+                3: {
+                    "tackles_won": 1.4,
+                    "clearances": 1.5,
+                    "passing_accuracy": 0.82,
+                    "duels_won_percent": 1.09,
+                    "errors_leading_to_shots_goals": -0.92,
+                    "total_distance_covered": 1.6,
+                    "sprint_distance": 1.96,
+                    "mental_fatigue": -3.08,
+                    "training_load.session_intensity": 1.37
+                },
+                4: {
+                    "tackles_won": 1.9,
+                    "clearances": 2.13,
+                    "passing_accuracy": 1.12,
+                    "duels_won_percent": 1.61,
+                    "errors_leading_to_shots_goals": -1.21,
+                    "total_distance_covered": 2.24,
+                    "sprint_distance": 2.69,
+                    "mental_fatigue": -4.13,
+                    "training_load.session_intensity": 1.89
+                },
+                5: {
+                    "tackles_won": 2.65,
+                    "clearances": 2.44,
+                    "passing_accuracy": 1.39,
+                    "duels_won_percent": 1.82,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 3.11,
+                    "sprint_distance": 3.43,
+                    "mental_fatigue": -5.0,
+                    "training_load.session_intensity": 2.51
+                },
+            },
+            "Ice_Baths": {
+                2: {
+                    "tackles_won": 1.03,
+                    "clearances": 1.08,
+                    "passing_accuracy": 0.73,
+                    "duels_won_percent": 0.87,
+                    "errors_leading_to_shots_goals": -0.59,
+                    "total_distance_covered": 1.28,
+                    "sprint_distance": 1.44,
+                    "mental_fatigue": -2.16,
+                    "training_load.session_intensity": 1.04
+                },
+                3: {
+                    "tackles_won": 1.42,
+                    "clearances": 1.46,
+                    "passing_accuracy": 0.88,
+                    "duels_won_percent": 1.01,
+                    "errors_leading_to_shots_goals": -0.83,
+                    "total_distance_covered": 1.83,
+                    "sprint_distance": 2.08,
+                    "mental_fatigue": -2.82,
+                    "training_load.session_intensity": 1.31
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 2.03,
+                    "passing_accuracy": 1.12,
+                    "duels_won_percent": 1.79,
+                    "errors_leading_to_shots_goals": -1.22,
+                    "total_distance_covered": 2.31,
+                    "sprint_distance": 2.73,
+                    "mental_fatigue": -4.12,
+                    "training_load.session_intensity": 1.89
+                },
+                5: {
+                    "tackles_won": 2.41,
+                    "clearances": 2.6,
+                    "passing_accuracy": 1.63,
+                    "duels_won_percent": 2.14,
+                    "errors_leading_to_shots_goals": -1.49,
+                    "total_distance_covered": 2.81,
+                    "sprint_distance": 3.64,
+                    "mental_fatigue": -4.94,
+                    "training_load.session_intensity": 2.56
+                },
+            },
+            "Foam_Rolling": {
+                2: {
+                    "tackles_won": 1.16,
+                    "clearances": 0.91,
+                    "passing_accuracy": 0.49,
+                    "duels_won_percent": 0.83,
+                    "errors_leading_to_shots_goals": -0.79,
+                    "total_distance_covered": 1.27,
+                    "sprint_distance": 1.44,
+                    "mental_fatigue": 0.86,
+                    "training_load.session_intensity": 1.15
+                },
+                3: {
+                    "tackles_won": 1.59,
+                    "clearances": 1.41,
+                    "passing_accuracy": 0.81,
+                    "duels_won_percent": 1.32,
+                    "errors_leading_to_shots_goals": -1.08,
+                    "total_distance_covered": 1.99,
+                    "sprint_distance": 2.01,
+                    "mental_fatigue": 1.4,
+                    "training_load.session_intensity": 1.54
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 2.05,
+                    "passing_accuracy": 1.05,
+                    "duels_won_percent": 1.44,
+                    "errors_leading_to_shots_goals": -1.1,
+                    "total_distance_covered": 2.37,
+                    "sprint_distance": 2.66,
+                    "mental_fatigue": 1.99,
+                    "training_load.session_intensity": 2.13
+                },
+                5: {
+                    "tackles_won": 2.59,
+                    "clearances": 2.39,
+                    "passing_accuracy": 1.34,
+                    "duels_won_percent": 2.08,
+                    "errors_leading_to_shots_goals": -1.34,
+                    "total_distance_covered": 2.84,
+                    "sprint_distance": 3.42,
+                    "mental_fatigue": 2.34,
+                    "training_load.session_intensity": 2.63
+                },
+            },
+            "Light_Technical_Work": {
+                2: {
+                    "tackles_won": 0.98,
+                    "clearances": 0.97,
+                    "passing_accuracy": 0.74,
+                    "duels_won_percent": 0.99,
+                    "errors_leading_to_shots_goals": -0.8,
+                    "total_distance_covered": 1.38,
+                    "sprint_distance": 1.46,
+                    "mental_fatigue": 0.92,
+                    "training_load.session_intensity": 1.12
+                },
+                3: {
+                    "tackles_won": 1.57,
+                    "clearances": 1.7,
+                    "passing_accuracy": 1.06,
+                    "duels_won_percent": 1.06,
+                    "errors_leading_to_shots_goals": -0.85,
+                    "total_distance_covered": 1.85,
+                    "sprint_distance": 2.15,
+                    "mental_fatigue": 1.38,
+                    "training_load.session_intensity": 1.45
+                },
+                4: {
+                    "tackles_won": 2.02,
+                    "clearances": 2.0,
+                    "passing_accuracy": 1.13,
+                    "duels_won_percent": 1.42,
+                    "errors_leading_to_shots_goals": -1.39,
+                    "total_distance_covered": 2.49,
+                    "sprint_distance": 2.89,
+                    "mental_fatigue": 2.14,
+                    "training_load.session_intensity": 2.1
+                },
+                5: {
+                    "tackles_won": 2.65,
+                    "clearances": 2.47,
+                    "passing_accuracy": 1.53,
+                    "duels_won_percent": 1.88,
+                    "errors_leading_to_shots_goals": -1.54,
+                    "total_distance_covered": 2.86,
+                    "sprint_distance": 3.55,
+                    "mental_fatigue": 2.55,
+                    "training_load.session_intensity": 2.63
+                },
+            },
+        },
+        "Match_Simulations": {
+            "Practice_Games": {
+                2: {
+                    "tackles_won": 1.03,
+                    "clearances": 1.06,
+                    "passing_accuracy": 0.59,
+                    "duels_won_percent": 0.65,
+                    "errors_leading_to_shots_goals": -0.67,
+                    "total_distance_covered": 1.14,
+                    "sprint_distance": 1.41,
+                    "mental_fatigue": 0.85,
+                    "training_load.session_intensity": 1.11
+                },
+                3: {
+                    "tackles_won": 1.67,
+                    "clearances": 1.46,
+                    "passing_accuracy": 0.77,
+                    "duels_won_percent": 1.28,
+                    "errors_leading_to_shots_goals": -0.82,
+                    "total_distance_covered": 1.75,
+                    "sprint_distance": 2.01,
+                    "mental_fatigue": 1.33,
+                    "training_load.session_intensity": 1.53
+                },
+                4: {
+                    "tackles_won": 2.05,
+                    "clearances": 1.88,
+                    "passing_accuracy": 1.07,
+                    "duels_won_percent": 1.58,
+                    "errors_leading_to_shots_goals": -1.38,
+                    "total_distance_covered": 2.45,
+                    "sprint_distance": 2.78,
+                    "mental_fatigue": 2.16,
+                    "training_load.session_intensity": 1.89
+                },
+                5: {
+                    "tackles_won": 2.61,
+                    "clearances": 2.35,
+                    "passing_accuracy": 1.52,
+                    "duels_won_percent": 1.83,
+                    "errors_leading_to_shots_goals": -1.52,
+                    "total_distance_covered": 3.0,
+                    "sprint_distance": 3.32,
+                    "mental_fatigue": 2.45,
+                    "training_load.session_intensity": 2.54
+                },
+            },
+            "Tactical_Instructions_RealTime": {
+                2: {
+                    "tackles_won": 0.91,
+                    "clearances": 1.13,
+                    "passing_accuracy": 1.07,
+                    "duels_won_percent": 0.82,
+                    "errors_leading_to_shots_goals": -0.6,
+                    "total_distance_covered": 1.2,
+                    "sprint_distance": 1.41,
+                    "mental_fatigue": 1.19,
+                    "training_load.session_intensity": 1.15
+                },
+                3: {
+                    "tackles_won": 1.42,
+                    "clearances": 1.36,
+                    "passing_accuracy": 1.5,
+                    "duels_won_percent": 1.29,
+                    "errors_leading_to_shots_goals": -1.05,
+                    "total_distance_covered": 1.83,
+                    "sprint_distance": 1.93,
+                    "mental_fatigue": 1.39,
+                    "training_load.session_intensity": 1.62
+                },
+                4: {
+                    "tackles_won": 2.11,
+                    "clearances": 2.11,
+                    "passing_accuracy": 2.17,
+                    "duels_won_percent": 1.61,
+                    "errors_leading_to_shots_goals": -1.02,
+                    "total_distance_covered": 2.25,
+                    "sprint_distance": 2.8,
+                    "mental_fatigue": 1.91,
+                    "training_load.session_intensity": 1.91
+                },
+                5: {
+                    "tackles_won": 2.51,
+                    "clearances": 2.58,
+                    "passing_accuracy": 2.54,
+                    "duels_won_percent": 2.2,
+                    "errors_leading_to_shots_goals": -1.55,
+                    "total_distance_covered": 3.1,
+                    "sprint_distance": 3.57,
+                    "mental_fatigue": 2.54,
+                    "training_load.session_intensity": 2.61
+                },
+            },
+        },
+        "Functional_Training": {
+            "Aerial_Clearances": {
+                2: {
+                    "tackles_won": 1.01,
+                    "clearances": 2.15,
+                    "passing_accuracy": 0.53,
+                    "duels_won_percent": 1.78,
+                    "errors_leading_to_shots_goals": -0.68,
+                    "total_distance_covered": 1.02,
+                    "sprint_distance": 1.28,
+                    "mental_fatigue": 1.13,
+                    "training_load.session_intensity": 1.08
+                },
+                3: {
+                    "tackles_won": 1.4,
+                    "clearances": 3.21,
+                    "passing_accuracy": 0.86,
+                    "duels_won_percent": 2.2,
+                    "errors_leading_to_shots_goals": -0.76,
+                    "total_distance_covered": 1.86,
+                    "sprint_distance": 2.1,
+                    "mental_fatigue": 1.53,
+                    "training_load.session_intensity": 1.49
+                },
+                4: {
+                    "tackles_won": 1.94,
+                    "clearances": 5.17,
+                    "passing_accuracy": 1.23,
+                    "duels_won_percent": 3.19,
+                    "errors_leading_to_shots_goals": -1.35,
+                    "total_distance_covered": 2.47,
+                    "sprint_distance": 2.8,
+                    "mental_fatigue": 1.86,
+                    "training_load.session_intensity": 2.07
+                },
+                5: {
+                    "tackles_won": 2.59,
+                    "clearances": 5.19,
+                    "passing_accuracy": 1.42,
+                    "duels_won_percent": 3.6,
+                    "errors_leading_to_shots_goals": -1.31,
+                    "total_distance_covered": 2.95,
+                    "sprint_distance": 3.48,
+                    "mental_fatigue": 2.45,
+                    "training_load.session_intensity": 2.46
+                },
+            },
+        },
+        "Transition_Pressing": {
+            "Transitional_Play": {
+                2: {
+                    "tackles_won": 0.99,
+                    "clearances": 0.82,
+                    "passing_accuracy": 0.51,
+                    "duels_won_percent": 0.81,
+                    "errors_leading_to_shots_goals": -0.79,
+                    "total_distance_covered": 1.03,
+                    "sprint_distance": 1.33,
+                    "mental_fatigue": 1.19,
+                    "training_load.session_intensity": 1.11
+                },
+                3: {
+                    "tackles_won": 1.39,
+                    "clearances": 1.46,
+                    "passing_accuracy": 0.77,
+                    "duels_won_percent": 1.39,
+                    "errors_leading_to_shots_goals": -1.09,
+                    "total_distance_covered": 1.9,
+                    "sprint_distance": 1.92,
+                    "mental_fatigue": 1.4,
+                    "training_load.session_intensity": 1.57
+                },
+                4: {
+                    "tackles_won": 2.17,
+                    "clearances": 1.99,
+                    "passing_accuracy": 1.16,
+                    "duels_won_percent": 1.5,
+                    "errors_leading_to_shots_goals": -1.12,
+                    "total_distance_covered": 2.55,
+                    "sprint_distance": 2.61,
+                    "mental_fatigue": 1.97,
+                    "training_load.session_intensity": 2.04
+                },
+                5: {
+                    "tackles_won": 2.48,
+                    "clearances": 2.33,
+                    "passing_accuracy": 1.35,
+                    "duels_won_percent": 1.9,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 3.04,
+                    "sprint_distance": 3.4,
+                    "mental_fatigue": 2.54,
+                    "training_load.session_intensity": 2.64
+                },
+            },
+            "Pressing_Triggers": {
+                2: {
+                    "tackles_won": 1.13,
+                    "clearances": 0.82,
+                    "passing_accuracy": 0.52,
+                    "duels_won_percent": 0.98,
+                    "errors_leading_to_shots_goals": -0.7,
+                    "total_distance_covered": 1.19,
+                    "sprint_distance": 1.3,
+                    "mental_fatigue": 1.06,
+                    "training_load.session_intensity": 1.05
+                },
+                3: {
+                    "tackles_won": 1.63,
+                    "clearances": 1.31,
+                    "passing_accuracy": 0.77,
+                    "duels_won_percent": 1.36,
+                    "errors_leading_to_shots_goals": -0.76,
+                    "total_distance_covered": 1.61,
+                    "sprint_distance": 2.13,
+                    "mental_fatigue": 1.42,
+                    "training_load.session_intensity": 1.35
+                },
+                4: {
+                    "tackles_won": 1.98,
+                    "clearances": 1.86,
+                    "passing_accuracy": 1.37,
+                    "duels_won_percent": 1.66,
+                    "errors_leading_to_shots_goals": -1.31,
+                    "total_distance_covered": 2.32,
+                    "sprint_distance": 2.9,
+                    "mental_fatigue": 1.82,
+                    "training_load.session_intensity": 1.85
+                },
+                5: {
+                    "tackles_won": 2.62,
+                    "clearances": 2.31,
+                    "passing_accuracy": 1.48,
+                    "duels_won_percent": 1.89,
+                    "errors_leading_to_shots_goals": -1.46,
+                    "total_distance_covered": 2.86,
+                    "sprint_distance": 3.44,
+                    "mental_fatigue": 2.37,
+                    "training_load.session_intensity": 2.52
+                },
+            },
+        },
+        "Mental_Recovery_Visualization": {
+            "Guided_Visualization": {
+                2: {
+                    "tackles_won": 0.92,
+                    "clearances": 0.82,
+                    "passing_accuracy": 0.43,
+                    "duels_won_percent": 0.65,
+                    "errors_leading_to_shots_goals": -0.55,
+                    "total_distance_covered": 1.09,
+                    "sprint_distance": 1.54,
+                    "mental_fatigue": 1.03,
+                    "training_load.session_intensity": 1.1
+                },
+                3: {
+                    "tackles_won": 1.63,
+                    "clearances": 1.32,
+                    "passing_accuracy": 0.78,
+                    "duels_won_percent": 1.39,
+                    "errors_leading_to_shots_goals": -1.08,
+                    "total_distance_covered": 1.74,
+                    "sprint_distance": 2.06,
+                    "mental_fatigue": 1.65,
+                    "training_load.session_intensity": 1.64
+                },
+                4: {
+                    "tackles_won": 2.07,
+                    "clearances": 1.92,
+                    "passing_accuracy": 1.21,
+                    "duels_won_percent": 1.64,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 2.56,
+                    "sprint_distance": 2.79,
+                    "mental_fatigue": 1.87,
+                    "training_load.session_intensity": 1.8
+                },
+                5: {
+                    "tackles_won": 2.39,
+                    "clearances": 2.4,
+                    "passing_accuracy": 1.68,
+                    "duels_won_percent": 1.9,
+                    "errors_leading_to_shots_goals": -1.59,
+                    "total_distance_covered": 3.11,
+                    "sprint_distance": 3.36,
+                    "mental_fatigue": 2.61,
+                    "training_load.session_intensity": 2.36
+                },
+            },
+            "Breathing_Control": {
+                2: {
+                    "tackles_won": 1.17,
+                    "clearances": 0.82,
+                    "passing_accuracy": 0.63,
+                    "duels_won_percent": 0.74,
+                    "errors_leading_to_shots_goals": -0.74,
+                    "total_distance_covered": 1.08,
+                    "sprint_distance": 1.45,
+                    "mental_fatigue": 1.16,
+                    "training_load.session_intensity": 0.8
+                },
+                3: {
+                    "tackles_won": 1.44,
+                    "clearances": 1.56,
+                    "passing_accuracy": 0.83,
+                    "duels_won_percent": 1.09,
+                    "errors_leading_to_shots_goals": -0.91,
+                    "total_distance_covered": 1.67,
+                    "sprint_distance": 1.95,
+                    "mental_fatigue": 1.64,
+                    "training_load.session_intensity": 1.63
+                },
+                4: {
+                    "tackles_won": 2.19,
+                    "clearances": 1.93,
+                    "passing_accuracy": 1.23,
+                    "duels_won_percent": 1.4,
+                    "errors_leading_to_shots_goals": -1.11,
+                    "total_distance_covered": 2.32,
+                    "sprint_distance": 2.65,
+                    "mental_fatigue": 1.89,
+                    "training_load.session_intensity": 1.91
+                },
+                5: {
+                    "tackles_won": 2.66,
+                    "clearances": 2.64,
+                    "passing_accuracy": 1.68,
+                    "duels_won_percent": 2.08,
+                    "errors_leading_to_shots_goals": -1.66,
+                    "total_distance_covered": 2.81,
+                    "sprint_distance": 3.35,
+                    "mental_fatigue": 2.4,
+                    "training_load.session_intensity": 2.35
+                },
+            },
+            "Meditation_Yoga": {
+                2: {
+                    "tackles_won": 0.89,
+                    "clearances": 0.82,
+                    "passing_accuracy": 0.46,
+                    "duels_won_percent": 0.64,
+                    "errors_leading_to_shots_goals": -0.64,
+                    "total_distance_covered": 1.15,
+                    "sprint_distance": 1.31,
+                    "mental_fatigue": 1.01,
+                    "training_load.session_intensity": 1.1
+                },
+                3: {
+                    "tackles_won": 1.54,
+                    "clearances": 1.32,
+                    "passing_accuracy": 0.78,
+                    "duels_won_percent": 1.11,
+                    "errors_leading_to_shots_goals": -0.77,
+                    "total_distance_covered": 1.93,
+                    "sprint_distance": 2.26,
+                    "mental_fatigue": 1.31,
+                    "training_load.session_intensity": 1.46
+                },
+                4: {
+                    "tackles_won": 1.93,
+                    "clearances": 2.08,
+                    "passing_accuracy": 1.03,
+                    "duels_won_percent": 1.66,
+                    "errors_leading_to_shots_goals": -1.36,
+                    "total_distance_covered": 2.48,
+                    "sprint_distance": 2.6,
+                    "mental_fatigue": 2.12,
+                    "training_load.session_intensity": 2.14
+                },
+                5: {
+                    "tackles_won": 2.4,
+                    "clearances": 2.55,
+                    "passing_accuracy": 1.57,
+                    "duels_won_percent": 2.03,
+                    "errors_leading_to_shots_goals": -1.56,
+                    "total_distance_covered": 3.06,
+                    "sprint_distance": 3.53,
+                    "mental_fatigue": 2.61,
+                    "training_load.session_intensity": 2.6
+                },
+            },
+            "Positive_Self_Talk": {
+                2: {
+                    "tackles_won": 0.98,
+                    "clearances": 1.07,
+                    "passing_accuracy": 0.47,
+                    "duels_won_percent": 0.94,
+                    "errors_leading_to_shots_goals": -0.47,
+                    "total_distance_covered": 1.26,
+                    "sprint_distance": 1.25,
+                    "mental_fatigue": 1.1,
+                    "training_load.session_intensity": 1.09
+                },
+                3: {
+                    "tackles_won": 1.47,
+                    "clearances": 1.61,
+                    "passing_accuracy": 0.92,
+                    "duels_won_percent": 1.04,
+                    "errors_leading_to_shots_goals": -1.04,
+                    "total_distance_covered": 1.84,
+                    "sprint_distance": 2.26,
+                    "mental_fatigue": 1.39,
+                    "training_load.session_intensity": 1.58
+                },
+                4: {
+                    "tackles_won": 1.87,
+                    "clearances": 1.88,
+                    "passing_accuracy": 1.3,
+                    "duels_won_percent": 1.54,
+                    "errors_leading_to_shots_goals": -1.13,
+                    "total_distance_covered": 2.44,
+                    "sprint_distance": 2.86,
+                    "mental_fatigue": 2.03,
+                    "training_load.session_intensity": 1.95
+                },
+                5: {
+                    "tackles_won": 2.5,
+                    "clearances": 2.65,
+                    "passing_accuracy": 1.55,
+                    "duels_won_percent": 2.2,
+                    "errors_leading_to_shots_goals": -1.59,
+                    "total_distance_covered": 2.96,
+                    "sprint_distance": 3.61,
+                    "mental_fatigue": 2.69,
+                    "training_load.session_intensity": 2.69
+                },
+            },
+        },
+        "Possession_Small_Sided": {
+            "Rondos": {
+                2: {
+                    "tackles_won": 0.95,
+                    "clearances": 0.96,
+                    "passing_accuracy": 0.6,
+                    "duels_won_percent": 0.96,
+                    "errors_leading_to_shots_goals": -0.69,
+                    "total_distance_covered": 1.26,
+                    "sprint_distance": 1.39,
+                    "mental_fatigue": 1.13,
+                    "training_load.session_intensity": 0.83
+                },
+                3: {
+                    "tackles_won": 1.61,
+                    "clearances": 1.45,
+                    "passing_accuracy": 0.96,
+                    "duels_won_percent": 1.32,
+                    "errors_leading_to_shots_goals": -0.95,
+                    "total_distance_covered": 1.92,
+                    "sprint_distance": 2.1,
+                    "mental_fatigue": 1.56,
+                    "training_load.session_intensity": 1.63
+                },
+                4: {
+                    "tackles_won": 2.07,
+                    "clearances": 2.13,
+                    "passing_accuracy": 1.15,
+                    "duels_won_percent": 1.74,
+                    "errors_leading_to_shots_goals": -1.03,
+                    "total_distance_covered": 2.21,
+                    "sprint_distance": 2.65,
+                    "mental_fatigue": 1.97,
+                    "training_load.session_intensity": 2.12
+                },
+                5: {
+                    "tackles_won": 2.62,
+                    "clearances": 2.61,
+                    "passing_accuracy": 1.49,
+                    "duels_won_percent": 2.02,
+                    "errors_leading_to_shots_goals": -1.55,
+                    "total_distance_covered": 2.97,
+                    "sprint_distance": 3.39,
+                    "mental_fatigue": 2.58,
+                    "training_load.session_intensity": 2.45
+                },
+            },
+            "Small_Sided_Games_Control": {
+                2: {
+                    "tackles_won": 0.9,
+                    "clearances": 1.01,
+                    "passing_accuracy": 1.12,
+                    "duels_won_percent": 0.92,
+                    "errors_leading_to_shots_goals": -0.72,
+                    "total_distance_covered": 1.08,
+                    "sprint_distance": 1.26,
+                    "mental_fatigue": 1.09,
+                    "training_load.session_intensity": 1.09
+                },
+                3: {
+                    "tackles_won": 1.34,
+                    "clearances": 1.5,
+                    "passing_accuracy": 1.7,
+                    "duels_won_percent": 1.27,
+                    "errors_leading_to_shots_goals": -0.95,
+                    "total_distance_covered": 1.92,
+                    "sprint_distance": 2.04,
+                    "mental_fatigue": 1.55,
+                    "training_load.session_intensity": 1.31
+                },
+                4: {
+                    "tackles_won": 2.1,
+                    "clearances": 1.85,
+                    "passing_accuracy": 2.19,
+                    "duels_won_percent": 1.61,
+                    "errors_leading_to_shots_goals": -1.28,
+                    "total_distance_covered": 2.23,
+                    "sprint_distance": 2.83,
+                    "mental_fatigue": 2.05,
+                    "training_load.session_intensity": 1.96
+                },
+                5: {
+                    "tackles_won": 2.54,
+                    "clearances": 2.52,
+                    "passing_accuracy": 2.66,
+                    "duels_won_percent": 2.13,
+                    "errors_leading_to_shots_goals": -1.68,
+                    "total_distance_covered": 3.1,
+                    "sprint_distance": 3.39,
+                    "mental_fatigue": 2.31,
+                    "training_load.session_intensity": 2.41
+                },
+            },
+        },
+        "Injury_Prevention_Prehab": {
+            "Balance_Board": {
+                2: {
+                    "tackles_won": 0.8,
+                    "clearances": 0.97,
+                    "passing_accuracy": 0.78,
+                    "duels_won_percent": 0.77,
+                    "errors_leading_to_shots_goals": -0.55,
+                    "total_distance_covered": 1.37,
+                    "sprint_distance": 1.28,
+                    "mental_fatigue": 1.01,
+                    "training_load.session_intensity": 0.96
+                },
+                3: {
+                    "tackles_won": 1.42,
+                    "clearances": 1.5,
+                    "passing_accuracy": 0.89,
+                    "duels_won_percent": 1.34,
+                    "errors_leading_to_shots_goals": -0.84,
+                    "total_distance_covered": 2.0,
+                    "sprint_distance": 2.07,
+                    "mental_fatigue": 1.3,
+                    "training_load.session_intensity": 1.68
+                },
+                4: {
+                    "tackles_won": 2.03,
+                    "clearances": 1.99,
+                    "passing_accuracy": 1.0,
+                    "duels_won_percent": 1.49,
+                    "errors_leading_to_shots_goals": -1.28,
+                    "total_distance_covered": 2.38,
+                    "sprint_distance": 2.67,
+                    "mental_fatigue": 2.03,
+                    "training_load.session_intensity": 2.0
+                },
+                5: {
+                    "tackles_won": 2.54,
+                    "clearances": 2.63,
+                    "passing_accuracy": 1.5,
+                    "duels_won_percent": 2.08,
+                    "errors_leading_to_shots_goals": -1.7,
+                    "total_distance_covered": 3.02,
+                    "sprint_distance": 3.64,
+                    "mental_fatigue": 2.57,
+                    "training_load.session_intensity": 2.52
+                },
+            },
+            "Nordic_Curls": {
+                2: {
+                    "tackles_won": 1.15,
+                    "clearances": 0.85,
+                    "passing_accuracy": 0.43,
+                    "duels_won_percent": 0.66,
+                    "errors_leading_to_shots_goals": -0.78,
+                    "total_distance_covered": 1.14,
+                    "sprint_distance": 1.54,
+                    "mental_fatigue": 1.04,
+                    "training_load.session_intensity": 0.81
+                },
+                3: {
+                    "tackles_won": 1.37,
+                    "clearances": 1.4,
+                    "passing_accuracy": 1.02,
+                    "duels_won_percent": 1.37,
+                    "errors_leading_to_shots_goals": -0.71,
+                    "total_distance_covered": 1.98,
+                    "sprint_distance": 1.99,
+                    "mental_fatigue": 1.61,
+                    "training_load.session_intensity": 1.57
+                },
+                4: {
+                    "tackles_won": 1.88,
+                    "clearances": 2.13,
+                    "passing_accuracy": 1.32,
+                    "duels_won_percent": 1.49,
+                    "errors_leading_to_shots_goals": -1.22,
+                    "total_distance_covered": 2.21,
+                    "sprint_distance": 2.9,
+                    "mental_fatigue": 1.85,
+                    "training_load.session_intensity": 2.0
+                },
+                5: {
+                    "tackles_won": 2.7,
+                    "clearances": 2.4,
+                    "passing_accuracy": 1.66,
+                    "duels_won_percent": 2.0,
+                    "errors_leading_to_shots_goals": -1.7,
+                    "total_distance_covered": 3.11,
+                    "sprint_distance": 3.31,
+                    "mental_fatigue": 2.61,
+                    "training_load.session_intensity": 2.67
+                },
+            },
+            "Ankle_Mobility": {
+                2: {
+                    "tackles_won": 0.82,
+                    "clearances": 1.15,
+                    "passing_accuracy": 0.42,
+                    "duels_won_percent": 0.78,
+                    "errors_leading_to_shots_goals": -0.48,
+                    "total_distance_covered": 1.31,
+                    "sprint_distance": 1.58,
+                    "mental_fatigue": 0.93,
+                    "training_load.session_intensity": 1.07
+                },
+                3: {
+                    "tackles_won": 1.45,
+                    "clearances": 1.61,
+                    "passing_accuracy": 1.02,
+                    "duels_won_percent": 1.26,
+                    "errors_leading_to_shots_goals": -0.93,
+                    "total_distance_covered": 1.83,
+                    "sprint_distance": 1.92,
+                    "mental_fatigue": 1.67,
+                    "training_load.session_intensity": 1.36
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 1.96,
+                    "passing_accuracy": 1.14,
+                    "duels_won_percent": 1.74,
+                    "errors_leading_to_shots_goals": -1.2,
+                    "total_distance_covered": 2.5,
+                    "sprint_distance": 2.64,
+                    "mental_fatigue": 2.12,
+                    "training_load.session_intensity": 1.88
+                },
+                5: {
+                    "tackles_won": 2.48,
+                    "clearances": 2.43,
+                    "passing_accuracy": 1.32,
+                    "duels_won_percent": 2.0,
+                    "errors_leading_to_shots_goals": -1.6,
+                    "total_distance_covered": 3.12,
+                    "sprint_distance": 3.63,
+                    "mental_fatigue": 2.33,
+                    "training_load.session_intensity": 2.53
+                },
+            },
+            "Glute_Activation": {
+                2: {
+                    "tackles_won": 1.11,
+                    "clearances": 0.91,
+                    "passing_accuracy": 0.55,
+                    "duels_won_percent": 0.92,
+                    "errors_leading_to_shots_goals": -0.44,
+                    "total_distance_covered": 1.24,
+                    "sprint_distance": 1.45,
+                    "mental_fatigue": 1.18,
+                    "training_load.session_intensity": 0.92
+                },
+                3: {
+                    "tackles_won": 1.65,
+                    "clearances": 1.65,
+                    "passing_accuracy": 1.08,
+                    "duels_won_percent": 1.19,
+                    "errors_leading_to_shots_goals": -0.92,
+                    "total_distance_covered": 1.68,
+                    "sprint_distance": 2.08,
+                    "mental_fatigue": 1.57,
+                    "training_load.session_intensity": 1.66
+                },
+                4: {
+                    "tackles_won": 2.09,
+                    "clearances": 2.11,
+                    "passing_accuracy": 1.19,
+                    "duels_won_percent": 1.64,
+                    "errors_leading_to_shots_goals": -1.07,
+                    "total_distance_covered": 2.3,
+                    "sprint_distance": 2.83,
+                    "mental_fatigue": 1.9,
+                    "training_load.session_intensity": 1.92
+                },
+                5: {
+                    "tackles_won": 2.5,
+                    "clearances": 2.33,
+                    "passing_accuracy": 1.41,
+                    "duels_won_percent": 2.07,
+                    "errors_leading_to_shots_goals": -1.38,
+                    "total_distance_covered": 3.19,
+                    "sprint_distance": 3.47,
+                    "mental_fatigue": 2.64,
+                    "training_load.session_intensity": 2.5
+                },
+            },
+        },
+        "Video_Analysis": {
+            "Match_Review": {
+                2: {
+                    "tackles_won": 1.03,
+                    "clearances": 0.88,
+                    "passing_accuracy": 0.74,
+                    "duels_won_percent": 0.95,
+                    "errors_leading_to_shots_goals": -0.71,
+                    "total_distance_covered": 1.02,
+                    "sprint_distance": 1.6,
+                    "mental_fatigue": 1.0,
+                    "training_load.session_intensity": 0.97
+                },
+                3: {
+                    "tackles_won": 1.48,
+                    "clearances": 1.36,
+                    "passing_accuracy": 1.09,
+                    "duels_won_percent": 1.21,
+                    "errors_leading_to_shots_goals": -0.92,
+                    "total_distance_covered": 1.96,
+                    "sprint_distance": 2.13,
+                    "mental_fatigue": 1.64,
+                    "training_load.session_intensity": 1.47
+                },
+                4: {
+                    "tackles_won": 2.11,
+                    "clearances": 1.91,
+                    "passing_accuracy": 1.04,
+                    "duels_won_percent": 1.49,
+                    "errors_leading_to_shots_goals": -1.12,
+                    "total_distance_covered": 2.24,
+                    "sprint_distance": 2.85,
+                    "mental_fatigue": 1.96,
+                    "training_load.session_intensity": 1.81
+                },
+                5: {
+                    "tackles_won": 2.48,
+                    "clearances": 2.48,
+                    "passing_accuracy": 1.47,
+                    "duels_won_percent": 2.06,
+                    "errors_leading_to_shots_goals": -1.37,
+                    "total_distance_covered": 2.95,
+                    "sprint_distance": 3.4,
+                    "mental_fatigue": 2.51,
+                    "training_load.session_intensity": 2.6
+                },
+            },
+            "Opponent_Study": {
+                2: {
+                    "tackles_won": 0.84,
+                    "clearances": 1.02,
+                    "passing_accuracy": 0.6,
+                    "duels_won_percent": 0.83,
+                    "errors_leading_to_shots_goals": -0.7,
+                    "total_distance_covered": 1.06,
+                    "sprint_distance": 1.59,
+                    "mental_fatigue": 1.09,
+                    "training_load.session_intensity": 0.89
+                },
+                3: {
+                    "tackles_won": 1.64,
+                    "clearances": 1.48,
+                    "passing_accuracy": 0.73,
+                    "duels_won_percent": 1.24,
+                    "errors_leading_to_shots_goals": -0.96,
+                    "total_distance_covered": 1.7,
+                    "sprint_distance": 2.25,
+                    "mental_fatigue": 1.62,
+                    "training_load.session_intensity": 1.69
+                },
+                4: {
+                    "tackles_won": 1.84,
+                    "clearances": 1.83,
+                    "passing_accuracy": 1.36,
+                    "duels_won_percent": 1.74,
+                    "errors_leading_to_shots_goals": -1.32,
+                    "total_distance_covered": 2.49,
+                    "sprint_distance": 2.61,
+                    "mental_fatigue": 2.11,
+                    "training_load.session_intensity": 2.12
+                },
+                5: {
+                    "tackles_won": 2.58,
+                    "clearances": 2.61,
+                    "passing_accuracy": 1.56,
+                    "duels_won_percent": 2.04,
+                    "errors_leading_to_shots_goals": -1.42,
+                    "total_distance_covered": 2.9,
+                    "sprint_distance": 3.4,
+                    "mental_fatigue": 2.68,
+                    "training_load.session_intensity": 2.42
+                },
+            },
+            "Decision_Reflection": {
+                2: {
+                    "tackles_won": 1.0,
+                    "clearances": 1.08,
+                    "passing_accuracy": 0.49,
+                    "duels_won_percent": 0.61,
+                    "errors_leading_to_shots_goals": -0.69,
+                    "total_distance_covered": 1.09,
+                    "sprint_distance": 1.57,
+                    "mental_fatigue": 0.95,
+                    "training_load.session_intensity": 0.8
+                },
+                3: {
+                    "tackles_won": 1.56,
+                    "clearances": 1.46,
+                    "passing_accuracy": 0.96,
+                    "duels_won_percent": 1.31,
+                    "errors_leading_to_shots_goals": -0.79,
+                    "total_distance_covered": 1.77,
+                    "sprint_distance": 1.95,
+                    "mental_fatigue": 1.48,
+                    "training_load.session_intensity": 1.48
+                },
+                4: {
+                    "tackles_won": 2.01,
+                    "clearances": 2.15,
+                    "passing_accuracy": 1.36,
+                    "duels_won_percent": 1.69,
+                    "errors_leading_to_shots_goals": -1.01,
+                    "total_distance_covered": 2.45,
+                    "sprint_distance": 2.69,
+                    "mental_fatigue": 1.97,
+                    "training_load.session_intensity": 1.99
+                },
+                5: {
+                    "tackles_won": 2.61,
+                    "clearances": 2.38,
+                    "passing_accuracy": 1.37,
+                    "duels_won_percent": 1.97,
+                    "errors_leading_to_shots_goals": -1.41,
+                    "total_distance_covered": 2.82,
+                    "sprint_distance": 3.35,
+                    "mental_fatigue": 2.54,
+                    "training_load.session_intensity": 2.68
+                },
+            },
+        },
+        "Game_Model_Implementation": {
+            "High_Press": {
+                2: {
+                    "tackles_won": 1.03,
+                    "clearances": 0.91,
+                    "passing_accuracy": 0.72,
+                    "duels_won_percent": 0.96,
+                    "errors_leading_to_shots_goals": -0.59,
+                    "total_distance_covered": 1.22,
+                    "sprint_distance": 1.46,
+                    "mental_fatigue": 1.1,
+                    "training_load.session_intensity": 0.87
+                },
+                3: {
+                    "tackles_won": 1.65,
+                    "clearances": 1.54,
+                    "passing_accuracy": 0.9,
+                    "duels_won_percent": 1.02,
+                    "errors_leading_to_shots_goals": -0.81,
+                    "total_distance_covered": 1.92,
+                    "sprint_distance": 2.27,
+                    "mental_fatigue": 1.47,
+                    "training_load.session_intensity": 1.32
+                },
+                4: {
+                    "tackles_won": 1.99,
+                    "clearances": 1.89,
+                    "passing_accuracy": 1.29,
+                    "duels_won_percent": 1.44,
+                    "errors_leading_to_shots_goals": -1.09,
+                    "total_distance_covered": 2.3,
+                    "sprint_distance": 2.68,
+                    "mental_fatigue": 1.87,
+                    "training_load.session_intensity": 2.19
+                },
+                5: {
+                    "tackles_won": 2.58,
+                    "clearances": 2.4,
+                    "passing_accuracy": 1.48,
+                    "duels_won_percent": 2.07,
+                    "errors_leading_to_shots_goals": -1.39,
+                    "total_distance_covered": 2.82,
+                    "sprint_distance": 3.5,
+                    "mental_fatigue": 2.31,
+                    "training_load.session_intensity": 2.44
+                },
+            },
+            "Build_Up": {
+                2: {
+                    "tackles_won": 0.84,
+                    "clearances": 0.96,
+                    "passing_accuracy": 0.58,
+                    "duels_won_percent": 0.67,
+                    "errors_leading_to_shots_goals": -0.78,
+                    "total_distance_covered": 1.1,
+                    "sprint_distance": 1.31,
+                    "mental_fatigue": 1.2,
+                    "training_load.session_intensity": 0.91
+                },
+                3: {
+                    "tackles_won": 1.6,
+                    "clearances": 1.48,
+                    "passing_accuracy": 0.95,
+                    "duels_won_percent": 1.12,
+                    "errors_leading_to_shots_goals": -0.82,
+                    "total_distance_covered": 1.89,
+                    "sprint_distance": 2.04,
+                    "mental_fatigue": 1.61,
+                    "training_load.session_intensity": 1.56
+                },
+                4: {
+                    "tackles_won": 2.2,
+                    "clearances": 2.01,
+                    "passing_accuracy": 1.13,
+                    "duels_won_percent": 1.62,
+                    "errors_leading_to_shots_goals": -1.03,
+                    "total_distance_covered": 2.26,
+                    "sprint_distance": 2.71,
+                    "mental_fatigue": 2.19,
+                    "training_load.session_intensity": 1.82
+                },
+                5: {
+                    "tackles_won": 2.45,
+                    "clearances": 2.66,
+                    "passing_accuracy": 1.4,
+                    "duels_won_percent": 1.81,
+                    "errors_leading_to_shots_goals": -1.65,
+                    "total_distance_covered": 3.12,
+                    "sprint_distance": 3.33,
+                    "mental_fatigue": 2.58,
+                    "training_load.session_intensity": 2.66
+                },
+            },
+            "Wing_Play": {
+                2: {
+                    "tackles_won": 1.2,
+                    "clearances": 1.11,
+                    "passing_accuracy": 0.53,
+                    "duels_won_percent": 0.75,
+                    "errors_leading_to_shots_goals": -0.7,
+                    "total_distance_covered": 1.22,
+                    "sprint_distance": 1.29,
+                    "mental_fatigue": 1.1,
+                    "training_load.session_intensity": 0.87
+                },
+                3: {
+                    "tackles_won": 1.54,
+                    "clearances": 1.44,
+                    "passing_accuracy": 0.86,
+                    "duels_won_percent": 1.24,
+                    "errors_leading_to_shots_goals": -0.85,
+                    "total_distance_covered": 2.0,
+                    "sprint_distance": 2.24,
+                    "mental_fatigue": 1.62,
+                    "training_load.session_intensity": 1.62
+                },
+                4: {
+                    "tackles_won": 1.89,
+                    "clearances": 2.02,
+                    "passing_accuracy": 1.32,
+                    "duels_won_percent": 1.69,
+                    "errors_leading_to_shots_goals": -1.23,
+                    "total_distance_covered": 2.55,
+                    "sprint_distance": 2.83,
+                    "mental_fatigue": 1.88,
+                    "training_load.session_intensity": 1.92
+                },
+                5: {
+                    "tackles_won": 2.45,
+                    "clearances": 2.62,
+                    "passing_accuracy": 1.33,
+                    "duels_won_percent": 1.88,
+                    "errors_leading_to_shots_goals": -1.45,
+                    "total_distance_covered": 2.92,
+                    "sprint_distance": 3.38,
+                    "mental_fatigue": 2.45,
+                    "training_load.session_intensity": 2.7
+                },
+            },
+            "Mid_Block": {
+                2: {
+                    "tackles_won": 1.08,
+                    "clearances": 1.17,
+                    "passing_accuracy": 0.41,
+                    "duels_won_percent": 0.79,
+                    "errors_leading_to_shots_goals": -0.58,
+                    "total_distance_covered": 1.29,
+                    "sprint_distance": 1.52,
+                    "mental_fatigue": 0.82,
+                    "training_load.session_intensity": 0.94
+                },
+                3: {
+                    "tackles_won": 1.5,
+                    "clearances": 1.63,
+                    "passing_accuracy": 0.96,
+                    "duels_won_percent": 1.19,
+                    "errors_leading_to_shots_goals": -1.04,
+                    "total_distance_covered": 1.73,
+                    "sprint_distance": 2.0,
+                    "mental_fatigue": 1.3,
+                    "training_load.session_intensity": 1.66
+                },
+                4: {
+                    "tackles_won": 1.9,
+                    "clearances": 2.16,
+                    "passing_accuracy": 1.33,
+                    "duels_won_percent": 1.65,
+                    "errors_leading_to_shots_goals": -1.29,
+                    "total_distance_covered": 2.33,
+                    "sprint_distance": 2.64,
+                    "mental_fatigue": 2.02,
+                    "training_load.session_intensity": 2.01
+                },
+                5: {
+                    "tackles_won": 2.69,
+                    "clearances": 2.5,
+                    "passing_accuracy": 1.38,
+                    "duels_won_percent": 2.08,
+                    "errors_leading_to_shots_goals": -1.41,
+                    "total_distance_covered": 2.86,
+                    "sprint_distance": 3.59,
+                    "mental_fatigue": 2.4,
+                    "training_load.session_intensity": 2.69
+                },
+            },
+        },
+        "Situational_Training": {
+            "10v11_Scenarios": {
+                2: {
+                    "tackles_won": 1.02,
+                    "clearances": 1.04,
+                    "passing_accuracy": 0.6,
+                    "duels_won_percent": 0.62,
+                    "errors_leading_to_shots_goals": -0.57,
+                    "total_distance_covered": 1.09,
+                    "sprint_distance": 1.23,
+                    "mental_fatigue": 0.98,
+                    "training_load.session_intensity": 0.86
+                },
+                3: {
+                    "tackles_won": 1.52,
+                    "clearances": 1.31,
+                    "passing_accuracy": 0.84,
+                    "duels_won_percent": 1.12,
+                    "errors_leading_to_shots_goals": -0.86,
+                    "total_distance_covered": 1.89,
+                    "sprint_distance": 1.93,
+                    "mental_fatigue": 1.41,
+                    "training_load.session_intensity": 1.39
+                },
+                4: {
+                    "tackles_won": 1.87,
+                    "clearances": 2.03,
+                    "passing_accuracy": 1.25,
+                    "duels_won_percent": 1.52,
+                    "errors_leading_to_shots_goals": -1.34,
+                    "total_distance_covered": 2.31,
+                    "sprint_distance": 2.87,
+                    "mental_fatigue": 1.89,
+                    "training_load.session_intensity": 2.09
+                },
+                5: {
+                    "tackles_won": 2.46,
+                    "clearances": 2.34,
+                    "passing_accuracy": 1.47,
+                    "duels_won_percent": 1.83,
+                    "errors_leading_to_shots_goals": -1.6,
+                    "total_distance_covered": 3.02,
+                    "sprint_distance": 3.6,
+                    "mental_fatigue": 2.51,
+                    "training_load.session_intensity": 2.58
+                },
+            },
+            "Protecting_Lead": {
+                2: {
+                    "tackles_won": 1.03,
+                    "clearances": 1.16,
+                    "passing_accuracy": 0.62,
+                    "duels_won_percent": 0.64,
+                    "errors_leading_to_shots_goals": -0.51,
+                    "total_distance_covered": 1.3,
+                    "sprint_distance": 1.55,
+                    "mental_fatigue": 1.0,
+                    "training_load.session_intensity": 1.12
+                },
+                3: {
+                    "tackles_won": 1.64,
+                    "clearances": 1.63,
+                    "passing_accuracy": 0.78,
+                    "duels_won_percent": 1.32,
+                    "errors_leading_to_shots_goals": -0.82,
+                    "total_distance_covered": 1.84,
+                    "sprint_distance": 1.91,
+                    "mental_fatigue": 1.37,
+                    "training_load.session_intensity": 1.43
+                },
+                4: {
+                    "tackles_won": 1.99,
+                    "clearances": 2.17,
+                    "passing_accuracy": 1.14,
+                    "duels_won_percent": 1.44,
+                    "errors_leading_to_shots_goals": -1.27,
+                    "total_distance_covered": 2.23,
+                    "sprint_distance": 2.86,
+                    "mental_fatigue": 2.09,
+                    "training_load.session_intensity": 1.88
+                },
+                5: {
+                    "tackles_won": 2.57,
+                    "clearances": 2.4,
+                    "passing_accuracy": 1.49,
+                    "duels_won_percent": 2.02,
+                    "errors_leading_to_shots_goals": -1.45,
+                    "total_distance_covered": 2.95,
+                    "sprint_distance": 3.37,
+                    "mental_fatigue": 2.66,
+                    "training_load.session_intensity": 2.65
+                },
+            },
+            "Playing_From_Behind": {
+                2: {
+                    "tackles_won": 1.05,
+                    "clearances": 0.98,
+                    "passing_accuracy": 0.58,
+                    "duels_won_percent": 0.76,
+                    "errors_leading_to_shots_goals": -0.7,
+                    "total_distance_covered": 1.32,
+                    "sprint_distance": 1.46,
+                    "mental_fatigue": 1.05,
+                    "training_load.session_intensity": 1.01
+                },
+                3: {
+                    "tackles_won": 1.5,
+                    "clearances": 1.49,
+                    "passing_accuracy": 0.92,
+                    "duels_won_percent": 1.27,
+                    "errors_leading_to_shots_goals": -0.96,
+                    "total_distance_covered": 1.96,
+                    "sprint_distance": 1.95,
+                    "mental_fatigue": 1.57,
+                    "training_load.session_intensity": 1.6
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 1.99,
+                    "passing_accuracy": 1.26,
+                    "duels_won_percent": 1.71,
+                    "errors_leading_to_shots_goals": -1.31,
+                    "total_distance_covered": 2.39,
+                    "sprint_distance": 2.92,
+                    "mental_fatigue": 2.0,
+                    "training_load.session_intensity": 2.17
+                },
+                5: {
+                    "tackles_won": 2.39,
+                    "clearances": 2.67,
+                    "passing_accuracy": 1.36,
+                    "duels_won_percent": 2.12,
+                    "errors_leading_to_shots_goals": -1.61,
+                    "total_distance_covered": 2.92,
+                    "sprint_distance": 3.59,
+                    "mental_fatigue": 2.34,
+                    "training_load.session_intensity": 2.36
+                },
+            },
+            "Penalty_Shootout": {
+                2: {
+                    "tackles_won": 0.95,
+                    "clearances": 0.99,
+                    "passing_accuracy": 0.51,
+                    "duels_won_percent": 0.65,
+                    "errors_leading_to_shots_goals": -0.55,
+                    "total_distance_covered": 1.31,
+                    "sprint_distance": 1.26,
+                    "mental_fatigue": 1.09,
+                    "training_load.session_intensity": 1.18
+                },
+                3: {
+                    "tackles_won": 1.49,
+                    "clearances": 1.5,
+                    "passing_accuracy": 0.78,
+                    "duels_won_percent": 1.17,
+                    "errors_leading_to_shots_goals": -0.83,
+                    "total_distance_covered": 1.76,
+                    "sprint_distance": 1.93,
+                    "mental_fatigue": 1.47,
+                    "training_load.session_intensity": 1.57
+                },
+                4: {
+                    "tackles_won": 1.87,
+                    "clearances": 1.94,
+                    "passing_accuracy": 1.38,
+                    "duels_won_percent": 1.77,
+                    "errors_leading_to_shots_goals": -1.36,
+                    "total_distance_covered": 2.3,
+                    "sprint_distance": 2.97,
+                    "mental_fatigue": 1.98,
+                    "training_load.session_intensity": 2.11
+                },
+                5: {
+                    "tackles_won": 2.53,
+                    "clearances": 2.66,
+                    "passing_accuracy": 1.32,
+                    "duels_won_percent": 2.0,
+                    "errors_leading_to_shots_goals": -1.44,
+                    "total_distance_covered": 2.83,
+                    "sprint_distance": 3.35,
+                    "mental_fatigue": 2.61,
+                    "training_load.session_intensity": 2.51
+                },
+            },
+        },
+        "Leadership_Communication": {
+            "Communication_Drills": {
+                2: {
+                    "tackles_won": 0.92,
+                    "clearances": 0.81,
+                    "passing_accuracy": 0.59,
+                    "duels_won_percent": 0.93,
+                    "errors_leading_to_shots_goals": -0.69,
+                    "total_distance_covered": 1.17,
+                    "sprint_distance": 1.34,
+                    "mental_fatigue": 1.05,
+                    "training_load.session_intensity": 0.93
+                },
+                3: {
+                    "tackles_won": 1.35,
+                    "clearances": 1.32,
+                    "passing_accuracy": 0.8,
+                    "duels_won_percent": 1.15,
+                    "errors_leading_to_shots_goals": -0.72,
+                    "total_distance_covered": 1.84,
+                    "sprint_distance": 2.24,
+                    "mental_fatigue": 1.39,
+                    "training_load.session_intensity": 1.3
+                },
+                4: {
+                    "tackles_won": 1.96,
+                    "clearances": 2.07,
+                    "passing_accuracy": 1.24,
+                    "duels_won_percent": 1.59,
+                    "errors_leading_to_shots_goals": -1.13,
+                    "total_distance_covered": 2.26,
+                    "sprint_distance": 2.92,
+                    "mental_fatigue": 2.04,
+                    "training_load.session_intensity": 2.06
+                },
+                5: {
+                    "tackles_won": 2.34,
+                    "clearances": 2.48,
+                    "passing_accuracy": 1.47,
+                    "duels_won_percent": 2.01,
+                    "errors_leading_to_shots_goals": -1.64,
+                    "total_distance_covered": 3.13,
+                    "sprint_distance": 3.47,
+                    "mental_fatigue": 2.5,
+                    "training_load.session_intensity": 2.33
+                },
+            },
+            "Leadership_Development": {
+                2: {
+                    "tackles_won": 1.1,
+                    "clearances": 1.08,
+                    "passing_accuracy": 0.78,
+                    "duels_won_percent": 0.99,
+                    "errors_leading_to_shots_goals": -0.75,
+                    "total_distance_covered": 1.27,
+                    "sprint_distance": 1.49,
+                    "mental_fatigue": 1.17,
+                    "training_load.session_intensity": 1.0
+                },
+                3: {
+                    "tackles_won": 1.37,
+                    "clearances": 1.37,
+                    "passing_accuracy": 1.03,
+                    "duels_won_percent": 1.28,
+                    "errors_leading_to_shots_goals": -0.77,
+                    "total_distance_covered": 1.83,
+                    "sprint_distance": 2.25,
+                    "mental_fatigue": 1.32,
+                    "training_load.session_intensity": 1.49
+                },
+                4: {
+                    "tackles_won": 1.9,
+                    "clearances": 2.11,
+                    "passing_accuracy": 1.25,
+                    "duels_won_percent": 1.53,
+                    "errors_leading_to_shots_goals": -1.4,
+                    "total_distance_covered": 2.49,
+                    "sprint_distance": 2.74,
+                    "mental_fatigue": 2.12,
+                    "training_load.session_intensity": 2.12
+                },
+                5: {
+                    "tackles_won": 2.31,
+                    "clearances": 2.64,
+                    "passing_accuracy": 1.37,
+                    "duels_won_percent": 2.09,
+                    "errors_leading_to_shots_goals": -1.65,
+                    "total_distance_covered": 2.97,
+                    "sprint_distance": 3.5,
+                    "mental_fatigue": 2.56,
+                    "training_load.session_intensity": 2.65
+                },
+            },
+        },
+        "Explosiveness_Reaction_Training": {
+            "Resistance_Sprints": {
+                2: {
+                    "tackles_won": 0.93,
+                    "clearances": 1.16,
+                    "passing_accuracy": 0.71,
+                    "duels_won_percent": 0.94,
+                    "errors_leading_to_shots_goals": -0.75,
+                    "total_distance_covered": 2.23,
+                    "sprint_distance": 2.65,
+                    "mental_fatigue": 1.62,
+                    "training_load.session_intensity": 1.13
+                },
+                3: {
+                    "tackles_won": 1.49,
+                    "clearances": 1.68,
+                    "passing_accuracy": 0.92,
+                    "duels_won_percent": 1.1,
+                    "errors_leading_to_shots_goals": -1.0,
+                    "total_distance_covered": 3.45,
+                    "sprint_distance": 3.69,
+                    "mental_fatigue": 2.32,
+                    "training_load.session_intensity": 1.67
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 2.06,
+                    "passing_accuracy": 1.37,
+                    "duels_won_percent": 1.43,
+                    "errors_leading_to_shots_goals": -1.3,
+                    "total_distance_covered": 4.11,
+                    "sprint_distance": 4.84,
+                    "mental_fatigue": 2.83,
+                    "training_load.session_intensity": 1.88
+                },
+                5: {
+                    "tackles_won": 2.65,
+                    "clearances": 2.48,
+                    "passing_accuracy": 1.42,
+                    "duels_won_percent": 1.99,
+                    "errors_leading_to_shots_goals": -1.69,
+                    "total_distance_covered": 5.41,
+                    "sprint_distance": 6.31,
+                    "mental_fatigue": 3.7,
+                    "training_load.session_intensity": 2.36
+                },
+            },
+            "Ball_Drop_Reaction": {
+                2: {
+                    "tackles_won": 1.03,
+                    "clearances": 0.92,
+                    "passing_accuracy": 0.69,
+                    "duels_won_percent": 0.78,
+                    "errors_leading_to_shots_goals": -0.44,
+                    "total_distance_covered": 1.07,
+                    "sprint_distance": 1.6,
+                    "mental_fatigue": 1.03,
+                    "training_load.session_intensity": 1.07
+                },
+                3: {
+                    "tackles_won": 1.45,
+                    "clearances": 1.65,
+                    "passing_accuracy": 0.96,
+                    "duels_won_percent": 1.27,
+                    "errors_leading_to_shots_goals": -0.91,
+                    "total_distance_covered": 1.96,
+                    "sprint_distance": 1.99,
+                    "mental_fatigue": 1.31,
+                    "training_load.session_intensity": 1.62
+                },
+                4: {
+                    "tackles_won": 2.0,
+                    "clearances": 1.98,
+                    "passing_accuracy": 1.2,
+                    "duels_won_percent": 1.55,
+                    "errors_leading_to_shots_goals": -1.13,
+                    "total_distance_covered": 2.37,
+                    "sprint_distance": 2.89,
+                    "mental_fatigue": 1.8,
+                    "training_load.session_intensity": 1.81
+                },
+                5: {
+                    "tackles_won": 2.66,
+                    "clearances": 2.51,
+                    "passing_accuracy": 1.31,
+                    "duels_won_percent": 2.0,
+                    "errors_leading_to_shots_goals": -1.46,
+                    "total_distance_covered": 3.06,
+                    "sprint_distance": 3.42,
+                    "mental_fatigue": 2.69,
+                    "training_load.session_intensity": 2.49
+                },
+            },
+            "Mirror_Drills": {
+                2: {
+                    "tackles_won": 1.01,
+                    "clearances": 0.94,
+                    "passing_accuracy": 0.79,
+                    "duels_won_percent": 0.88,
+                    "errors_leading_to_shots_goals": -0.59,
+                    "total_distance_covered": 1.21,
+                    "sprint_distance": 1.35,
+                    "mental_fatigue": 1.02,
+                    "training_load.session_intensity": 1.18
+                },
+                3: {
+                    "tackles_won": 1.41,
+                    "clearances": 1.32,
+                    "passing_accuracy": 0.98,
+                    "duels_won_percent": 1.18,
+                    "errors_leading_to_shots_goals": -0.72,
+                    "total_distance_covered": 1.96,
+                    "sprint_distance": 1.95,
+                    "mental_fatigue": 1.35,
+                    "training_load.session_intensity": 1.54
+                },
+                4: {
+                    "tackles_won": 2.08,
+                    "clearances": 1.8,
+                    "passing_accuracy": 1.02,
+                    "duels_won_percent": 1.54,
+                    "errors_leading_to_shots_goals": -1.33,
+                    "total_distance_covered": 2.22,
+                    "sprint_distance": 2.8,
+                    "mental_fatigue": 1.95,
+                    "training_load.session_intensity": 1.82
+                },
+                5: {
+                    "tackles_won": 2.6,
+                    "clearances": 2.43,
+                    "passing_accuracy": 1.68,
+                    "duels_won_percent": 1.85,
+                    "errors_leading_to_shots_goals": -1.42,
+                    "total_distance_covered": 2.83,
+                    "sprint_distance": 3.5,
+                    "mental_fatigue": 2.6,
+                    "training_load.session_intensity": 2.63
+                },
+            },
+            "Quick_Feet_Reaction": {
+                2: {
+                    "tackles_won": 1.18,
+                    "clearances": 0.81,
+                    "passing_accuracy": 0.48,
+                    "duels_won_percent": 0.92,
+                    "errors_leading_to_shots_goals": -0.46,
+                    "total_distance_covered": 1.21,
+                    "sprint_distance": 1.28,
+                    "mental_fatigue": 0.97,
+                    "training_load.session_intensity": 1.17
+                },
+                3: {
+                    "tackles_won": 1.58,
+                    "clearances": 1.61,
+                    "passing_accuracy": 0.94,
+                    "duels_won_percent": 1.39,
+                    "errors_leading_to_shots_goals": -0.73,
+                    "total_distance_covered": 1.74,
+                    "sprint_distance": 2.0,
+                    "mental_fatigue": 1.53,
+                    "training_load.session_intensity": 1.49
+                },
+                4: {
+                    "tackles_won": 1.91,
+                    "clearances": 1.86,
+                    "passing_accuracy": 1.02,
+                    "duels_won_percent": 1.43,
+                    "errors_leading_to_shots_goals": -1.03,
+                    "total_distance_covered": 2.26,
+                    "sprint_distance": 2.71,
+                    "mental_fatigue": 2.02,
+                    "training_load.session_intensity": 1.8
+                },
+                5: {
+                    "tackles_won": 2.47,
+                    "clearances": 2.6,
+                    "passing_accuracy": 1.57,
+                    "duels_won_percent": 1.84,
+                    "errors_leading_to_shots_goals": -1.65,
+                    "total_distance_covered": 3.07,
+                    "sprint_distance": 3.31,
+                    "mental_fatigue": 2.38,
+                    "training_load.session_intensity": 2.42
+                },
+            },
+        },
+    }
+}
