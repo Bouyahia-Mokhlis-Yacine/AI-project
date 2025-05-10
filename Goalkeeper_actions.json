@@ -1,0 +1,277 @@
+{  
+  "Shot-Stopping Intensive": {  
+    "1v1 Reflex Training": {  
+      "reflexes": 0.25,  
+      "parrying": -0.05,  
+      "acute_workload": 0.15,  
+      "days_since_last_injury": -0.1  
+    },  
+    "Low Dive Technique": {  
+      "parrying": 0.2,  
+      "awareness": 0.1,  
+      "acute_workload": 0.2,  
+      "chronic_workload": 0.1  
+    },  
+    "Angle Reduction Drills": {  
+      "awareness": 0.35,  
+      "reach": 0.05,  
+      "chronic_workload": 0.05  
+    },  
+    "Parry Control Practice": {  
+      "parrying": 0.3,  
+      "catching": -0.03,  
+      "acute_workload": 0.1  
+    },  
+    "Breakaway Scenarios": {  
+      "reflexes": 0.2,  
+      "reach": 0.1,  
+      "acute_workload": 0.25,  
+      "days_since_last_injury": -0.15  
+    }  
+  },  
+  "Aerial Dominance": {  
+    "Cross Claim Mastery": {  
+      "catching": 0.4,  
+      "awareness": 0.15,  
+      "chronic_workload": 0.1  
+    },  
+    "High Ball Catching": {  
+      "reach": 0.25,  
+      "catching": 0.3,  
+      "acute_workload": 0.15  
+    },  
+    "Crowded Box Drills": {  
+      "awareness": 0.35,  
+      "parrying": 0.1,  
+      "days_since_last_injury": -0.05  
+    },  
+    "Punching Technique": {  
+      "parrying": 0.3,  
+      "reach": 0.1,  
+      "acute_workload": 0.1  
+    },  
+    "Set-Piece Command": {  
+      "awareness": 0.25,  
+      "parrying": 0.15,  
+      "chronic_workload": 0.05  
+    }  
+  },  
+  "Distribution Mastery": {  
+    "Long Throw Accuracy": {  
+      "reach": 0.35,  
+      "reflexes": 0.2,  
+      "chronic_workload": 0.1  
+    },  
+    "Goal Kick Strategy": {  
+      "awareness": 0.3,  
+      "reflexes": 0.15,  
+      "acute_workload": 0.1  
+    },  
+    "Sweeper-Keeper Drills": {  
+      "reflexes": 0.4,  
+      "reach": 0.25,  
+      "acute_workload": 0.3  
+    },  
+    "Short Build-Up Play": {  
+      "reflexes": 0.3,  
+      "awareness": 0.15,  
+      "chronic_workload": 0.05  
+    },  
+    "Pressure Clearances": {  
+      "parrying": 0.35,  
+      "reflexes": -0.1,  
+      "acute_workload": 0.2  
+    }  
+  },  
+  "Athletic Development": {  
+    "Plyometric Power Jumps": {  
+      "reach": 0.5,  
+      "parrying": 0.2,  
+      "acute_workload": 0.4,  
+      "days_since_last_injury": -0.2  
+    },  
+    "Acceleration Sprints": {  
+      "reach": 0.45,  
+      "reflexes": 0.15,  
+      "acute_workload": 0.3  
+    },  
+    "Endurance Circuits": {  
+      "reflexes": 0.3,  
+      "reach": 0.1,  
+      "chronic_workload": 0.4  
+    },  
+    "Core Stability Training": {  
+      "parrying": 0.2,  
+      "awareness": 0.1,  
+      "chronic_workload": 0.1  
+    },  
+    "Resistance Band Work": {  
+      "parrying": 0.25,  
+      "catching": 0.15,  
+      "acute_workload": 0.1  
+    }  
+  },  
+  "Cognitive Fortitude": {  
+    "Pressure Simulation": {  
+      "reflexes": 0.4,  
+      "awareness": 0.2,  
+      "chronic_workload": 0.15  
+    },  
+    "Error Recovery Scenarios": {  
+      "reflexes": -0.15,  
+      "awareness": 0.25,  
+      "days_since_last_injury": 0.2  
+    },  
+    "Visualization Drills": {  
+      "awareness": 0.3,  
+      "reflexes": 0.2,  
+      "chronic_workload": 0.05  
+    },  
+    "Focus Maintenance": {  
+      "reflexes": 0.35,  
+      "awareness": 0.15,  
+      "acute_workload": 0.1  
+    },  
+    "Decision Fatigue Training": {  
+      "reflexes": -0.2,  
+      "awareness": -0.1,  
+      "days_since_last_injury": -0.1  
+    }  
+  },  
+  "Defensive Structure": {  
+    "Shape Coordination": {  
+      "awareness": 0.45,  
+      "parrying": 0.2,  
+      "chronic_workload": 0.1  
+    },  
+    "Transition Communication": {  
+      "awareness": 0.3,  
+      "reflexes": 0.15,  
+      "acute_workload": 0.1  
+    },  
+    "Pressing Triggers": {  
+      "parrying": 0.35,  
+      "reflexes": 0.1,  
+      "days_since_last_injury": -0.05  
+    },  
+    "Cover Shadow Drills": {  
+      "awareness": 0.4,  
+      "reach": 0.15,  
+      "chronic_workload": 0.05  
+    },  
+    "Recovery Sprinting": {  
+      "reach": 0.3,  
+      "reflexes": 0.2,  
+      "acute_workload": 0.35  
+    }  
+  },  
+  "Regeneration Protocol": {  
+    "Hydrotherapy Session": {  
+      "reflexes": 0.15,  
+      "reach": 0.1,  
+      "chronic_workload": -0.3,  
+      "days_since_last_injury": 0.3  
+    },  
+    "Mobility Yoga": {  
+      "parrying": 0.1,  
+      "catching": 0.05,  
+      "days_since_last_injury": 0.2  
+    },  
+    "Foam Rolling": {  
+      "reflexes": 0.2,  
+      "awareness": 0.1,  
+      "acute_workload": -0.25  
+    },  
+    "Breathing Control": {  
+      "reflexes": 0.25,  
+      "awareness": 0.15,  
+      "chronic_workload": -0.15  
+    },  
+    "Prehab Circuit": {  
+      "parrying": 0.1,  
+      "catching": 0.05,  
+      "days_since_last_injury": 0.1  
+    }  
+  },  
+  "Tactical Study": {  
+    "Defensive Video Analysis": {  
+      "awareness": 0.35,  
+      "parrying": 0.15,  
+      "chronic_workload": 0.08  
+    },  
+    "Distribution Pattern Review": {  
+      "awareness": 0.25,  
+      "reach": 0.1,  
+      "chronic_workload": 0.05  
+    },  
+    "Error Breakdown Session": {  
+      "awareness": 0.3,  
+      "reflexes": -0.1,  
+      "acute_workload": 0.1  
+    },  
+    "Set-Piece Film Study": {  
+      "parrying": 0.2,  
+      "awareness": 0.25,  
+      "chronic_workload": 0.05  
+    },  
+    "Opponent Tendency Workshop": {  
+      "awareness": 0.3,  
+      "reflexes": 0.15,  
+      "chronic_workload": 0.08  
+    }  
+  },  
+  "Game Simulation": {  
+    "Penalty Shootout": {  
+      "reflexes": 0.45,  
+      "parrying": 0.2,  
+      "acute_workload": 0.4  
+    },  
+    "Weather Adaptation": {  
+      "catching": 0.3,  
+      "reach": 0.25,  
+      "days_since_last_injury": -0.1  
+    },  
+    "Counter-Attack Defense": {  
+      "reach": 0.35,  
+      "parrying": 0.3,  
+      "acute_workload": 0.3  
+    },  
+    "Narrow Lead Protection": {  
+      "parrying": 0.4,  
+      "reflexes": -0.15,  
+      "chronic_workload": 0.2  
+    },  
+    "Red Card Scenario": {  
+      "catching": 0.25,  
+      "parrying": 0.35,  
+      "days_since_last_injury": -0.15  
+    }  
+  },  
+  "Holistic Development": {  
+    "Cross-Training Circuit": {  
+      "reach": 0.2,  
+      "reflexes": 0.15,  
+      "chronic_workload": 0.1  
+    },  
+    "Finishing Technique": {  
+      "reflexes": 0.25,  
+      "awareness": 0.1,  
+      "acute_workload": 0.1  
+    },  
+    "Leadership Drills": {  
+      "awareness": 0.2,  
+      "parrying": 0.1,  
+      "chronic_workload": 0.05  
+    },  
+    "Reaction Chain": {  
+      "reflexes": 0.4,  
+      "awareness": 0.15,  
+      "acute_workload": 0.2  
+    },  
+    "Full Match Simulation": {  
+      "reflexes": 0.3,  
+      "reach": 0.25,  
+      "acute_workload": 0.5  
+    }  
+  }  
+}  

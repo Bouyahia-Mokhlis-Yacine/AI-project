@@ -1,0 +1,173 @@
+{
+    "Ball Mastery & Control": {
+      "Close Control Drills": {
+        "dribbling": 0.3,
+        "first_touch": 0.2,
+        "acute_workload": 0.15
+      },
+      "Pressure Retention Challenge": {
+        "ball_retention": 0.3,
+        "composure": 0.2,
+        "chronic_workload": 0.05
+      },
+      "1v1 Tight Spaces": {
+        "dribbling": 0.25,
+        "reaction_time": 0.2,
+        "acute_workload": 0.2
+      }
+    },
+    "Vision & Passing": {
+      "Through Ball Vision Drill": {
+        "vision": 0.3,
+        "short_passing": 0.25,
+        "acute_workload": 0.1
+      },
+      "Long Pass Switch Practice": {
+        "long_passing": 0.3,
+        "awareness": 0.2,
+        "chronic_workload": 0.1
+      },
+      "Quick Passing Circuits": {
+        "passing_accuracy": 0.25,
+        "decision_making": 0.2,
+        "acute_workload": 0.15
+      }
+    },
+    "Spatial Awareness": {
+      "Scanning Simulation": {
+        "awareness": 0.3,
+        "positioning": 0.25,
+        "acute_workload": 0.1
+      },
+      "Off-the-Ball Movement": {
+        "movement": 0.3,
+        "stamina": 0.15,
+        "chronic_workload": 0.05
+      },
+      "Dynamic Position Grids": {
+        "positioning": 0.3,
+        "vision": 0.2,
+        "acute_workload": 0.15
+      }
+    },
+    "Athletic Performance": {
+      "Agility Ladder Drill": {
+        "agility": 0.3,
+        "balance": 0.2,
+        "acute_workload": 0.2
+      },
+      "Explosive Strength Sets": {
+        "strength": 0.3,
+        "injury_risk": 0.1,
+        "chronic_workload": 0.1
+      },
+      "Endurance Intervals": {
+        "stamina": 0.3,
+        "recovery_rate": 0.15,
+        "acute_workload": 0.25
+      }
+    },
+    "Mental Resilience": {
+      "Focus Retention Drills": {
+        "concentration": 0.3,
+        "mental_fatigue": -0.1,
+        "chronic_workload": 0.05
+      },
+      "Pressure Decision Making": {
+        "decision_making": 0.3,
+        "composure": 0.25,
+        "acute_workload": 0.15
+      },
+      "Confidence Circuits": {
+        "confidence": 0.3,
+        "stress_tolerance": 0.2,
+        "acute_workload": 0.1
+      }
+    },
+    "Tactical Intelligence": {
+      "Pressing Triggers Simulation": {
+        "pressing": 0.3,
+        "awareness": 0.2,
+        "acute_workload": 0.15
+      },
+      "Zonal Compactness Drill": {
+        "positioning": 0.25,
+        "marking": 0.2,
+        "chronic_workload": 0.1
+      },
+      "Game Reading Scenarios": {
+        "tactical_anticipation": 0.3,
+        "reaction_time": 0.2,
+        "acute_workload": 0.2
+      }
+    },
+    "Match Simulation": {
+      "Small-Sided Tactical Game": {
+        "decision_making": 0.3,
+        "endurance": 0.2,
+        "acute_workload": 0.25
+      },
+      "Match-Condition Drill": {
+        "positioning": 0.2,
+        "passing_accuracy": 0.25,
+        "chronic_workload": 0.1
+      },
+      "Real-Scenario Game Play": {
+        "vision": 0.25,
+        "communication": 0.2,
+        "acute_workload": 0.2
+      }
+    },
+    "Recovery & Wellness": {
+      "Post-Session Stretching": {
+        "flexibility": 0.3,
+        "injury_risk": -0.2,
+        "chronic_workload": -0.1
+      },
+      "Hydration Monitoring": {
+        "hydration_level": 0.3,
+        "fatigue": -0.1,
+        "days_since_last_injury": -0.05
+      },
+      "Physio Recovery Routine": {
+        "injury_risk": -0.25,
+        "recovery_rate": 0.3,
+        "chronic_workload": -0.1
+      }
+    },
+    "Team Synergy": {
+      "Communication Grid": {
+        "communication": 0.3,
+        "positioning": 0.2,
+        "acute_workload": 0.1
+      },
+      "Leadership Scenario Drill": {
+        "leadership": 0.3,
+        "decision_making": 0.2,
+        "acute_workload": 0.15
+      },
+      "Adaptive Team Play": {
+        "teamwork": 0.3,
+        "awareness": 0.2,
+        "chronic_workload": 0.1
+      }
+    },
+    "Holistic Growth": {
+      "Journaling & Self-Review": {
+        "self_awareness": 0.3,
+        "mental_fatigue": -0.1,
+        "chronic_workload": 0.05
+      },
+      "Goal Setting Workshop": {
+        "motivation": 0.3,
+        "discipline": 0.2,
+        "chronic_workload": 0.05
+      },
+      "Mindfulness & Breathing": {
+        "stress_tolerance": 0.3,
+        "focus": 0.2,
+        "days_since_last_injury": -0.1
+      }
+    }
+  }
+  

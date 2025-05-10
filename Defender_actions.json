@@ -1,0 +1,155 @@
+{
+  "Warm-up & Mobility": {
+    "Dynamic Stretching": {
+      "sprint_distance": 0.1,
+      "injury_prevention": 0.25,
+      "fatigue_score": -0.1
+    },
+    "Sprint Mechanics Drills": {
+      "sprint_distance": 0.2,
+      "total_distance": 0.15,
+      "injury_prevention": 0.1
+    },
+    "Mobility Drills": {
+      "injury_prevention": 0.3,
+      "flexibility_score": 0.2
+    },
+    "Reactive Movement Games": {
+      "mental_fatigue": -0.2,
+      "reaction_time": 0.15
+    }
+  },
+  "Technical Defensive Skills": {
+    "Tackling Circuit": {
+      "tackles_won": 0.4,
+      "defensive_errors": -0.1,
+      "injury_prevention": -0.05
+    },
+    "Clearance Accuracy Drills": {
+      "clearances": 0.35,
+      "aerial_duels_won": 0.1
+    },
+    "Passing Under Pressure": {
+      "passing_accuracy": 0.4,
+      "mental_fatigue": 0.1
+    }
+  },
+  "Duel Dominance Training": {
+    "1v1 Ground Duels": {
+      "ground_duels_won": 0.3,
+      "defensive_errors": -0.1
+    },
+    "2v2 Possession Battles": {
+      "duel_resilience": 0.25,
+      "decision_making": 0.2
+    },
+    "Decision-Making Simulations": {
+      "defensive_errors": -0.2,
+      "tackles_won": 0.15
+    }
+  },
+  "Sprint & Aerobic Conditioning": {
+    "Maximal Sprints": {
+      "sprint_distance": 0.4,
+      "sprint_speed": 0.3
+    },
+    "Curve Sprints": {
+      "sprint_distance": 0.25,
+      "defensive_coverage": 0.2
+    },
+    "RSA Sprints": {
+      "VO2_max": 0.4,
+      "fatigue_resistance": 0.25
+    }
+  },
+  "Strength & Power": {
+    "Trap Bar Deadlifts": {
+      "lower_body_strength": 0.5,
+      "jump_power": 0.25
+    },
+    "Bulgarian Split Squats": {
+      "unilateral_strength": 0.4,
+      "injury_prevention": 0.15
+    },
+    "Plyometric Jumps": {
+      "jump_power": 0.5,
+      "aerial_duels_won": 0.2
+    }
+  },
+  "Cognitive & Mental Sharpness": {
+    "Ball-Drop Reactions": {
+      "reaction_time": 0.35,
+      "mental_fatigue": -0.1
+    },
+    "Stimulus Response Drills": {
+      "reaction_time": 0.3,
+      "decision_speed": 0.25
+    },
+    "Small-Sided Games with Rules": {
+      "mental_fatigue": -0.2,
+      "decision_making": 0.3
+    }
+  },
+  "Recovery & Wellness": {
+    "Guided Yoga": {
+      "fatigue_score": -0.3,
+      "recovery_quality": 0.2
+    },
+    "Breathing Exercises": {
+      "HRV": 0.25,
+      "stress_level": -0.2
+    },
+    "Sleep Hygiene Routine": {
+      "sleep_quality": 0.3,
+      "fatigue_score": -0.2
+    }
+  },
+  "Injury Prevention": {
+    "Ankle Stability Drills": {
+      "injury_prevention": 0.4,
+      "balance": 0.2
+    },
+    "Nordic Hamstring Curls": {
+      "injury_prevention": 0.5,
+      "posterior_chain_strength": 0.3
+    },
+    "Eccentric Quad/Calf Work": {
+      "injury_prevention": 0.35,
+      "muscle_resilience": 0.25
+    },
+    "Flexibility Work": {
+      "flexibility_score": 0.4,
+      "injury_prevention": 0.3
+    }
+  },
+  "Tactical Defensive Scenarios": {
+    "10v11 Defense Drill": {
+      "tactical_adaptability": 0.4,
+      "defensive_resilience": 0.3
+    },
+    "Home/Away Simulation": {
+      "contextual_adaptability": 0.3,
+      "stress_management": 0.2
+    },
+    "Deep Block Adaptation": {
+      "tactical_flexibility": 0.35,
+      "positional_awareness": 0.25
+    }
+  },
+  "Video Review & Tactical IQ": {
+    "Self-Assessment Review": {
+      "defensive_errors": -0.3,
+      "tactical_awareness": 0.4
+    },
+    "Opposition Analysis": {
+      "anticipation": 0.3,
+      "decision_quality": 0.2
+    },
+    "Clearance & Positioning Review": {
+      "tactical_positioning": 0.35,
+      "clearance_success": 0.3
+    }
+  }
+}
+
+
