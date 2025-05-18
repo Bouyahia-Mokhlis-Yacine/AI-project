@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khalihaa | Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: #faf6fc;
+        color: #333;
+      }
+      header {
+        padding: 20px 40px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+      .nav-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
+      header h1 {
+        color: #7e3ff2;
+        margin: 0;
+        font-size: 20px;
+      }
+      header nav a {
+        text-decoration: none;
+        color: #7e3ff2;
+        font-weight: 600;
+      }
+      .connect-btn {
+        background: #7e3ff2;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .hero {
+        text-align: center;
+        padding: 80px 20px 40px;
+      }
+      .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+      .hero h2 span {
+        color: #7e3ff2;
+      }
+      .hero p {
+        font-size: 1.1rem;
+        color: #555;
+        max-width: 800px;
+        margin: 0 auto 30px;
+      }
+      .two-column-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 40px 20px;
+        background: #fff;
+      }
+      .text-column {
+        max-width: 500px;
+        flex: 1;
+      }
+      .image-column {
+        flex: 1;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .image-column img {
+        max-width: 300px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      }
+      .solution-section {
+        background: #e7dbf8;
+        padding: 60px 20px;
+        text-align: center;
+        max-width: 900px;
+        border-radius: 2%;
+        margin: 0 auto; /* ← This centers the section */
+      }
+      .solution-section h3 {
+        font-size: 2rem;
+        color: #7e3ff2;
+        margin-bottom: 20px;
+      }
+      .solution-section p {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+      }
+      .features-section {
+        padding: 60px 20px;
+        text-align: center;
+      }
+      .features-section h3 {
+        font-size: 1.8rem;
+        color: #7e3ff2;
+        margin-bottom: 40px;
+      }
+      .feature-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+      }
+      .feature-card {
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        padding: 30px;
+        max-width: 220px;
+        text-align: left;
+      }
+      .feature-card h4 {
+        color: #7e3ff2;
+        margin-bottom: 10px;
+      }
+      .feature-card p {
+        font-size: 0.95rem;
+        color: #555;
+      }
+      footer {
+        text-align: center;
+        padding: 30px;
+        font-size: 0.9rem;
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav-left">
+        <h1>Khalihaa.com</h1>
+      </div>
+      <div class="nav-center">
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="features.html">Features</a>
+          <a href="training.html">Training</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <a href="#" class="connect-btn">Connect</a>
+    </header>
+
+    <section class="hero">
+      <h2>
+        Revolutionize <span>sports performance</span> with AI-powered
+        recommendations<br /><span style="color: #7e3ff2"
+          >Prevent injuries</span
+        >
+        and <span style="color: #7e3ff2">Maximize results</span>
+      </h2>
+      <a
+        href="training.html"
+        style="
+          background: #7e3ff2;
+          color: white;
+          padding: 12px 24px;
+          border-radius: 8px;
+          text-decoration: none;
+          font-weight: 600;
+        "
+        >Start your free demo →</a
+      >
+    </section>
+
+    <section class="two-column-section">
+      <div class="text-column">
+        <h3>
+          What If Your Training Plan Knew Exactly When to Push and When to Rest?
+        </h3>
+        <p>
+          Every athlete and coach faces the same impossible dilemma: push too
+          hard and risk injury, or play it safe and leave results on the table.
+          Traditional training relies on guesswork, outdated rules of thumb,
+          generic wearables that only show data after the fact, and painful
+          trial and error. <strong>The cost?</strong> 62% of athletes suffer
+          preventable injuries each year, derailing progress and careers.
+        </p>
+      </div>
+      <div class="image-column">
+        <img src="athlete1.png" alt="Athlete 1" />
+        <img src="athlete2.png" alt="Athlete 2" />
+      </div>
+    </section>
+
+    <section class="solution-section">
+      <h3>Our Solution ?</h3>
+      <p>
+        Now there’s a better way. Our AI Performance Coach uses military grade
+        algorithms (CSP + Search) to analyze 17+ risk factors in real-time. It
+        doesn’t just track – it actively optimizes every rep, sprint, and
+        recovery session with surgical precision. Like having an elite sports
+        scientist in your ear, it gives crystal clear commands: “Reduce weight
+        by 10% – form deteriorating” or “Add 2 explosive drills – your recovery
+        score is 92%”.
+      </p>
+    </section>
+
+    <section class="features-section">
+      <h3>Key Features</h3>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h4>Real Time Injury Red Flags</h4>
+          <p>Our AI system spots danger before you feel it with live alerts.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Genetic Algorithm Optimized Plans</h4>
+          <p>
+            Your perfect workout: boost performance & stay under injury
+            thresholds.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h4>Position Specific Intelligence</h4>
+          <p>Goalkeepers ≠ Strikers. Our system knows the difference.</p>
+        </div>
+        <div class="feature-card">
+          <h4>Coach Grade Explanations</h4>
+          <p>
+            It explains every recommendation in a coach-speak you understand.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>© 2025 Khalihaa.com | All rights reserved.</footer>
+  </body>
+</html>

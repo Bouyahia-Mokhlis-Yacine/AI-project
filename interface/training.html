@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Powered Training Plan</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #faf6fc;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      header {
+        padding: 20px 40px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        color: #7e3ff2;
+        margin: 0;
+        font-size: 20px;
+      }
+      header nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #7e3ff2;
+        font-weight: 600;
+      }
+      .main-section {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 100vh;
+      }
+      .form-section {
+        flex: 1;
+        min-width: 400px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+      }
+      .image-section {
+        flex: 1;
+        position: relative;
+        background: url("football.jpg") center/cover no-repeat;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 40px;
+      }
+
+      .image-section::before {
+        content: "Revolutionize your training with smart, AI-powered decisions. Stay strong, stay safe, and push your limits with precision.";
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+        max-width: 80%;
+        text-align: center;
+        line-height: 1.6;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      h2 {
+        color: #7e3ff2;
+        margin-bottom: 20px;
+      }
+      label {
+        font-weight: 600;
+        display: block;
+        margin: 10px 0 5px;
+      }
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-family: inherit;
+      }
+      .tag-input {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      .tag-input input {
+        flex: 1;
+        border: none;
+        outline: none;
+      }
+      .tag {
+        background: #eae2f8;
+        padding: 5px 10px;
+        border-radius: 6px;
+      }
+      button {
+        background: #7e3ff2;
+        color: white;
+        padding: 12px 25px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #672dd2;
+      }
+      .plan {
+        margin-top: 30px;
+        padding: 20px;
+        background: #f5f1fb;
+        border-radius: 12px;
+      }
+      .plan-day {
+        margin-bottom: 20px;
+      }
+      .plan-day h4 {
+        margin-bottom: 8px;
+        color: #7e3ff2;
+      }
+      .gauge {
+        font-size: 14px;
+        background: #eae2f8;
+        padding: 6px 12px;
+        display: inline-block;
+        border-radius: 8px;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Khalihaa.com</h1>
+      <nav>
+        <a href="#featuress">Features</a>
+        <a href="index.html">Home</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="main-section">
+      <div class="form-section">
+        <h2>Tell Us About You. Get Smarter Training.</h2>
+        <form id="athleteForm">
+          <label>Player Name</label>
+          <input type="text" id="name" required />
+
+          <label>Age</label>
+          <input type="number" id="age" required />
+
+          <label>Sport / Position</label>
+          <select id="position" required>
+            <option>Goalkeeper</option>
+            <option>Defender</option>
+            <option>Midfielder</option>
+            <option>Forward</option>
+          </select>
+
+          <label>Injury History (Ctrl+Click to select multiple)</label>
+          <select id="injuries" multiple>
+            <option>Hamstring</option>
+            <option>Knee</option>
+            <option>Shoulder</option>
+            <option>Back</option>
+          </select>
+
+          <label>Fitness Level (1–10)</label>
+          <input type="range" min="1" max="10" id="fitness" />
+
+          <label>Weekly Availability (days)</label>
+          <select id="days">
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+          </select>
+
+          <label>Recovery Speed</label>
+          <select id="recovery">
+            <option>Fast</option>
+            <option>Moderate</option>
+            <option>Slow</option>
+          </select>
+
+          <label>Special Focus Areas</label>
+          <input
+            type="text"
+            id="focus"
+            placeholder="e.g., Sprinting, Endurance, Agility…"
+          />
+
+          <button type="submit">Get My AI Plan</button>
+        </form>
+
+        <div class="plan" id="plan" style="display: none">
+          <h3>Your AI-Powered Training Plan</h3>
+          <div id="planContent"></div>
+        </div>
+      </div>
+
+      <div class="image-section"></div>
+    </div>
+
+    <script>
+      document
+        .getElementById("athleteForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const planContent = document.getElementById("planContent");
+          const planBox = document.getElementById("plan");
+
+          const trainingDays = [
+            {
+              title: "Day 1",
+              sessions: [
+                "Sprint Drills – Moderate Intensity",
+                "Agility Ladder – Low Risk",
+              ],
+              risk: "Low",
+              boost: "+8%",
+            },
+            {
+              title: "Day 2",
+              sessions: ["Recovery Stretch & Ice Bath"],
+              risk: "Minimal",
+              boost: "+2%",
+            },
+            {
+              title: "Day 3",
+              sessions: [
+                "Tactical Drills – Position-Focused",
+                "Endurance Run – Moderate",
+              ],
+              risk: "Moderate",
+              boost: "+5.5%",
+            },
+          ];
+
+          planContent.innerHTML = "";
+          trainingDays.forEach((day) => {
+            planContent.innerHTML += `
+          <div class="plan-day">
+            <h4>${day.title}</h4>
+            <ul>
+              ${day.sessions.map((s) => `<li>${s}</li>`).join("")}
+            </ul>
+            <div class="gauge">Performance Boost: ${day.boost} | Risk: ${
+              day.risk
+            }</div>
+          </div>
+        `;
+          });
+
+          planBox.style.display = "block";
+        });
+    </script>
+  </body>
+</html>
