@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Features | Khalihaa</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #faf6fc;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 20px 40px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .nav-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
+
+      header h1 {
+        color: #7e3ff2;
+        margin: 0;
+        font-size: 20px;
+      }
+
+      header nav a {
+        text-decoration: none;
+        color: #7e3ff2;
+        font-weight: 600;
+      }
+
+      .connect-btn {
+        background: #7e3ff2;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #7e3ff2 0%, #672dd2 100%);
+        color: white;
+        padding: 160px 20px 100px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url("footabllStadium.jpg") center/cover;
+        opacity: 0.5;
+        z-index: 0;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .hero h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        line-height: 1.2;
+      }
+
+      .hero p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        padding: 60px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .feature-card {
+        background: white;
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(126, 63, 242, 0.15);
+      }
+
+      .feature-number {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 4rem;
+        font-weight: 700;
+        color: rgba(126, 63, 242, 0.1);
+        line-height: 1;
+      }
+
+      .feature-card h3 {
+        color: #7e3ff2;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        position: relative;
+      }
+
+      .feature-card p {
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .feature-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .feature-list li {
+        margin-bottom: 10px;
+        padding-left: 25px;
+        position: relative;
+      }
+
+      .feature-list li::before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: #7e3ff2;
+        font-weight: bold;
+      }
+
+      .tech-section {
+        background: #e7dbf8;
+        padding: 80px 20px;
+        text-align: center;
+      }
+
+      .tech-content {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .tech-section h2 {
+        color: #7e3ff2;
+        font-size: 2.5rem;
+        margin-bottom: 50px;
+      }
+
+      .tech-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+      }
+
+      .tech-card {
+        background: white;
+        border-radius: 15px;
+        padding: 30px;
+        text-align: left;
+      }
+
+      .tech-card h3 {
+        color: #7e3ff2;
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+      }
+
+      .tech-card p {
+        color: #666;
+        font-size: 0.95rem;
+      }
+
+      .cta-section {
+        background: linear-gradient(135deg, #7e3ff2 0%, #672dd2 100%);
+        color: white;
+        padding: 80px 20px;
+        text-align: center;
+      }
+
+      .cta-content {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .cta-section h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+      }
+
+      .cta-section p {
+        margin-bottom: 30px;
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+
+      .cta-btn {
+        display: inline-block;
+        background: white;
+        color: #7e3ff2;
+        padding: 15px 40px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .cta-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      @media (max-width: 768px) {
+        .hero h2 {
+          font-size: 2rem;
+        }
+
+        .features-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .tech-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav-left">
+        <h1>AthleTech.com</h1>
+      </div>
+      <div class="nav-center">
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="features.html">Features</a>
+          <a href="training.html">Training</a>
+        </nav>
+      </div>
+      <a href="#" class="connect-btn">Connect</a>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>The Missing Link Between Peak Performance and Injury Prevention</h2>
+        <p>
+          Our AI-powered system revolutionizes how athletes train, making
+          split-second decisions that keep you at your peak while preventing
+          injuries.
+        </p>
+      </div>
+    </section>
+
+    <section class="features-grid">
+      <div class="feature-card">
+        <div class="feature-number">1</div>
+        <h3>Real-Time Risk Assessment</h3>
+        <p>
+          Advanced algorithms continuously monitor your performance to spot
+          potential issues before they become injuries.
+        </p>
+        <ul class="feature-list">
+          <li>Live fatigue monitoring</li>
+          <li>Form deterioration detection</li>
+          <li>Immediate workout adjustments</li>
+          <li>Personalized risk thresholds</li>
+        </ul>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-number">2</div>
+        <h3>Intelligent Load Management</h3>
+        <p>
+          Our system precisely balances training intensity with recovery needs,
+          optimizing every session.
+        </p>
+        <ul class="feature-list">
+          <li>Dynamic workout adjustments</li>
+          <li>Recovery-based programming</li>
+          <li>Progressive overload optimization</li>
+          <li>Position-specific conditioning</li>
+        </ul>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-number">3</div>
+        <h3>Predictive Injury Prevention</h3>
+        <p>
+          Using advanced CSP algorithms, we identify and mitigate injury risks
+          before they manifest.
+        </p>
+        <ul class="feature-list">
+          <li>Historical data analysis</li>
+          <li>Risk factor correlation</li>
+          <li>Preventive exercise prescription</li>
+          <li>Continuous risk monitoring</li>
+        </ul>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-number">4</div>
+        <h3>Performance Optimization</h3>
+        <p>
+          Genetic algorithms evolve your training plan to maximize results while
+          maintaining safety.
+        </p>
+        <ul class="feature-list">
+          <li>Adaptive programming</li>
+          <li>Goal-specific progression</li>
+          <li>Performance metrics tracking</li>
+          <li>Continuous plan refinement</li>
+        </ul>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-number">5</div>
+        <h3>Real-Time Adaptation</h3>
+        <p>
+          Instant adjustments to your training based on live performance data
+          and recovery status.
+        </p>
+        <ul class="feature-list">
+          <li>Live workout modifications</li>
+          <li>Recovery-based adjustments</li>
+          <li>Intensity optimization</li>
+          <li>Dynamic exercise selection</li>
+        </ul>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-number">6</div>
+        <h3>Comprehensive Analytics</h3>
+        <p>
+          Deep insights into your performance trends and progress over time.
+        </p>
+        <ul class="feature-list">
+          <li>Progress tracking</li>
+          <li>Performance analytics</li>
+          <li>Risk factor analysis</li>
+          <li>Trend identification</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="tech-section">
+      <div class="tech-content">
+        <h2>Powered by Advanced Technology</h2>
+        <div class="tech-grid">
+          <div class="tech-card">
+            <h3>CSP Algorithm</h3>
+            <p>
+              Our Constraint Satisfaction Problem solver analyzes multiple risk
+              factors simultaneously, ensuring safe and effective training
+              parameters.
+            </p>
+          </div>
+
+          <div class="tech-card">
+            <h3>Genetic Optimization</h3>
+            <p>
+              Training plans evolve through multiple generations to find the
+              perfect balance between performance gains and injury prevention.
+            </p>
+          </div>
+
+          <div class="tech-card">
+            <h3>A* Search</h3>
+            <p>
+              Intelligent pathfinding algorithms identify the optimal
+              progression path for your specific goals and constraints.
+            </p>
+          </div>
+
+          <div class="tech-card">
+            <h3>Real-Time Processing</h3>
+            <p>
+              Greedy search algorithms make split-second decisions during
+              training sessions to optimize your performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Transform Your Training?</h2>
+        <p>
+          Join the revolution in sports performance optimization. Get started
+          with your personalized AI training plan today.
+        </p>
+        <a href="training.html" class="cta-btn">Start Free Assessment →</a>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your AI Training Plan | Khalihaa</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #faf6fc;
+        margin: 0;
+        padding: 0;
+        color: #333;
+      }
+      header {
+        padding: 20px 40px;
+        background-color: white;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+      .nav-center {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
+      header h1 {
+        color: #7e3ff2;
+        margin: 0;
+        font-size: 20px;
+      }
+      header nav a {
+        text-decoration: none;
+        color: #7e3ff2;
+        font-weight: 600;
+      }
+      .connect-btn {
+        background: #7e3ff2;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .main-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        min-height: calc(100vh - 80px);
+      }
+
+      .header-section {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .header-section h2 {
+        color: #7e3ff2;
+        font-size: 2rem;
+        margin-bottom: 10px;
+      }
+      .header-section p {
+        color: #666;
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      .athlete-profile {
+        background: white;
+        border-radius: 16px;
+        padding: 25px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+
+      .athlete-info {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .athlete-metrics {
+        flex: 2;
+        min-width: 300px;
+      }
+
+      .athlete-photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #eae2f8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: #7e3ff2;
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+
+      .athlete-name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0 0 5px 0;
+      }
+
+      .athlete-position {
+        color: #7e3ff2;
+        font-weight: 500;
+        margin: 0 0 20px 0;
+      }
+
+      .athlete-detail {
+        display: flex;
+        margin-bottom: 10px;
+      }
+
+      .detail-label {
+        flex: 1;
+        font-weight: 500;
+        color: #666;
+      }
+
+      .detail-value {
+        flex: 2;
+      }
+
+      .metrics-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0 0 20px 0;
+        color: #7e3ff2;
+      }
+
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 15px;
+      }
+
+      .metric-card {
+        background: #f5f1fb;
+        padding: 15px;
+        border-radius: 10px;
+      }
+
+      .metric-label {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 5px;
+      }
+
+      .metric-value {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      .plan-container {
+        margin-top: 40px;
+      }
+
+      .plan-tabs {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 20px;
+        background: white;
+        padding: 6px;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      .plan-tab {
+        padding: 12px 20px;
+        background: transparent;
+        border: none;
+        font-family: inherit;
+        font-weight: 500;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        color: #666;
+      }
+
+      .plan-tab.active {
+        background: #7e3ff2;
+        color: white;
+      }
+
+      .plan-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 20px;
+      }
+
+      .workout-card {
+        background: white;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        transition: transform 0.3s ease;
+      }
+
+      .workout-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .workout-header {
+        background: #7e3ff2;
+        color: white;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .workout-day {
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+
+      .workout-focus {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 5px 10px;
+        border-radius: 6px;
+        font-size: 0.8rem;
+      }
+
+      .workout-content {
+        padding: 20px;
+      }
+
+      .workout-section {
+        margin-bottom: 20px;
+      }
+
+      .section-heading {
+        color: #7e3ff2;
+        font-weight: 600;
+        margin: 0 0 10px 0;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .section-heading span {
+        background: #eae2f8;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-right: 8px;
+        font-size: 0.8rem;
+      }
+
+      .exercise-list {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+      }
+
+      .exercise-item {
+        padding: 10px 0;
+        border-bottom: 1px solid #f0f0f0;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .exercise-item:last-child {
+        border-bottom: none;
+      }
+
+      .exercise-name {
+        font-weight: 500;
+      }
+
+      .exercise-details {
+        color: #666;
+        font-size: 0.9rem;
+      }
+
+      .workout-metrics {
+        display: flex;
+        justify-content: space-between;
+        background: #f9f7fd;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+      }
+
+      .workout-metric {
+        text-align: center;
+      }
+
+      .metric-number {
+        font-weight: 600;
+        color: #7e3ff2;
+        font-size: 1.1rem;
+      }
+
+      .metric-unit {
+        font-size: 0.8rem;
+        color: #666;
+      }
+
+      .insights-section {
+        background: white;
+        border-radius: 16px;
+        padding: 25px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        margin-top: 40px;
+      }
+
+      .insights-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .insights-icon {
+        width: 40px;
+        height: 40px;
+        background: #eae2f8;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+      }
+
+      .insights-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #7e3ff2;
+        margin: 0;
+      }
+
+      .insights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+      }
+
+      .insight-card {
+        background: #f9f7fd;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .insight-card h4 {
+        color: #7e3ff2;
+        margin: 0 0 10px 0;
+      }
+
+      .insight-card p {
+        color: #666;
+        margin: 0;
+        font-size: 0.95rem;
+        line-height: 1.5;
+      }
+
+      .progress-bar-container {
+        height: 8px;
+        background: #e9e9e9;
+        border-radius: 4px;
+        margin-top: 10px;
+        position: relative;
+      }
+
+      .progress-bar {
+        height: 100%;
+        border-radius: 4px;
+        background: linear-gradient(to right, #7e3ff2, #9d6efa);
+      }
+
+      .progress-label {
+        position: absolute;
+        right: 0;
+        top: -18px;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+
+      .risk-level {
+        display: inline-block;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 0.8rem;
+        margin-top: 10px;
+      }
+
+      .risk-low {
+        background: #dcf5e7;
+        color: #0d8c45;
+      }
+
+      .risk-moderate {
+        background: #fef1d7;
+        color: #d97706;
+      }
+
+      .risk-high {
+        background: #fee7e7;
+        color: #dc2626;
+      }
+
+      .actions {
+        margin-top: 40px;
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+      }
+
+      .action-btn {
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        text-align: center;
+        transition: all 0.2s ease;
+      }
+
+      .primary-btn {
+        background: #7e3ff2;
+        color: white;
+      }
+
+      .primary-btn:hover {
+        background: #672dd2;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(126, 63, 242, 0.2);
+      }
+
+      .secondary-btn {
+        background: white;
+        color: #7e3ff2;
+        border: 1px solid #7e3ff2;
+      }
+
+      .secondary-btn:hover {
+        background: #f9f7fd;
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 768px) {
+        .plan-content {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid #eae2f8;
+        border-top: 5px solid #7e3ff2;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+
+      .loading-text {
+        color: #7e3ff2;
+        font-weight: 600;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading" class="loading-overlay">
+      <div class="loading-spinner"></div>
+      <p class="loading-text">
+        Generating your personalized AI training plan...
+      </p>
+    </div>
+
+    <header>
+      <div class="nav-left">
+        <h1>AthleTech.com</h1>
+      </div>
+      <div class="nav-center">
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="features.html">Features</a>
+          <a href="training.html">Training</a>
+        </nav>
+      </div>
+      <a href="#" class="connect-btn">Connect</a>
+    </header>
+
+    <div class="main-container">
+      <div class="header-section">
+        <h2>Your Personalized AI Training Plan</h2>
+        <p>
+          Based on your profile and assessment data, our AI has created a
+          tailored training program to help you maximize performance while
+          minimizing injury risk.
+        </p>
+      </div>
+
+      <div class="athlete-profile">
+        <div class="athlete-info">
+          <div class="athlete-photo" id="athlete-avatar"></div>
+          <h3 class="athlete-name" id="athlete-name">John Doe</h3>
+          <p class="athlete-position" id="athlete-position">
+            Midfielder, Football
+          </p>
+
+          <div class="athlete-detail">
+            <span class="detail-label">Age:</span>
+            <span class="detail-value" id="athlete-age">25</span>
+          </div>
+          <div class="athlete-detail">
+            <span class="detail-label">Experience:</span>
+            <span class="detail-value" id="athlete-experience">8 years</span>
+          </div>
+          <div class="athlete-detail">
+            <span class="detail-label">Training Frequency:</span>
+            <span class="detail-value" id="athlete-frequency">4 days/week</span>
+          </div>
+          <div class="athlete-detail">
+            <span class="detail-label">Focus Areas:</span>
+            <span class="detail-value" id="athlete-focus"
+              >Strength, Agility</span
+            >
+          </div>
+        </div>
+
+        <div class="athlete-metrics">
+          <h4 class="metrics-title">Performance Metrics</h4>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <div class="metric-label">Fitness Level</div>
+              <div class="metric-value" id="metric-fitness">7/10</div>
+              <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Strength</div>
+              <div class="metric-value" id="metric-strength">6/10</div>
+              <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 60%"></div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Speed/Agility</div>
+              <div class="metric-value" id="metric-speed">8/10</div>
+              <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Endurance</div>
+              <div class="metric-value" id="metric-endurance">7/10</div>
+              <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Recovery Rate</div>
+              <div class="metric-value" id="recovery-rate">Moderate</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Injury Risk</div>
+              <div class="metric-value" id="injury-risk">Low</div>
+              <div class="risk-level risk-low">15%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="plan-container">
+        <div class="plan-tabs">
+          <button class="plan-tab active" data-week="1">Week 1</button>
+          <button class="plan-tab" data-week="2">Week 2</button>
+          <button class="plan-tab" data-week="3">Week 3</button>
+          <button class="plan-tab" data-week="4">Week 4</button>
+        </div>
+
+        <div class="plan-content" id="plan-content">
+          <!-- Workout cards will be dynamically generated here -->
+        </div>
+      </div>
+
+      <div class="insights-section">
+        <div class="insights-header">
+          <div class="insights-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#7e3ff2"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+          </div>
+          <h3 class="insights-title">AI Insights & Recommendations</h3>
+        </div>
+
+        <div class="insights-grid">
+          <div class="insight-card">
+            <h4>Injury Prevention Focus</h4>
+            <p>
+              Based on your injury history, we've designed a program that
+              strengthens vulnerable areas while avoiding excessive strain.
+              Focus on proper form during all exercises.
+            </p>
+          </div>
+          <div class="insight-card">
+            <h4>Performance Optimization</h4>
+            <p>
+              Your strengths in agility can be leveraged for position-specific
+              drills. We've incorporated progressive overload principles to
+              continue building on your existing capabilities.
+            </p>
+          </div>
+          <div class="insight-card">
+            <h4>Recovery Strategy</h4>
+            <p>
+              With a moderate recovery profile, we've balanced high-intensity
+              work with strategic recovery sessions. Ensure you maintain 7-8
+              hours of sleep for optimal adaptation.
+            </p>
+          </div>
+          <div class="insight-card">
+            <h4>Nutrition Recommendations</h4>
+            <p>
+              To support your training intensity, focus on increasing protein
+              intake to 1.6-1.8g/kg of body weight and ensure adequate
+              carbohydrate intake before and after sessions.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a href="#" class="action-btn primary-btn" id="download-btn"
+          >Download Full Plan</a
+        >
+        <a href="training.html" class="action-btn secondary-btn"
+          >Adjust Profile</a
+        >
+      </div>
+    </div>
+
+    <script>
+      // Show loading overlay initially
+      const loadingOverlay = document.getElementById("loading");
+      const mainContainer = document.querySelector(".main-container");
+
+      // Hide main content until loading is complete
+      mainContainer.style.display = "none";
+
+      // Simulate API loading delay
+      setTimeout(() => {
+        loadingOverlay.classList.add("hidden");
+        mainContainer.style.display = "block";
+
+        // Load athlete data from localStorage
+        const athleteData = JSON.parse(
+          localStorage.getItem("athleteData") || "{}"
+        );
+
+        // Populate athlete profile
+        populateAthleteProfile(athleteData);
+
+        // Generate training plan for Week 1 (default)
+        generateTrainingPlan(1);
+
+        // Set up tab navigation
+        setupTabs();
+      }, 2000);
+
+      function populateAthleteProfile(data) {
+        // Use the data or fallback to defaults
+        const name = data.name || "John Doe";
+        const age = data.age || "25";
+        const position = data.position || "Midfielder";
+        const sport = data.sport || "Football";
+        const days = data.days || "4";
+        const focus = data.focus || ["Strength", "Agility"];
+        const experience = data.experience || "8";
+        const fitness = data.fitness || "7";
+        const strength = data.strength || "6";
+        const speed = data.speed || "8";
+        const endurance = data.endurance || "7";
+        const recovery = data.recovery || "Moderate";
+
+        // Set first-letter avatar
+        document.getElementById("athlete-avatar").textContent = name.charAt(0);
+
+        // Update profile elements
+        document.getElementById("athlete-name").textContent = name;
+        document.getElementById(
+          "athlete-position"
+        ).textContent = `${position}, ${sport}`;
+        document.getElementById("athlete-age").textContent = age;
+        document.getElementById(
+          "athlete-experience"
+        ).textContent = `${experience} years`;
+        document.getElementById(
+          "athlete-frequency"
+        ).textContent = `${days} days/week`;
+        document.getElementById("athlete-focus").textContent = Array.isArray(
+          focus
+        )
+          ? focus.join(", ")
+          : focus;
+
+        // Update metrics
+        document.getElementById("metric-fitness").textContent = `${fitness}/10`;
+        document.getElementById(
+          "metric-strength"
+        ).textContent = `${strength}/10`;
+        document.getElementById("metric-speed").textContent = `${speed}/10`;
+        document.getElementById(
+          "metric-endurance"
+        ).textContent = `${endurance}/10`;
+        document.getElementById("recovery-rate").textContent = recovery;
+
+        // Update progress bars based on values
+        document.querySelectorAll(".progress-bar")[0].style.width = `${
+          fitness * 10
+        }%`;
+        document.querySelectorAll(".progress-bar")[1].style.width = `${
+          strength * 10
+        }%`;
+        document.querySelectorAll(".progress-bar")[2].style.width = `${
+          speed * 10
+        }%`;
+        document.querySelectorAll(".progress-bar")[3].style.width = `${
+          endurance * 10
+        }%`;
+
+        // Set injury risk based on injury history
+        const injuries = data.injuries || [];
+        let riskLevel = "Low";
+        let riskPercent = "15%";
+        let riskClass = "risk-low";
+
+        if (injuries.length >= 3) {
+          riskLevel = "High";
+          riskPercent = "45%";
+          riskClass = "risk-high";
+        } else if (injuries.length >= 1) {
+          riskLevel = "Moderate";
+          riskPercent = "25%";
+          riskClass = "risk-moderate";
+        }
+
+        document.getElementById("injury-risk").textContent = riskLevel;
+        document.querySelector(".risk-level").textContent = riskPercent;
+        document.querySelector(
+          ".risk-level"
+        ).className = `risk-level ${riskClass}`;
+      }
+
+      function setupTabs() {
+        const tabs = document.querySelectorAll(".plan-tab");
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
+            // Remove active class from all tabs
+            tabs.forEach((t) => t.classList.remove("active"));
+
+            // Add active class to clicked tab
+            tab.classList.add("active");
+
+            // Generate plan for selected week
+            const week = parseInt(tab.dataset.week);
+            generateTrainingPlan(week);
+          });
+        });
+      }
+
+      function generateTrainingPlan(weekNumber) {
+        const planContent = document.getElementById("plan-content");
+        planContent.innerHTML = "";
+
+        // Get stored athlete data
+        const athleteData = JSON.parse(
+          localStorage.getItem("athleteData") || "{}"
+        );
+        const position = athleteData.position || "Midfielder";
+        const focus = athleteData.focus || ["Strength", "Agility"];
+        const days = parseInt(athleteData.days || "4");
+
+        // Create workout days based on athlete availability
+        const workoutTypes = [
+          "Strength & Power",
+          "Speed & Agility",
+          "Technical Skills",
+          "Endurance",
+          "Recovery",
+        ];
+
+        for (let i = 1; i <= days; i++) {
+          const dayNumber = i;
+          const workoutType = workoutTypes[(i - 1) % workoutTypes.length];
+          const intensity = getIntensity(weekNumber, i);
+
+          // Create workout card
+          const workoutCard = createWorkoutCard(
+            dayNumber,
+            workoutType,
+            intensity,
+            position
+          );
+          planContent.appendChild(workoutCard);
+        }
+      }
+
+      function getIntensity(week, day) {
+        // Logic to determine workout intensity based on week/day
+        if (week === 1) {
+          return day % 3 === 0 ? "Low" : day % 3 === 1 ? "Moderate" : "High";
+        } else if (week === 2) {
+          return day % 3 === 0
+            ? "Moderate"
+            : day % 3 === 1
+            ? "High"
+            : "Moderate";
+        } else if (week === 3) {
+          return day % 3 === 0 ? "High" : day % 3 === 1 ? "High" : "Moderate";
+        } else {
+          return day % 4 === 0 ? "Low" : "High"; // Recovery week pattern
+        }
+      }
+
+      function createWorkoutCard(day, type, intensity, position) {
+        const card = document.createElement("div");
+        card.className = "workout-card";
+
+        // Header section
+        const header = document.createElement("div");
+        header.className = "workout-header";
+        header.innerHTML = `
+          <div class="workout-day">Day ${day}</div>
+          <div class="workout-focus">${type}</div>
+        `;
+        card.appendChild(header);
+
+        // Content section
+        const content = document.createElement("div");
+        content.className = "workout-content";
+
+        // Generate exercises based on type
+        const exercises = generateExercises(type, intensity, position);
+        const warmup = generateWarmup(type);
+        const cooldown = generateCooldown();
+
+        // Warmup section
+        const warmupSection = document.createElement("div");
+        warmupSection.className = "workout-section";
+        warmupSection.innerHTML = `
+          <h4 class="section-heading"><span>1</span>Warm-up (10 min)</h4>
+          <ul class="exercise-list">
+            ${warmup
+              .map(
+                (ex) => `
+              <li class="exercise-item">
+                <div class="exercise-name">${ex.name}</div>
+                <div class="exercise-details">${ex.details}</div>
+              </li>
+            `
+              )
+              .join("")}
+          </ul>
+        `;
+        content.appendChild(warmupSection);
+
+        // Main workout section
+        const mainSection = document.createElement("div");
+        mainSection.className = "workout-section";
+        mainSection.innerHTML = `
+          <h4 class="section-heading"><span>2</span>Main Workout (${
+            type === "Recovery" ? "20" : "30-40"
+          } min)</h4>
+          <ul class="exercise-list">
+            ${exercises
+              .map(
+                (ex) => `
+              <li class="exercise-item">
+                <div class="exercise-name">${ex.name}</div>
+                <div class="exercise-details">${ex.details}</div>
+              </li>
+            `
+              )
+              .join("")}
+          </ul>
+        `;
+        content.appendChild(mainSection);
+
+        // Cooldown section
+        const cooldownSection = document.createElement("div");
+        cooldownSection.className = "workout-section";
+        cooldownSection.innerHTML = `
+          <h4 class="section-heading"><span>3</span>Cool-down (10 min)</h4>
+          <ul class="exercise-list">
+            ${cooldown
+              .map(
+                (ex) => `
+              <li class="exercise-item">
+                <div class="exercise-name">${ex.name}</div>
+                <div class="exercise-details">${ex.details}</div>
+              </li>
+            `
+              )
+              .join("")}
+          </ul>
+        `;
+        content.appendChild(cooldownSection);
+
+        // Workout metrics
+        const metrics = document.createElement("div");
+        metrics.className = "workout-metrics";
+
+        // Calculate metrics based on workout type and intensity
+        const duration = type === "Recovery" ? 40 : 60;
+        const calories =
+          type === "Recovery"
+            ? 200
+            : intensity === "Low"
+            ? 350
+            : intensity === "Moderate"
+            ? 450
+            : 550;
+        const rpe =
+          intensity === "Low"
+            ? "4-5"
+            : intensity === "Moderate"
+            ? "6-7"
+            : "8-9";
+
+        metrics.innerHTML = `
+          <div class="workout-metric">
+            <div class="metric-number">${duration}</div>
+            <div class="metric-unit">Minutes</div>
+          </div>
+          <div class="workout-metric">
+            <div class="metric-number">${calories}</div>
+            <div class="metric-unit">Calories</div>
+          </div>
+          <div class="workout-metric">
+            <div class="metric-number">${rpe}</div>
+            <div class="metric-unit">RPE</div>
+          </div>
+          <div class="workout-metric">
+            <div class="metric-number">${intensity}</div>
+            <div class="metric-unit">Intensity</div>
+          </div>
+        `;
+        content.appendChild(metrics);
+
+        card.appendChild(content);
+        return card;
+      }
+
+      function generateWarmup(type) {
+        const generalWarmup = [
+          { name: "Light jogging", details: "3-5 minutes" },
+          { name: "Dynamic stretching", details: "Full body" },
+        ];
+
+        const specificWarmup = {
+          "Strength & Power": [
+            { name: "Bodyweight squats", details: "2 × 10 reps" },
+          ],
+          "Speed & Agility": [
+            { name: "High knees & butt kicks", details: "2 × 20m" },
+          ],
+          "Technical Skills": [
+            { name: "Ball control drills", details: "5 minutes" },
+          ],
+          Endurance: [{ name: "Stride accelerations", details: "4 × 30m" }],
+          Recovery: [{ name: "Light mobility flow", details: "5 minutes" }],
+        };
+
+        return [...generalWarmup, ...specificWarmup[type]];
+      }
+
+      function generateCooldown() {
+        return [
+          { name: "Light jogging/walking", details: "3 minutes" },
+          { name: "Static stretching", details: "Major muscle groups" },
+          { name: "Foam rolling", details: "Problem areas" },
+        ];
+      }
+
+      function generateExercises(type, intensity, position) {
+        const exercisesByType = {
+          "Strength & Power": [
+            {
+              name: "Squats",
+              details:
+                intensity === "Low"
+                  ? "3 × 8 reps"
+                  : intensity === "Moderate"
+                  ? "4 × 8 reps"
+                  : "5 × 5 reps",
+            },
+            {
+              name: "Deadlifts",
+              details:
+                intensity === "Low"
+                  ? "3 × 8 reps"
+                  : intensity === "Moderate"
+                  ? "4 × 6 reps"
+                  : "4 × 5 reps",
+            },
+            {
+              name: "Bench Press",
+              details:
+                intensity === "Low"
+                  ? "3 × 10 reps"
+                  : intensity === "Moderate"
+                  ? "4 × 8 reps"
+                  : "4 × 6 reps",
+            },
+            {
+              name: "Box Jumps",
+              details:
+                intensity === "Low"
+                  ? "3 × 6 reps"
+                  : intensity === "Moderate"
+                  ? "3 × 8 reps"
+                  : "4 × 8 reps",
+            },
+          ],
+          "Speed & Agility": [
+            {
+              name: "Sprint intervals",
+              details:
+                intensity === "Low"
+                  ? "6 × 20m"
+                  : intensity === "Moderate"
+                  ? "8 × 30m"
+                  : "10 × 30m",
+            },
+            { name: "Ladder drills", details: "3 patterns × 3 sets" },
+            {
+              name: "Cone agility drill",
+              details:
+                intensity === "Low"
+                  ? "4 sets"
+                  : intensity === "Moderate"
+                  ? "5 sets"
+                  : "6 sets",
+            },
+            {
+              name: "Reactive jumps",
+              details:
+                intensity === "Low"
+                  ? "3 × 6 reps"
+                  : intensity === "Moderate"
+                  ? "3 × 8 reps"
+                  : "4 × 8 reps",
+            },
+          ],
+          "Technical Skills": [
+            { name: "Ball control drills", details: "10 minutes" },
+            { name: "Passing accuracy", details: "3 × 20 passes" },
+            {
+              name: "Shooting practice",
+              details:
+                intensity === "Low"
+                  ? "15 shots"
+                  : intensity === "Moderate"
+                  ? "20 shots"
+                  : "30 shots",
+            },
+            { name: "Game scenarios", details: "15 minutes" },
+          ],
+          Endurance: [
+            {
+              name: "Interval running",
+              details:
+                intensity === "Low"
+                  ? "6 × 200m"
+                  : intensity === "Moderate"
+                  ? "8 × 200m"
+                  : "10 × 200m",
+            },
+            { name: "Fartlek training", details: "15 minutes" },
+            {
+              name: "Shuttle runs",
+              details:
+                intensity === "Low"
+                  ? "8 × 25m"
+                  : intensity === "Moderate"
+                  ? "10 × 25m"
+                  : "12 × 25m",
+            },
+          ],
+          Recovery: [
+            { name: "Light cycling", details: "10 minutes" },
+            { name: "Yoga flow", details: "15 minutes" },
+            { name: "Contrast therapy", details: "Hot/cold" },
+            { name: "Foam rolling", details: "Full body" },
+          ],
+        };
+
+        // Add position-specific exercises
+        const positionExercises = {
+          Goalkeeper: [
+            { name: "Reaction saves", details: "3 × 10 reps" },
+            { name: "Cross collection", details: "3 × 5 reps" },
+          ],
+          Defender: [
+            { name: "Defensive positioning", details: "10 minutes" },
+            { name: "Heading drills", details: "3 × 10 reps" },
+          ],
+          Midfielder: [
+            { name: "Transitional play", details: "15 minutes" },
+            { name: "Quick passing drills", details: "3 × 3 minutes" },
+          ],
+          Forward: [
+            { name: "Finishing drills", details: "3 × 10 shots" },
+            { name: "Movement patterns", details: "10 minutes" },
+          ],
+        };
+
+        // Return base exercises for the type plus position specific ones
+        // For recovery days, don't add position exercises
+        if (type === "Recovery") {
+          return exercisesByType[type];
+        } else {
+          return [...exercisesByType[type], ...positionExercises[position]];
+        }
+      }
+
+      // Set up download button
+      document
+        .getElementById("download-btn")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          alert(
+            "Your training plan PDF is being generated and will download shortly."
+          );
+        });
+    </script>
+  </body>
+</html>
