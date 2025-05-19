@@ -3,6 +3,11 @@ import itertools
 import json
 import random
 import math
+from lib import metrics
+
+
+
+
 
 class AstarDailySchedule:
 
@@ -140,3 +145,4 @@ if __name__ == "__main__":
         print(f"⚠️  Injury Risk: {result['injury_risk']:.1f}/10")
     else:
         print("Failed to generate schedule")
+

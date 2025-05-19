@@ -295,5 +295,195 @@ class  Training_Problem :
     )  
 
 
+metrics = {
+    # Shot-stopping metrics
+    "save_percentage": 73,          # 73% saves (average for top-tier GKs)
+    "goals_conceded": 4,            # 4 goals conceded in last 5 matches
+    "1v1_training_score": 82,       # Strong in 1v1 drills
+    "reaction_time": 180,           # 180ms (elite: 150-200ms range)
+    "aerial_ball_handling_success": 78,  # 78% success in aerial claims
+    "cross_claims": 12,             # 12 cross claims in 5 matches
+    "jump_height": 75,              # 75cm vertical jump
+    "defensive_set_piece_handling": 85, # Strong in set-piece organization
 
+    # Distribution metrics
+    "distribution_accuracy_score": 88,  # 88% pass accuracy
+    "long_pass_success": 68,        # 68% successful long passes
+    "distribution_training": 84,    # High training score
+    "pass_completion": 86,          # 86% overall pass completion
+
+    # Error/risk metrics
+    "errors_leading_to_goals": 1,   # 1 error leading to a goal in 5 matches
+    "cognitive_score": 88,          # High decision-making score
+    "video_analysis_engagement": 92, # Actively engages in video analysis
+
+    # Derived metrics (placeholders)
+    "max_goals_conceded": 3,        # Worst match: conceded 3 goals
+    "MaxErrors": 2,                 # Max 2 errors in a single match
+    "set_piece_handling_score": 85, # Strong set-piece defense
+    "clean_sheet_bonus": 2,              # 2 clean sheets in 5 matches
+
+    # Handling metrics
+    "catches": 15,                  # 15 catches in 5 matches
+    "punches": 5,                   # 5 punches
+    "drops": 2,                     # 2 dropped catches
+    "safe_parry": 8,                # 8 safe parries
+    "total_parry": 10,              # 10 total parry attempts
+
+    # Defensive drills
+    "tackles_won": 9,               # 9 tackles won
+    "ground_duels_won": 65,         # 65% ground duels won
+    "aerial_duels_won": 76,         # 76% aerial duels won
+    "defending_drill_score": 88,    # Training performance
+
+    # Mental/positioning
+    "errors_leading_to_shots": 3,   # 3 errors leading to shots
+    "defensive_shape_training_score": 83,
+    "positioning_awareness_score": 89, # Strong positional IQ
+
+    # In-game actions
+    "passing_accuracy": 87,         # 87% passing accuracy
+    "clearances": 18,               # 18 clearances in 5 matches
+    "distribution_under_pressure": 79, # Performs under pressure
+    "chances_created": 1,           # 1 assist/chance created
+
+    # Physical metrics
+    "vo2_max": 54,                  # High aerobic capacity (ml/kg/min)
+    "lower_body_strength": 92,      # Leg press: 92% of position max
+    "total_distance_covered": 25.3, # 25.3km over 5 matches
+    "total_training_load": 435,     # Cumulative load (arbitrary units)
+    "resting_heart_rate": 48,       # Bradycardia (elite fitness)
+    "sleep_quality": 84,            # 84/100 sleep score
+    "sprint_distance": 30,
+
+    # Match impact
+    "duels_won": 72,                # 72% of duels won
+    "marking_and_tackling": 85,     # Defensive drill score
+    "defensive_contributions": 22,  # 22 interceptions/blocks/clearances
+    "mental_fatigue_score": 28,     # Low fatigue (0 = fresh, 100 = exhausted)
+    "close_range_save_rate" : 90,         # 90% close-range saves
+    "reaction_saves": 80,            # 80% reaction saves
+    "long_shot_save_rate": 75,         # 75% long shot saves
+    "penalty_save_rate": 30,         # 30% penalty saves
+    "diving_save_rate": 85,         # 85% diving saves
+    "injury_prevention": 20,
+    "fatigue_score":10,
+
+    # Attack contribution (minimal for GKs)
+    "assists_per_match": 0.1,       # 0.1 assists per match
+    "goals_per_match": 0.0,         # Rarely scores
+    "shots_on_target_per_match": 0.2, # Occasional long kicks
+    "dribble_success_percent": 40,  # 40% dribble success (rarely dribbles)
+    "FinishingTest": 72,            # Penalty practice score
+
+    # Athleticism
+    "SprintSpeed": 31.5,            # 31.5 km/h top speed
+    "SprintDistance": 285,          # 285m of sprints per match
+    "BMI_Factor": 23.1,             # BMI 23.1 (optimal for agility)
+
+    # Injury/load metrics
+    "chronic_workload": 7.1,       # 4-week workload
+    "acute_workload": 8.9,          # 1-week workload
+    "days_since_last_injury": 120,  # No recent injuries
+    "injury_history_count": 2,      # 2 past injuries
+    "hrv": 63,                      # Heart rate variability (healthy)
+    "fatigue": 24,                  # Low fatigue (0-100 scale)
+    "video_analysis_score": 87,     # High engagement
+    "Strength": 88                  # Overall strength index
+
+}
+    # "error_impact": "errors_leading_to_goals" / "goals_conceded" ,
+    # "drops_penalty" : "drops"/"catches",
+    # "safe_parry_rate" : "safe_parry" / "total_parry" ,
+    # "catch_success_rate" : ["catches"] / ("catches" + "punches") *100,
+metrics["safe_parry_rate"] = metrics["safe_parry"] / (metrics["total_parry"])  # Avoid division by zero
+metrics["drop_penalty"] = metrics["drops"] / (metrics["catches"] + 1)  # Avoid division by zero
+metrics["error_impact"] = metrics["errors_leading_to_goals"] / (metrics["goals_conceded"] + 1)  # Avoid division by zero
+metrics["catch_success_rate"] = (metrics["catches"] / (metrics["catches"] + metrics["punches"])) * 100
+
+
+
+
+scores = {
+                # Awareness: Save Rate (50%) + Clean Sheets (30%) - Errors (20%)
+                'awareness': (metrics['save_percentage'] * 0.5) + 
+                            (metrics['clean_sheet_bonus'] * 0.3) - 
+                            (metrics['error_impact'] * 0.2),
+                
+                # Catching: Success Rate (80%) - Drop Penalty (20%)
+                'catching': (metrics['catch_success_rate'] * 0.8) - 
+                        (metrics['drop_penalty'] * 0.2),
+                
+                # Parrying: Direct safe parry rate
+                'parrying': metrics['safe_parry_rate'],
+                
+                # Reflexes: Close Range (40%) + Reaction Saves + Penalty Bonus
+                'reflexes': (metrics['close_range_save_rate'] * 0.4) +
+                        (metrics['reaction_saves'] * 5) +
+                        (10 if metrics['penalty_save_rate'] >= 33 else 0),
+                
+                # Reach: Height (50%) + Long Shots (30%) + Diving (20%)
+                'reach':(metrics['long_shot_save_rate'] * 0.5) +
+                        (metrics['diving_save_rate'] * 0.5)
+
+            }
+
+
+new_metrics = {
+    # Physical & Technical Metrics
+    "total_distance": 8.5,          # Total km added in drills (weekly)
+    "flexibility_score": 75,        # 75/100 (improved via mobility work)
+    "sprint_speed": 32.4,           # km/h (specific to sprint training)
+    "defensive_coverage": 84,       # % of defensive zones covered effectively
+    "VO2_max": 57,                  # ml/kg/min (improved via RSA sprints)
+    "fatigue_resistance": 88,       # 0-100 scale (high = resilient)
+    "jump_power": 82,               # cm (vertical leap improvement)
+    "unilateral_strength": 89,       # 0-100 score (split squat performance)
+    "balance": 88,                  # 0-100 (ankle stability drills)
+    "posterior_chain_strength": 91,  # 0-100 (Nordic curl strength)
+    "muscle_resilience": 87,         # 0-100 (eccentric load tolerance)
+    "defensive_errors": 0 ,
+
+    # Mental/Cognitive Metrics
+    "mental_fatigue": 18,           # 0-100 (lower = fresher)
+    "duel_resilience": 78,          # % recovery rate after losing duels
+    "decision_making": 85,          # 0-100 (tactical choices under pressure)
+    "decision_speed": 165,          # ms (stimulus response time)
+    "stress_level": 14,             # 0-100 (lower = calmer)
+    "anticipation": 89,             # 0-100 (predicting opposition moves)
+    "decision_quality": 87,         # 0-100 (effectiveness of choices)
+
+    # Tactical Metrics
+    "tactical_adaptability": 86,    # 0-100 (adjusting to 10v11 scenarios)
+    "defensive_resilience": 83,     # 0-100 (sustaining defensive shape)
+    "contextual_adaptability": 88,   # 0-100 (home/away performance gap)
+    "stress_management": 82,        # 0-100 (handling pressure)
+    "tactical_flexibility": 84,      # 0-100 (switching between deep/mid-block)
+    "tactical_awareness": 91,        # 0-100 (reading the game)
+    "tactical_positioning": 90,      # 0-100 (optimal clearance positioning)
+    "clearance_success": 86,         # % of clearances reaching teammates
+    "positional_awareness": 0,
+
+    # Recovery Metrics
+    "recovery_quality": 86,         # 0-100 (yoga/breathing impact)
+    "HRV": 68,                       # Heart rate variability (higher = better)
+    "TacklesWon" : 5,
+    "GroundDuelsWon" : 3,
+    "AerialDuelsWon" : 3,
+    "DefendingDrillScore" : 80,
+    "Errors" : 1,
+    "ReactionTime" : 200, 
+    "PositioningAwareness" : 80,
+    "PassAccuracy" : 80,
+    "MaxClearances" : 5 ,
+    "DistributionTrainingScore" : 70,
+    "ChancesCreated" : 2,
+    
+    
+    
+}
+
+
+
+metrics = metrics | scores | new_metrics 
 

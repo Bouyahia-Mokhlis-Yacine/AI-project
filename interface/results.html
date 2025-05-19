@@ -853,7 +853,7 @@
 
         for (let i = 1; i <= days; i++) {
           const dayNumber = i;
-          const workoutType = workoutTypes[(i - 1) % workoutTypes.length];
+          const workoutType = workoutTypes[(i - 1) % workoutTypes.length] || ;
           const intensity = getIntensity(weekNumber, i);
 
           // Create workout card

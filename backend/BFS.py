@@ -1,4 +1,4 @@
-from lib import Node , Training_Problem
+from lib import Node , Training_Problem , metrics
 from collections import deque
 
 
@@ -79,5 +79,24 @@ print("Final Injury Risk: ", search.get_final_injury_risk())
 print("Initial Metrics: ", search.get_initial_metrics())
 print("Final Metrics: ", search.get_final_metrics())
 print("Path: ", search.get_path())
-state = Node("Goalkeeper", metrics )
-problem = Training_Problem(state)
+
+
+
+
+
+from flask import Flask, request, session, redirect, url_for, render_template
+
+app = Flask(__name__)
+app.secret_key = "your_secret_key"  # Needed for session
+
+@app.route('/process', methods=['POST'])
+def process():
+    data = request.get_json()
+    result =   search.get_path()
+    session['result'] = result
+    return '', 204  # No content, just redirect client
+
+@app.route('/page2')
+def page2():
+    result = session.get('result', 'No result found')
+    return render_template('page2.html', result=result)

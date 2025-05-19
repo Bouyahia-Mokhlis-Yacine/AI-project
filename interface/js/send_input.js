@@ -1,19 +1,3 @@
-// const name = document.getElementById('name');
-// const age = document.getElementById('age');
-// const height = document.getElementById('height');
-// const weight = document.getElementById('weight');
-// const position = document.getElementById('position');
-// const fitness = document.getElementById('fitness').value;
-// const strength = document.getElementById('strength').value;
-// const speed = document.getElementById('speed').value;
-// const endurance = document.getElementById('endurance').value;
-// const injuries = document.getElementById('injuries').value;
-// const sleep = document.getElementById('sleep');
-// const nutrition = document.getElementById('nutrition').value;
-// const stress = document.getElementById('stress').value;
-
-
-// const button = document.getElementById('button');
 
 
 document.getElementById("athleteForm").addEventListener("submit", function (e) {
@@ -55,6 +39,16 @@ document.getElementById("athleteForm").addEventListener("submit", function (e) {
 
     console.log(data);
 
+    fetch("backend/BFS.py", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+    }).then(() => {
+        window.location.href = "results.html";  // Backend stores result in session
+    });
+
     // Redirect to results page
-    // window.location.href = "results.html";
+
 });

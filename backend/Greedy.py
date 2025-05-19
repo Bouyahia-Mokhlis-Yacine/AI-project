@@ -1,4 +1,4 @@
-from lib import Node , Training_Problem
+from lib import Node , Training_Problem , metrics
 
 class Greedy_search :
     def __init__(self , initial_state):
