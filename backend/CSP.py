@@ -4,11 +4,17 @@ import heapq
 from collections import defaultdict
 from copy import copy
 import time
-
 from lib import metrics 
+import os
+
+current_dir = os.path.dirname(__file__)
+
+
+file_path = os.path.join(current_dir, "..", "project", "defender_actions_realistic.txt")
+
 
 # Load actions from file
-with open("defender_actions_realistic.txt") as f:
+with open(file_path) as f:
     actions_data = f.read()
 actions = eval(actions_data)["Defender"]  # If you're sure the data is safe; otherwise use json
 
@@ -150,4 +156,25 @@ if solution:
 else:
     output = "No solution found within time limit."
 
-print(output)
+# print(output)
+    
+# backend/CSP.py
+from flask import Flask, jsonify, send_from_directory
+from flask_cors import CORS  # For cross-origin requests (if needed)
+
+app = Flask(__name__)
+CORS(app)  # Enable CORS if frontend/backend are on different ports
+
+# Serve the results.html file from the interface directory
+@app.route('/results')
+def serve_results():
+    return send_from_directory('../interface', 'results.html')
+
+# API endpoint to send data
+@app.route('/api/data')
+def send_data():
+
+    return jsonify(output)
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)  # Run on port 5000

@@ -621,11 +621,11 @@
       </div>
 
       <div class="plan-container">
-        <div class="plan-tabs">
-          <button class="plan-tab active" data-week="1">Week 1</button>
+        <div class="plan-tabs" id="plan-tabs">
+          <!-- <button class="plan-tab active" data-week="1">Week 1</button>
           <button class="plan-tab" data-week="2">Week 2</button>
           <button class="plan-tab" data-week="3">Week 3</button>
-          <button class="plan-tab" data-week="4">Week 4</button>
+          <button class="plan-tab" data-week="4">Week 4</button> -->
         </div>
 
         <div class="plan-content" id="plan-content">
@@ -721,9 +721,6 @@
         // Populate athlete profile
         populateAthleteProfile(athleteData);
 
-        // Generate training plan for Week 1 (default)
-        generateTrainingPlan(1);
-
         // Set up tab navigation
         setupTabs();
       }, 2000);
@@ -742,6 +739,7 @@
         const speed = data.speed || "8";
         const endurance = data.endurance || "7";
         const recovery = data.recovery || "Moderate";
+        const training = "{{ training }}";
 
         // Set first-letter avatar
         document.getElementById("athlete-avatar").textContent = name.charAt(0);
@@ -812,379 +810,22 @@
         ).className = `risk-level ${riskClass}`;
       }
 
-      function setupTabs() {
-        const tabs = document.querySelectorAll(".plan-tab");
 
-        tabs.forEach((tab) => {
-          tab.addEventListener("click", () => {
-            // Remove active class from all tabs
-            tabs.forEach((t) => t.classList.remove("active"));
 
-            // Add active class to clicked tab
-            tab.classList.add("active");
-
-            // Generate plan for selected week
-            const week = parseInt(tab.dataset.week);
-            generateTrainingPlan(week);
-          });
+      document.addEventListener('DOMContentLoaded', () => {
+            fetch('http://localhost:5000/api/data')
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById('data-container');
+                    container.innerHTML = `
+                        <p>${data}</p>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    container.innerHTML = 'Failed to load data.';
+                });
         });
-      }
-
-      function generateTrainingPlan(weekNumber) {
-        const planContent = document.getElementById("plan-content");
-        planContent.innerHTML = "";
-
-        // Get stored athlete data
-        const athleteData = JSON.parse(
-          localStorage.getItem("athleteData") || "{}"
-        );
-        const position = athleteData.position || "Midfielder";
-        const focus = athleteData.focus || ["Strength", "Agility"];
-        const days = parseInt(athleteData.days || "4");
-
-        // Create workout days based on athlete availability
-        const workoutTypes = [
-          "Strength & Power",
-          "Speed & Agility",
-          "Technical Skills",
-          "Endurance",
-          "Recovery",
-        ];
-
-        for (let i = 1; i <= days; i++) {
-          const dayNumber = i;
-          const workoutType = workoutTypes[(i - 1) % workoutTypes.length] || ;
-          const intensity = getIntensity(weekNumber, i);
-
-          // Create workout card
-          const workoutCard = createWorkoutCard(
-            dayNumber,
-            workoutType,
-            intensity,
-            position
-          );
-          planContent.appendChild(workoutCard);
-        }
-      }
-
-      function getIntensity(week, day) {
-        // Logic to determine workout intensity based on week/day
-        if (week === 1) {
-          return day % 3 === 0 ? "Low" : day % 3 === 1 ? "Moderate" : "High";
-        } else if (week === 2) {
-          return day % 3 === 0
-            ? "Moderate"
-            : day % 3 === 1
-            ? "High"
-            : "Moderate";
-        } else if (week === 3) {
-          return day % 3 === 0 ? "High" : day % 3 === 1 ? "High" : "Moderate";
-        } else {
-          return day % 4 === 0 ? "Low" : "High"; // Recovery week pattern
-        }
-      }
-
-      function createWorkoutCard(day, type, intensity, position) {
-        const card = document.createElement("div");
-        card.className = "workout-card";
-
-        // Header section
-        const header = document.createElement("div");
-        header.className = "workout-header";
-        header.innerHTML = `
-          <div class="workout-day">Day ${day}</div>
-          <div class="workout-focus">${type}</div>
-        `;
-        card.appendChild(header);
-
-        // Content section
-        const content = document.createElement("div");
-        content.className = "workout-content";
-
-        // Generate exercises based on type
-        const exercises = generateExercises(type, intensity, position);
-        const warmup = generateWarmup(type);
-        const cooldown = generateCooldown();
-
-        // Warmup section
-        const warmupSection = document.createElement("div");
-        warmupSection.className = "workout-section";
-        warmupSection.innerHTML = `
-          <h4 class="section-heading"><span>1</span>Warm-up (10 min)</h4>
-          <ul class="exercise-list">
-            ${warmup
-              .map(
-                (ex) => `
-              <li class="exercise-item">
-                <div class="exercise-name">${ex.name}</div>
-                <div class="exercise-details">${ex.details}</div>
-              </li>
-            `
-              )
-              .join("")}
-          </ul>
-        `;
-        content.appendChild(warmupSection);
-
-        // Main workout section
-        const mainSection = document.createElement("div");
-        mainSection.className = "workout-section";
-        mainSection.innerHTML = `
-          <h4 class="section-heading"><span>2</span>Main Workout (${
-            type === "Recovery" ? "20" : "30-40"
-          } min)</h4>
-          <ul class="exercise-list">
-            ${exercises
-              .map(
-                (ex) => `
-              <li class="exercise-item">
-                <div class="exercise-name">${ex.name}</div>
-                <div class="exercise-details">${ex.details}</div>
-              </li>
-            `
-              )
-              .join("")}
-          </ul>
-        `;
-        content.appendChild(mainSection);
-
-        // Cooldown section
-        const cooldownSection = document.createElement("div");
-        cooldownSection.className = "workout-section";
-        cooldownSection.innerHTML = `
-          <h4 class="section-heading"><span>3</span>Cool-down (10 min)</h4>
-          <ul class="exercise-list">
-            ${cooldown
-              .map(
-                (ex) => `
-              <li class="exercise-item">
-                <div class="exercise-name">${ex.name}</div>
-                <div class="exercise-details">${ex.details}</div>
-              </li>
-            `
-              )
-              .join("")}
-          </ul>
-        `;
-        content.appendChild(cooldownSection);
-
-        // Workout metrics
-        const metrics = document.createElement("div");
-        metrics.className = "workout-metrics";
-
-        // Calculate metrics based on workout type and intensity
-        const duration = type === "Recovery" ? 40 : 60;
-        const calories =
-          type === "Recovery"
-            ? 200
-            : intensity === "Low"
-            ? 350
-            : intensity === "Moderate"
-            ? 450
-            : 550;
-        const rpe =
-          intensity === "Low"
-            ? "4-5"
-            : intensity === "Moderate"
-            ? "6-7"
-            : "8-9";
-
-        metrics.innerHTML = `
-          <div class="workout-metric">
-            <div class="metric-number">${duration}</div>
-            <div class="metric-unit">Minutes</div>
-          </div>
-          <div class="workout-metric">
-            <div class="metric-number">${calories}</div>
-            <div class="metric-unit">Calories</div>
-          </div>
-          <div class="workout-metric">
-            <div class="metric-number">${rpe}</div>
-            <div class="metric-unit">RPE</div>
-          </div>
-          <div class="workout-metric">
-            <div class="metric-number">${intensity}</div>
-            <div class="metric-unit">Intensity</div>
-          </div>
-        `;
-        content.appendChild(metrics);
-
-        card.appendChild(content);
-        return card;
-      }
-
-      function generateWarmup(type) {
-        const generalWarmup = [
-          { name: "Light jogging", details: "3-5 minutes" },
-          { name: "Dynamic stretching", details: "Full body" },
-        ];
-
-        const specificWarmup = {
-          "Strength & Power": [
-            { name: "Bodyweight squats", details: "2 × 10 reps" },
-          ],
-          "Speed & Agility": [
-            { name: "High knees & butt kicks", details: "2 × 20m" },
-          ],
-          "Technical Skills": [
-            { name: "Ball control drills", details: "5 minutes" },
-          ],
-          Endurance: [{ name: "Stride accelerations", details: "4 × 30m" }],
-          Recovery: [{ name: "Light mobility flow", details: "5 minutes" }],
-        };
-
-        return [...generalWarmup, ...specificWarmup[type]];
-      }
-
-      function generateCooldown() {
-        return [
-          { name: "Light jogging/walking", details: "3 minutes" },
-          { name: "Static stretching", details: "Major muscle groups" },
-          { name: "Foam rolling", details: "Problem areas" },
-        ];
-      }
-
-      function generateExercises(type, intensity, position) {
-        const exercisesByType = {
-          "Strength & Power": [
-            {
-              name: "Squats",
-              details:
-                intensity === "Low"
-                  ? "3 × 8 reps"
-                  : intensity === "Moderate"
-                  ? "4 × 8 reps"
-                  : "5 × 5 reps",
-            },
-            {
-              name: "Deadlifts",
-              details:
-                intensity === "Low"
-                  ? "3 × 8 reps"
-                  : intensity === "Moderate"
-                  ? "4 × 6 reps"
-                  : "4 × 5 reps",
-            },
-            {
-              name: "Bench Press",
-              details:
-                intensity === "Low"
-                  ? "3 × 10 reps"
-                  : intensity === "Moderate"
-                  ? "4 × 8 reps"
-                  : "4 × 6 reps",
-            },
-            {
-              name: "Box Jumps",
-              details:
-                intensity === "Low"
-                  ? "3 × 6 reps"
-                  : intensity === "Moderate"
-                  ? "3 × 8 reps"
-                  : "4 × 8 reps",
-            },
-          ],
-          "Speed & Agility": [
-            {
-              name: "Sprint intervals",
-              details:
-                intensity === "Low"
-                  ? "6 × 20m"
-                  : intensity === "Moderate"
-                  ? "8 × 30m"
-                  : "10 × 30m",
-            },
-            { name: "Ladder drills", details: "3 patterns × 3 sets" },
-            {
-              name: "Cone agility drill",
-              details:
-                intensity === "Low"
-                  ? "4 sets"
-                  : intensity === "Moderate"
-                  ? "5 sets"
-                  : "6 sets",
-            },
-            {
-              name: "Reactive jumps",
-              details:
-                intensity === "Low"
-                  ? "3 × 6 reps"
-                  : intensity === "Moderate"
-                  ? "3 × 8 reps"
-                  : "4 × 8 reps",
-            },
-          ],
-          "Technical Skills": [
-            { name: "Ball control drills", details: "10 minutes" },
-            { name: "Passing accuracy", details: "3 × 20 passes" },
-            {
-              name: "Shooting practice",
-              details:
-                intensity === "Low"
-                  ? "15 shots"
-                  : intensity === "Moderate"
-                  ? "20 shots"
-                  : "30 shots",
-            },
-            { name: "Game scenarios", details: "15 minutes" },
-          ],
-          Endurance: [
-            {
-              name: "Interval running",
-              details:
-                intensity === "Low"
-                  ? "6 × 200m"
-                  : intensity === "Moderate"
-                  ? "8 × 200m"
-                  : "10 × 200m",
-            },
-            { name: "Fartlek training", details: "15 minutes" },
-            {
-              name: "Shuttle runs",
-              details:
-                intensity === "Low"
-                  ? "8 × 25m"
-                  : intensity === "Moderate"
-                  ? "10 × 25m"
-                  : "12 × 25m",
-            },
-          ],
-          Recovery: [
-            { name: "Light cycling", details: "10 minutes" },
-            { name: "Yoga flow", details: "15 minutes" },
-            { name: "Contrast therapy", details: "Hot/cold" },
-            { name: "Foam rolling", details: "Full body" },
-          ],
-        };
-
-        // Add position-specific exercises
-        const positionExercises = {
-          Goalkeeper: [
-            { name: "Reaction saves", details: "3 × 10 reps" },
-            { name: "Cross collection", details: "3 × 5 reps" },
-          ],
-          Defender: [
-            { name: "Defensive positioning", details: "10 minutes" },
-            { name: "Heading drills", details: "3 × 10 reps" },
-          ],
-          Midfielder: [
-            { name: "Transitional play", details: "15 minutes" },
-            { name: "Quick passing drills", details: "3 × 3 minutes" },
-          ],
-          Forward: [
-            { name: "Finishing drills", details: "3 × 10 shots" },
-            { name: "Movement patterns", details: "10 minutes" },
-          ],
-        };
-
-        // Return base exercises for the type plus position specific ones
-        // For recovery days, don't add position exercises
-        if (type === "Recovery") {
-          return exercisesByType[type];
-        } else {
-          return [...exercisesByType[type], ...positionExercises[position]];
-        }
-      }
 
       // Set up download button
       document
