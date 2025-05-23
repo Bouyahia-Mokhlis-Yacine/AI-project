@@ -813,7 +813,13 @@
 
 
       document.addEventListener('DOMContentLoaded', () => {
-            fetch('http://localhost:5000/api/data')
+            fetch('http://localhost:5000/api/data' , {
+            method : 'POST', // Use POST instead of GET
+            headers: {
+            'Content-Type': 'application/json', // Specify content type
+              },
+            body: JSON.stringify({}), // Send an empty body (or include data if needed)
+            })
                 .then(response => response.json())
                 .then(data => {
                     const container = document.getElementById('data-container');
